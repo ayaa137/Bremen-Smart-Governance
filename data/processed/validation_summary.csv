@@ -1,0 +1,3 @@
+name,records,ok_values,missing_values,invalid_or_suppressed_values,duplicate_key_rows,unknown_geography_rows,years
+csv_district_statistics_long.csv,15147,14924,223,0,0,146,2010-2016 (6 reporting years)
+excel_ortsteilatlas_long.csv,316064,291709,24355,0,0,0,1969-2025 (50 reporting years)

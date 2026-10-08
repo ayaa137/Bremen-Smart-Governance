@@ -1,0 +1,113 @@
+geo_code,geo_name,geo_label,geo_level
+111,Altstadt,Altstadt,Ortsteil
+112,Bahnhofsvorstadt,Bahnhofsvorstadt,Ortsteil
+113,Ostertor,Ostertor,Ortsteil
+122,Industriehäfen,Industriehäfen,Ortsteil
+124,Neustädter Hafen,Neustädter Hafen,Ortsteil
+125,Hohentorshafen,Hohentorshafen,Ortsteil
+211,Alte Neustadt,Alte Neustadt,Ortsteil
+212,Hohentor,Hohentor,Ortsteil
+213,Neustadt,Neustadt,Ortsteil
+214,Südervorstadt,Südervorstadt,Ortsteil
+215,Gartenstadt Süd,Gartenstadt Süd,Ortsteil
+216,Buntentor,Buntentor,Ortsteil
+217,Neuenland,Neuenland,Ortsteil
+218,Huckelriede,Huckelriede,Ortsteil
+231,Habenhausen,Habenhausen,Ortsteil
+232,Arsten,Arsten,Ortsteil
+233,Kattenturm,Kattenturm,Ortsteil
+234,Kattenesch,Kattenesch,Ortsteil
+241,Mittelshuchting,Mittelshuchting,Ortsteil
+242,Sodenmatt,Sodenmatt,Ortsteil
+243,Kirchhuchting,Kirchhuchting,Ortsteil
+244,Grolland,Grolland,Ortsteil
+251,Woltmershausen,Woltmershausen,Ortsteil
+252,Rablinghausen,Rablinghausen,Ortsteil
+261,Seehausen,Seehausen,Ortsteil
+271,Strom,Strom,Ortsteil
+311,Steintor,Steintor,Ortsteil
+312,Fesenfeld,Fesenfeld,Ortsteil
+313,Peterswerder,Peterswerder,Ortsteil
+314,Hulsberg,Hulsberg,Ortsteil
+321,Neu-Schwachhausen,Neu-Schwachhausen,Ortsteil
+322,Bürgerpark,Bürgerpark,Ortsteil
+323,Barkhof,Barkhof,Ortsteil
+324,Riensberg,Riensberg,Ortsteil
+325,Radio Bremen,Radio Bremen,Ortsteil
+326,Schwachhausen,Schwachhausen,Ortsteil
+327,Gete,Gete,Ortsteil
+331,Gartenstadt Vahr,Gartenstadt Vahr,Ortsteil
+332,Neue Vahr Nord,Neue Vahr Nord,Ortsteil
+334,Neue Vahr Südwest,Neue Vahr Südwest,Ortsteil
+335,Neue Vahr Südost,Neue Vahr Südost,Ortsteil
+341,Horn,Horn,Ortsteil
+342,Lehe,Lehe,Ortsteil
+343,Lehesterdeich,Lehesterdeich,Ortsteil
+351,Borgfeld,Borgfeld,Ortsteil
+361,Oberneuland,Oberneuland,Ortsteil
+371,Ellener Feld,Ellener Feld,Ortsteil
+372,Ellenerbrok-Schevemoor,Ellenerbrok-Schevemoor,Ortsteil
+373,Tenever,Tenever,Ortsteil
+374,Osterholz,Osterholz,Ortsteil
+375,Blockdiek,Blockdiek,Ortsteil
+381,Sebaldsbrück,Sebaldsbrück,Ortsteil
+382,Hastedt,Hastedt,Ortsteil
+383,Hemelingen,Hemelingen,Ortsteil
+384,Arbergen,Arbergen,Ortsteil
+385,Mahndorf,Mahndorf,Ortsteil
+411,Blockland,Blockland,Ortsteil
+421,Regensburger Straße,Regensburger Straße,Ortsteil
+422,Findorff-Bürgerweide,Findorff-Bürgerweide,Ortsteil
+423,Weidedamm,Weidedamm,Ortsteil
+424,In den Hufen,In den Hufen,Ortsteil
+431,Utbremen,Utbremen,Ortsteil
+432,Steffensweg,Steffensweg,Ortsteil
+433,Westend,Westend,Ortsteil
+434,Walle,Walle,Ortsteil
+435,Osterfeuerberg,Osterfeuerberg,Ortsteil
+436,Hohweg,Hohweg,Ortsteil
+437,Ueberseestadt,Ueberseestadt,Ortsteil
+441,Lindenhof,Lindenhof,Ortsteil
+442,Gröpelingen,Gröpelingen,Ortsteil
+443,Ohlenhof,Ohlenhof,Ortsteil
+444,In den Wischen,In den Wischen,Ortsteil
+445,Oslebshausen,Oslebshausen,Ortsteil
+511,Burg-Grambke,Burg-Grambke,Ortsteil
+512,Werderland,Werderland,Ortsteil
+513,Burgdamm,Burgdamm,Ortsteil
+514,Lesum,Lesum,Ortsteil
+515,St. Magnus,St. Magnus,Ortsteil
+521,Vegesack,Vegesack,Ortsteil
+522,Grohn,Grohn,Ortsteil
+523,Schönebeck,Schönebeck,Ortsteil
+524,Aumund-Hammersbeck,Aumund-Hammersbeck,Ortsteil
+525,Fähr-Lobbendorf,Fähr-Lobbendorf,Ortsteil
+531,Blumenthal,Blumenthal,Ortsteil
+532,Rönnebeck,Rönnebeck,Ortsteil
+533,Lüssum-Bockhorn,Lüssum-Bockhorn,Ortsteil
+534,Farge,Farge,Ortsteil
+535,Rekum,Rekum,Ortsteil
+,Stadt Bremen,Stadt Bremen,Stadt
+1,Stadtbezirk Mitte,Stadtbezirk Mitte,Stadtbezirk
+2,Stadtbezirk Süd,Stadtbezirk Süd,Stadtbezirk
+3,Stadtbezirk Ost,Stadtbezirk Ost,Stadtbezirk
+4,Stadtbezirk West,Stadtbezirk West,Stadtbezirk
+5,Stadtbezirk Nord,Stadtbezirk Nord,Stadtbezirk
+11,Mitte,Stadtteil Mitte,Stadtteil
+21,Neustadt,Stadtteil Neustadt,Stadtteil
+23,Obervieland,Stadtteil Obervieland,Stadtteil
+24,Huchting,Stadtteil Huchting,Stadtteil
+25,Woltmershausen,Stadtteil Woltmershausen,Stadtteil
+31,Oestliche Vorstadt,Stadtteil Oestliche Vorstadt,Stadtteil
+32,Schwachhausen,Stadtteil Schwachhausen,Stadtteil
+33,Vahr,Stadtteil Vahr,Stadtteil
+34,Horn-Lehe,Stadtteil Horn-Lehe,Stadtteil
+36,Oberneuland,Stadtteil Oberneuland,Stadtteil
+37,Osterholz,Stadtteil Osterholz,Stadtteil
+38,Hemelingen,Stadtteil Hemelingen,Stadtteil
+42,Findorff,Stadtteil Findorff,Stadtteil
+43,Walle,Stadtteil Walle,Stadtteil
+44,Gröpelingen,Stadtteil Gröpelingen,Stadtteil
+51,Burglesum,Stadtteil Burglesum,Stadtteil
+52,Vegesack,Stadtteil Vegesack,Stadtteil
+53,Blumenthal,Stadtteil Blumenthal,Stadtteil
