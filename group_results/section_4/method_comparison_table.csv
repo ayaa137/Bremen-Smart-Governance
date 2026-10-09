@@ -1,0 +1,4 @@
+﻿method,output,normalization,weights,strength,limitation,governance_use
+Composite index,"score [0,1]; descending rank","min-max, employment reversed",equal 1/3 baseline,transparent arithmetic and per-feature contributions,compensatory; endpoints and correlated variables matter,auditable screening; inspect components before any decision
+TOPSIS,"disadvantage closeness [0,1]; descending rank",column vector norm,equal 1/3 baseline,explicit reference profiles and distance trade-offs,"scaling, weights and sample-dependent ideals affect distance",alternative screening; show rank disagreements
+K-means,2 nominal profile groups,StandardScaler z-scores,no explicit weights; standardized Euclidean geometry,shows similar multidimensional neighborhood profiles,k and scaling choices; no intrinsic ordering; compact-cluster assumption,describe differentiated needs; not a deprivation league table

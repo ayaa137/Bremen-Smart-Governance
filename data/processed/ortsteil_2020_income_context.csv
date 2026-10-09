@@ -1,0 +1,89 @@
+﻿geo_code,geo_name,year,benefit_receipt,employment,income_median,unemployment,boundary_compatibility_verified,definition_stability_verified,complete_four_indicators
+111,Altstadt,2020,13.9303,61.7552,26.68,12.8831,False,False,True
+112,Bahnhofsvorstadt,2020,24.0171,53.4,20.54,19.9454,False,False,True
+113,Ostertor,2020,10.4073,54.3357,30.89,12.4209,False,False,True
+122,Industriehäfen,2020,,,,,False,False,False
+124,Neustädter Hafen,2020,,,,,False,False,False
+125,Hohentorshafen,2020,,,,,False,False,False
+211,Alte Neustadt,2020,12.7352,60.7058,27.604,12.4693,False,False,True
+212,Hohentor,2020,17.259,58.0214,20.808,15.2675,False,False,True
+213,Neustadt,2020,9.0509,57.6043,28.329,10.7091,False,False,True
+214,Südervorstadt,2020,12.8607,59.5268,23.218,11.6124,False,False,True
+215,Gartenstadt Süd,2020,15.8795,60.4651,25.376,12.3103,False,False,True
+216,Buntentor,2020,9.7017,59.4549,27.987,10.6922,False,False,True
+217,Neuenland,2020,18.7859,46.7351,21.939,18.932,False,False,True
+218,Huckelriede,2020,19.1503,54.0399,25.609,15.5616,False,False,True
+231,Habenhausen,2020,2.4448,62.0898,37.288,4.0166,False,False,True
+232,Arsten,2020,10.1701,61.3363,32.29,7.8916,False,False,True
+233,Kattenturm,2020,26.2872,53.364,21.964,19.8762,False,False,True
+234,Kattenesch,2020,10.6256,62.6817,28.757,9.0909,False,False,True
+241,Mittelshuchting,2020,29.6395,53.8744,22.626,19.5652,False,False,True
+242,Sodenmatt,2020,30.5506,53.4203,20.882,20.28,False,False,True
+243,Kirchhuchting,2020,31.4035,51.9782,21.048,21.4063,False,False,True
+244,Grolland,2020,4.3153,62.2994,34.738,6.6246,False,False,True
+251,Woltmershausen,2020,19.9187,59.1383,22.629,15.7614,False,False,True
+252,Rablinghausen,2020,13.2775,69.5333,27.056,9.5498,False,False,True
+261,Seehausen,2020,2.6651,69.9029,33.911,5.0847,False,False,True
+271,Strom,2020,2.4316,,35.231,,False,False,False
+311,Steintor,2020,9.2541,54.6942,29.401,11.2389,False,False,True
+312,Fesenfeld,2020,7.8149,58.235,31.426,8.901,False,False,True
+313,Peterswerder,2020,6.3075,59.146,34.164,7.1099,False,False,True
+314,Hulsberg,2020,11.8548,59.3028,28.333,11.0458,False,False,True
+321,Neu-Schwachhausen,2020,5.3342,59.9244,35.053,5.3929,False,False,True
+322,Bürgerpark,2020,2.5154,55.4374,45.671,4.4917,False,False,True
+323,Barkhof,2020,3.9532,59.4557,41.825,6.4422,False,False,True
+324,Riensberg,2020,6.6987,59.619,35.739,6.6008,False,False,True
+325,Radio Bremen,2020,7.3481,57.514,37.895,7.4124,False,False,True
+326,Schwachhausen,2020,3.1351,57.6087,41.331,4.6763,False,False,True
+327,Gete,2020,3.5268,57.5024,39.891,5.2764,False,False,True
+331,Gartenstadt Vahr,2020,12.69,61.8649,28.06,9.6313,False,False,True
+332,Neue Vahr Nord,2020,27.9747,56.6823,20.357,17.421,False,False,True
+334,Neue Vahr Südwest,2020,22.6512,63.5392,20.88,13.7097,False,False,True
+335,Neue Vahr Südost,2020,28.4995,57.7268,20.957,17.189,False,False,True
+341,Horn,2020,3.7347,56.0709,39.581,5.7793,False,False,True
+342,Lehe,2020,5.2535,49.0268,25.262,6.0276,False,False,True
+343,Lehesterdeich,2020,8.3212,62.5397,34.163,6.8654,False,False,True
+351,Borgfeld,2020,1.4831,55.7439,51.863,3.4751,False,False,True
+361,Oberneuland,2020,4.2617,53.7841,44.329,6.351,False,False,True
+371,Ellener Feld,2020,10.0566,61.9108,26.981,8.8522,False,False,True
+372,Ellenerbrok-Schevemoor,2020,18.8753,59.2698,25.063,12.7269,False,False,True
+373,Tenever,2020,35.3788,50.1536,20.207,21.7907,False,False,True
+374,Osterholz,2020,3.9764,64.42,33.591,4.8931,False,False,True
+375,Blockdiek,2020,24.6163,56.5026,21.862,16.6245,False,False,True
+381,Sebaldsbrück,2020,15.0081,59.128,27.14,11.8421,False,False,True
+382,Hastedt,2020,13.1428,60.7625,26.758,11.2872,False,False,True
+383,Hemelingen,2020,25.6002,54.3432,22.153,17.6518,False,False,True
+384,Arbergen,2020,9.9567,62.9728,30.669,7.5789,False,False,True
+385,Mahndorf,2020,14.2239,61.8499,29.178,9.9099,False,False,True
+411,Blockland,2020,1.8072,,35.284,,False,False,False
+421,Regensburger Straße,2020,11.0399,59.3039,28.065,10.7926,False,False,True
+422,Findorff-Bürgerweide,2020,11.5464,61.8672,26.755,10.2888,False,False,True
+423,Weidedamm,2020,8.7463,59.6294,31.393,7.4711,False,False,True
+424,In den Hufen,2020,8.9286,,29.004,,False,False,False
+431,Utbremen,2020,22.1502,56.0292,22.456,15.9945,False,False,True
+432,Steffensweg,2020,19.7264,58.3923,20.413,15.5596,False,False,True
+433,Westend,2020,18.4851,56.22,21.566,16.5739,False,False,True
+434,Walle,2020,21.5254,56.7203,24.185,18.3449,False,False,True
+435,Osterfeuerberg,2020,18.3348,56.6676,22.982,17.757,False,False,True
+436,Hohweg,2020,24.2857,,16.251,,False,False,False
+437,Ueberseestadt,2020,20.4804,57.3532,35.827,11.5408,False,False,True
+441,Lindenhof,2020,33.8373,48.5917,16.003,28.0966,False,False,True
+442,Gröpelingen,2020,39.1499,46.7179,16.91,29.6955,False,False,True
+443,Ohlenhof,2020,39.4327,47.9537,16.635,30.352,False,False,True
+444,In den Wischen,2020,,,,,False,False,False
+445,Oslebshausen,2020,25.2813,52.3925,21.412,19.6194,False,False,True
+511,Burg-Grambke,2020,21.1927,60.6642,27.265,15.4694,False,False,True
+512,Werderland,2020,3.937,,29.693,,False,False,False
+513,Burgdamm,2020,27.5405,55.847,23.565,19.2257,False,False,True
+514,Lesum,2020,14.1594,55.8615,28.837,11.7847,False,False,True
+515,St. Magnus,2020,6.0767,54.3765,32.088,6.4831,False,False,True
+521,Vegesack,2020,23.591,53.822,26.222,17.2201,False,False,True
+522,Grohn,2020,32.6322,43.055,21.782,22.881,False,False,True
+523,Schönebeck,2020,13.1566,57.3655,31.807,10.3751,False,False,True
+524,Aumund-Hammersbeck,2020,21.9866,54.6012,25.422,17.0133,False,False,True
+525,Fähr-Lobbendorf,2020,22.2593,52.085,23.208,18.4123,False,False,True
+531,Blumenthal,2020,32.6163,50.9885,21.998,22.4837,False,False,True
+532,Rönnebeck,2020,19.5835,57.2724,26.258,13.6214,False,False,True
+533,Lüssum-Bockhorn,2020,31.5299,51.2136,23.433,21.8936,False,False,True
+534,Farge,2020,16.7883,60.4248,27.286,13.7959,False,False,True
+535,Rekum,2020,9.1603,62.8671,31.319,7.415,False,False,True

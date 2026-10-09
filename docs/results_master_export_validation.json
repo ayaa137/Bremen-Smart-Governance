@@ -1,0 +1,19 @@
+{
+  "content": "results only",
+  "sections": 11,
+  "fresh_kernel_execution": "passed",
+  "executed_code_cells": 12,
+  "pdf_pages": 137,
+  "image_occurrences": 11,
+  "table_occurrences": 41,
+  "protected_files_unchanged": 170,
+  "analytical_methods_rerun": false,
+  "outputs": [
+    "Bremen_Smart_Governance_COMPLETE_ANALYSIS.ipynb",
+    "Bremen_Smart_Governance_COMPLETE_ANALYSIS.pdf",
+    "Bremen_Smart_Governance_COMPLETE_ANALYSIS.html"
+  ],
+  "pdf_text_bounds_check": "passed",
+  "removed_narrative_sections_absent": true,
+  "pdf_searchable": true
+}

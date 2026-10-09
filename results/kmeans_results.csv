@@ -1,0 +1,80 @@
+﻿geo_code,geo_name,year,unemployment,employment,benefit_receipt,cluster
+111,Altstadt,2024,9.9128,63.6202,13.2323,Profile A
+112,Bahnhofsvorstadt,2024,20.2612,54.5375,26.3826,Profile B
+113,Ostertor,2024,9.7396,56.0384,9.3679,Profile A
+211,Alte Neustadt,2024,10.7755,63.0608,11.8067,Profile A
+212,Hohentor,2024,14.1617,58.8347,16.9981,Profile A
+213,Neustadt,2024,8.5398,59.4037,9.1456,Profile A
+214,Südervorstadt,2024,10.8574,61.7319,11.5999,Profile A
+215,Gartenstadt Süd,2024,11.0753,62.897,16.5183,Profile A
+216,Buntentor,2024,9.159,62.2539,9.1999,Profile A
+217,Neuenland,2024,21.4192,58.4841,23.539,Profile B
+218,Huckelriede,2024,14.2039,49.4697,18.4156,Profile B
+231,Habenhausen,2024,3.9635,63.226,2.4103,Profile A
+232,Arsten,2024,8.1869,63.5861,10.4755,Profile A
+233,Kattenturm,2024,17.2187,54.8522,23.6423,Profile B
+234,Kattenesch,2024,8.1789,63.1743,10.22,Profile A
+241,Mittelshuchting,2024,16.7629,55.4723,25.7881,Profile B
+242,Sodenmatt,2024,18.3211,55.1687,26.8385,Profile B
+243,Kirchhuchting,2024,18.9683,51.7413,25.8837,Profile B
+244,Grolland,2024,5.1546,63.8037,4.378,Profile A
+251,Woltmershausen,2024,13.7232,59.9111,17.3527,Profile A
+252,Rablinghausen,2024,9.0731,72.4012,10.9842,Profile A
+261,Seehausen,2024,2.5896,72.7138,2.8537,Profile A
+311,Steintor,2024,8.1259,58.0798,7.6244,Profile A
+312,Fesenfeld,2024,7.4752,60.3419,6.6715,Profile A
+313,Peterswerder,2024,6.6321,61.2526,5.5805,Profile A
+314,Hulsberg,2024,10.044,61.8262,10.9108,Profile A
+321,Neu-Schwachhausen,2024,6.196,62.7481,6.2779,Profile A
+322,Bürgerpark,2024,4.9279,57.1738,3.1566,Profile A
+323,Barkhof,2024,5.3014,62.6622,3.3107,Profile A
+324,Riensberg,2024,6.0561,61.6233,6.1703,Profile A
+325,Radio Bremen,2024,6.601,59.3675,5.7509,Profile A
+326,Schwachhausen,2024,4.1814,60.2361,3.3517,Profile A
+327,Gete,2024,5.6862,60.3256,3.8647,Profile A
+331,Gartenstadt Vahr,2024,9.177,62.7467,10.9357,Profile A
+332,Neue Vahr Nord,2024,18.0061,56.709,26.2726,Profile B
+334,Neue Vahr Südwest,2024,12.4279,63.2097,19.7864,Profile A
+335,Neue Vahr Südost,2024,16.7066,59.0784,24.4699,Profile B
+341,Horn,2024,4.5688,60.3467,3.5513,Profile A
+342,Lehe,2024,6.6759,54.14,6.2507,Profile A
+343,Lehesterdeich,2024,7.3423,62.4753,8.8795,Profile A
+351,Borgfeld,2024,3.4463,57.1034,1.7015,Profile A
+361,Oberneuland,2024,5.4656,56.202,4.4713,Profile A
+371,Ellener Feld,2024,8.1044,61.9301,11.2453,Profile A
+372,Ellenerbrok-Schevemoor,2024,11.8448,60.0425,17.2843,Profile A
+373,Tenever,2024,19.7758,51.2898,30.2551,Profile B
+374,Osterholz,2024,4.734,65.107,3.6106,Profile A
+375,Blockdiek,2024,15.494,58.0992,20.9611,Profile B
+381,Sebaldsbrück,2024,10.9762,60.7894,13.6393,Profile A
+382,Hastedt,2024,11.5414,61.5617,12.4187,Profile A
+383,Hemelingen,2024,16.2271,56.7673,23.5626,Profile B
+384,Arbergen,2024,6.6427,63.6562,9.9252,Profile A
+385,Mahndorf,2024,9.2896,64.6453,12.3786,Profile A
+421,Regensburger Straße,2024,9.1751,61.227,11.662,Profile A
+422,Findorff-Bürgerweide,2024,8.4704,64.017,10.6859,Profile A
+423,Weidedamm,2024,7.2169,62.1634,8.6612,Profile A
+431,Utbremen,2024,11.5039,61.8321,20.1029,Profile A
+432,Steffensweg,2024,12.2592,60.8379,16.9187,Profile A
+433,Westend,2024,13.6005,55.9518,17.802,Profile B
+434,Walle,2024,14.9909,58.781,18.0283,Profile B
+435,Osterfeuerberg,2024,16.1126,55.8158,17.8779,Profile B
+437,Ueberseestadt,2024,14.129,47.633,19.4222,Profile B
+441,Lindenhof,2024,22.2081,51.8087,28.4106,Profile B
+442,Gröpelingen,2024,25.2641,50.0423,32.2077,Profile B
+443,Ohlenhof,2024,27.5409,49.0596,34.6216,Profile B
+445,Oslebshausen,2024,16.6022,53.5122,22.259,Profile B
+511,Burg-Grambke,2024,13.6127,62.0972,18.2562,Profile A
+513,Burgdamm,2024,17.2689,55.3956,24.7451,Profile B
+514,Lesum,2024,11.0516,56.4805,15.0567,Profile A
+515,St. Magnus,2024,9.2288,51.7043,6.1761,Profile A
+521,Vegesack,2024,16.24,54.5885,21.5853,Profile B
+522,Grohn,2024,20.4433,44.186,26.3705,Profile B
+523,Schönebeck,2024,10.0611,58.9977,12.5184,Profile A
+524,Aumund-Hammersbeck,2024,15.7159,55.9722,19.8662,Profile B
+525,Fähr-Lobbendorf,2024,17.4107,44.1589,17.6689,Profile B
+531,Blumenthal,2024,21.9825,51.1193,29.737,Profile B
+532,Rönnebeck,2024,13.9403,58.1205,17.4355,Profile B
+533,Lüssum-Bockhorn,2024,19.3542,52.3915,27.6394,Profile B
+534,Farge,2024,13.2031,60.9602,17.698,Profile A
+535,Rekum,2024,6.5708,65.0232,7.9466,Profile A

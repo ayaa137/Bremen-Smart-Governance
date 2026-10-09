@@ -1,0 +1,4 @@
+﻿check,source,passed,records,missing
+raw reconstruction equals existing processed output,excel_ortsteilatlas_long.csv,True,316064,24355.0
+raw reconstruction equals existing processed output,csv_district_statistics_long.csv,True,15147,223.0
+JSON metadata records readable separately,bremen_data.json,True,1515,

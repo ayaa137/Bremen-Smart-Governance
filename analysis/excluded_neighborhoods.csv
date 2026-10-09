@@ -1,0 +1,10 @@
+﻿geo_code,geo_name,benefit_receipt,employment,unemployment,year,geo_level,unemployment_year,unemployment_unit,employment_year,employment_unit,benefit_receipt_year,benefit_receipt_unit,scoring_eligible,exclusion_reason
+122,Industriehäfen,,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing;benefit_receipt:missing
+124,Neustädter Hafen,,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing;benefit_receipt:missing
+125,Hohentorshafen,,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing;benefit_receipt:missing
+271,Strom,2.8571,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing
+411,Blockland,1.9048,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing
+424,In den Hufen,0.9901,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing
+436,Hohweg,20.1087,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing
+444,In den Wischen,,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing;benefit_receipt:missing
+512,Werderland,5.1282,,,2024,Ortsteil,2024,%,2024,%,2024,%,False,unemployment:missing;employment:missing

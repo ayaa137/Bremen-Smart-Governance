@@ -1,0 +1,42 @@
+[
+  {
+    "notebook": "01_indicator_exploration.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "02_data_validation.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "03_descriptive_analysis.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "04_composite_index.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "05_topsis.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "06_kmeans.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "07_methods_comparison.ipynb",
+    "passed": true,
+    "code_cells": 4
+  },
+  {
+    "notebook": "08_sensitivity_analysis.ipynb",
+    "passed": true,
+    "code_cells": 4
+  }
+]

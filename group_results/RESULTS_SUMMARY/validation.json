@@ -1,0 +1,35 @@
+{
+  "pdf_pages": 18,
+  "fresh_kernel_execution": "passed",
+  "executed_code_cells": 19,
+  "saved_images": 9,
+  "existing_files_unchanged": 176,
+  "analysis_methods_rerun": false,
+  "pdf_table_font_points": 10,
+  "summary_only": true,
+  "figure_sources": [
+    "architecture/architecture_diagram.png",
+    "results/figures/benefit_receipt_comparison.png",
+    "results/figures/cluster_profiles.png",
+    "results/figures/cluster_projection.png",
+    "results/figures/composite_ranking.png",
+    "results/figures/correlation_matrix.png",
+    "results/figures/indicator_distributions.png",
+    "results/figures/ranking_agreement.png",
+    "results/figures/weight_sensitivity.png"
+  ],
+  "outputs": [
+    "Bremen_Smart_Governance_RESULTS_SUMMARY.ipynb",
+    "Bremen_Smart_Governance_RESULTS_SUMMARY.pdf",
+    "Bremen_Smart_Governance_RESULTS_SUMMARY.html"
+  ],
+  "all_pdf_pages_rendered": true,
+  "pdf_text_bounds_check": "passed",
+  "rank_selection_exact_match": true,
+  "embedded_figures_exact_source_match": true,
+  "saved_notebook_outputs_validated": true,
+  "no_exhaustive_result_tables": true,
+  "removed_narrative_sections_absent": true,
+  "html_self_contained": true,
+  "all_rendered_pages_visually_inspected": true
+}

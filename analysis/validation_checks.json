@@ -1,0 +1,12 @@
+{
+  "at_least_three_defensible_indicators": true,
+  "unique_ortsteil_ids": true,
+  "primary_one_reporting_year": true,
+  "units_and_ranges": true,
+  "coverage_at_least_80_percent": true,
+  "same_export_geographic_schema": true,
+  "exact_reference_dates_verified": false,
+  "historical_boundaries_and_definitions_verified": false,
+  "primary_scoring_gate": "PASS for exploratory annual cross-section; not validated for operational allocation",
+  "historical_change_gate": "BLOCKED: no validated time-stable boundary and definition crosswalk"
+}

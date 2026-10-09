@@ -1,0 +1,1937 @@
+﻿geo_code,geo_name,year,benefit_receipt,employment,income_median,unemployment,boundary_compatibility_verified,definition_stability_verified
+111,Altstadt,2001,,,20.956,,False,False
+111,Altstadt,2004,,,17.321,,False,False
+111,Altstadt,2005,12.4449,,,,False,False
+111,Altstadt,2006,12.5768,,,,False,False
+111,Altstadt,2007,12.2871,,15.839,,False,False
+111,Altstadt,2008,11.3463,,,,False,False
+111,Altstadt,2009,10.9109,42.4012,,15.1053,False,False
+111,Altstadt,2010,10.4497,41.6505,18.519,,False,False
+111,Altstadt,2011,10.705,45.6098,,13.0835,False,False
+111,Altstadt,2012,9.6318,46.0612,,12.5979,False,False
+111,Altstadt,2013,10.3302,45.326,20.654,12.5749,False,False
+111,Altstadt,2014,10.8021,45.6771,23.081,11.7141,False,False
+111,Altstadt,2015,14.0449,48.9632,22.907,11.857,False,False
+111,Altstadt,2016,13.5698,51.3356,24.416,11.7397,False,False
+111,Altstadt,2017,16.8958,53.3196,23.979,11.7814,False,False
+111,Altstadt,2018,15.264,57.4241,25.998,9.9424,False,False
+111,Altstadt,2019,14.4994,59.1694,26.964,10.9055,False,False
+111,Altstadt,2020,13.9303,61.7552,26.68,12.8831,False,False
+111,Altstadt,2021,13.101,68.0806,,10.8765,False,False
+111,Altstadt,2022,13.7688,71.1605,,9.3805,False,False
+111,Altstadt,2023,14.176,65.8127,,9.4322,False,False
+111,Altstadt,2024,13.2323,63.6202,,9.9128,False,False
+112,Bahnhofsvorstadt,2001,,,19.688,,False,False
+112,Bahnhofsvorstadt,2004,,,15.099,,False,False
+112,Bahnhofsvorstadt,2005,21.067,,,,False,False
+112,Bahnhofsvorstadt,2006,20.2464,,,,False,False
+112,Bahnhofsvorstadt,2007,19.7347,,14.15,,False,False
+112,Bahnhofsvorstadt,2008,21.0002,,,,False,False
+112,Bahnhofsvorstadt,2009,22.0106,40.8546,,22.5852,False,False
+112,Bahnhofsvorstadt,2010,22.554,40.0498,15.897,,False,False
+112,Bahnhofsvorstadt,2011,21.5152,42.6303,,20.866,False,False
+112,Bahnhofsvorstadt,2012,20.7314,43.9362,,20.5633,False,False
+112,Bahnhofsvorstadt,2013,19.9104,44.4744,15.729,19.4765,False,False
+112,Bahnhofsvorstadt,2014,20.2711,46.0102,16.776,18.0976,False,False
+112,Bahnhofsvorstadt,2015,21.7867,46.1833,17.81,18.5362,False,False
+112,Bahnhofsvorstadt,2016,24.8369,45.8174,18.48,17.5521,False,False
+112,Bahnhofsvorstadt,2017,24.1863,47.4536,19.176,16.9517,False,False
+112,Bahnhofsvorstadt,2018,22.7884,50.132,20.82,16.1575,False,False
+112,Bahnhofsvorstadt,2019,22.8852,52.2977,20.674,15.8673,False,False
+112,Bahnhofsvorstadt,2020,24.0171,53.4,20.54,19.9454,False,False
+112,Bahnhofsvorstadt,2021,22.3988,56.1687,,18.3027,False,False
+112,Bahnhofsvorstadt,2022,24.7712,58.0736,,14.8327,False,False
+112,Bahnhofsvorstadt,2023,26.3436,56.113,,17.2885,False,False
+112,Bahnhofsvorstadt,2024,26.3826,54.5375,,20.2612,False,False
+113,Ostertor,2001,,,26.177,,False,False
+113,Ostertor,2004,,,22.097,,False,False
+113,Ostertor,2005,13.1811,,,,False,False
+113,Ostertor,2006,12.9782,,,,False,False
+113,Ostertor,2007,12.3586,,22.461,,False,False
+113,Ostertor,2008,11.7885,,,,False,False
+113,Ostertor,2009,12.3378,41.9059,,14.6675,False,False
+113,Ostertor,2010,11.9458,42.5296,24.018,,False,False
+113,Ostertor,2011,11.4195,43.8655,,14.3449,False,False
+113,Ostertor,2012,11.1602,45.4018,,13.074,False,False
+113,Ostertor,2013,10.6716,44.9007,26.979,13.134,False,False
+113,Ostertor,2014,10.4721,46.7652,28.008,11.753,False,False
+113,Ostertor,2015,11.0629,48.516,28.251,11.4502,False,False
+113,Ostertor,2016,10.3076,48.3641,28.857,11.2155,False,False
+113,Ostertor,2017,10.8051,50.1643,30.141,11.0957,False,False
+113,Ostertor,2018,10.6804,50.948,31.522,10.8056,False,False
+113,Ostertor,2019,9.6129,53.2484,31.64,10.9463,False,False
+113,Ostertor,2020,10.4073,54.3357,30.89,12.4209,False,False
+113,Ostertor,2021,9.0559,56.0974,,10.2517,False,False
+113,Ostertor,2022,10.1738,57.0464,,9.2374,False,False
+113,Ostertor,2023,9.4172,55.8679,,9.9372,False,False
+113,Ostertor,2024,9.3679,56.0384,,9.7396,False,False
+122,Industriehäfen,2001,,,,,False,False
+122,Industriehäfen,2004,,,16.738,,False,False
+122,Industriehäfen,2005,,,,,False,False
+122,Industriehäfen,2006,,,,,False,False
+122,Industriehäfen,2007,,,,,False,False
+122,Industriehäfen,2008,,,,,False,False
+122,Industriehäfen,2009,,,,,False,False
+122,Industriehäfen,2010,,,,,False,False
+122,Industriehäfen,2011,,,,,False,False
+122,Industriehäfen,2012,,,,,False,False
+122,Industriehäfen,2013,,,,,False,False
+122,Industriehäfen,2014,25.5172,34.1176,,12.1212,False,False
+122,Industriehäfen,2015,27.1739,20.5323,,35.7143,False,False
+122,Industriehäfen,2016,33.8521,16.8067,,50.8197,False,False
+122,Industriehäfen,2017,32.6733,15.6566,,29.5455,False,False
+122,Industriehäfen,2018,,,,,False,False
+122,Industriehäfen,2019,,,,,False,False
+122,Industriehäfen,2020,,,,,False,False
+122,Industriehäfen,2021,,,,,False,False
+122,Industriehäfen,2022,,,,,False,False
+122,Industriehäfen,2023,,,,,False,False
+122,Industriehäfen,2024,,,,,False,False
+124,Neustädter Hafen,2001,,,,,False,False
+124,Neustädter Hafen,2004,,,,,False,False
+124,Neustädter Hafen,2005,,,,,False,False
+124,Neustädter Hafen,2006,,,,,False,False
+124,Neustädter Hafen,2007,,,,,False,False
+124,Neustädter Hafen,2008,,,,,False,False
+124,Neustädter Hafen,2009,,,,,False,False
+124,Neustädter Hafen,2010,,,,,False,False
+124,Neustädter Hafen,2011,,,,,False,False
+124,Neustädter Hafen,2012,,,,,False,False
+124,Neustädter Hafen,2013,,,,,False,False
+124,Neustädter Hafen,2014,,,,,False,False
+124,Neustädter Hafen,2015,,,,,False,False
+124,Neustädter Hafen,2016,,,,,False,False
+124,Neustädter Hafen,2017,,,,,False,False
+124,Neustädter Hafen,2018,,,,,False,False
+124,Neustädter Hafen,2019,,,,,False,False
+124,Neustädter Hafen,2020,,,,,False,False
+124,Neustädter Hafen,2021,,,,,False,False
+124,Neustädter Hafen,2022,,,,,False,False
+124,Neustädter Hafen,2023,,,,,False,False
+124,Neustädter Hafen,2024,,,,,False,False
+125,Hohentorshafen,2001,,,,,False,False
+125,Hohentorshafen,2004,,,,,False,False
+125,Hohentorshafen,2005,,,,,False,False
+125,Hohentorshafen,2006,,,,,False,False
+125,Hohentorshafen,2007,,,,,False,False
+125,Hohentorshafen,2008,,,,,False,False
+125,Hohentorshafen,2009,,,,,False,False
+125,Hohentorshafen,2010,,,,,False,False
+125,Hohentorshafen,2011,,,,,False,False
+125,Hohentorshafen,2012,,,,,False,False
+125,Hohentorshafen,2013,,,,,False,False
+125,Hohentorshafen,2014,,,,,False,False
+125,Hohentorshafen,2015,,,,,False,False
+125,Hohentorshafen,2016,,,,,False,False
+125,Hohentorshafen,2017,,,,,False,False
+125,Hohentorshafen,2018,,,,,False,False
+125,Hohentorshafen,2019,,,,,False,False
+125,Hohentorshafen,2020,,,,,False,False
+125,Hohentorshafen,2021,,,,,False,False
+125,Hohentorshafen,2022,,,,,False,False
+125,Hohentorshafen,2023,,,,,False,False
+125,Hohentorshafen,2024,,,,,False,False
+211,Alte Neustadt,2001,,,20.76,,False,False
+211,Alte Neustadt,2004,,,17.366,,False,False
+211,Alte Neustadt,2005,15.708,,,,False,False
+211,Alte Neustadt,2006,16.075,,,,False,False
+211,Alte Neustadt,2007,15.856,,16.52,,False,False
+211,Alte Neustadt,2008,14.5483,,,,False,False
+211,Alte Neustadt,2009,15.3276,44.9224,,17.4272,False,False
+211,Alte Neustadt,2010,14.7379,46.3545,18.07,,False,False
+211,Alte Neustadt,2011,13.6282,47.0838,,13.7529,False,False
+211,Alte Neustadt,2012,13.6294,49.2596,,13.5432,False,False
+211,Alte Neustadt,2013,12.493,50.4713,20.539,13.7513,False,False
+211,Alte Neustadt,2014,12.9954,51.332,22.7,13.6455,False,False
+211,Alte Neustadt,2015,12.3813,54.3873,22.959,11.5666,False,False
+211,Alte Neustadt,2016,13.2675,54.4005,24.598,11.0867,False,False
+211,Alte Neustadt,2017,13.5939,55.3908,26.0,10.8133,False,False
+211,Alte Neustadt,2018,12.5309,57.4387,27.179,10.7271,False,False
+211,Alte Neustadt,2019,11.901,58.8616,27.222,10.6358,False,False
+211,Alte Neustadt,2020,12.7352,60.7058,27.604,12.4693,False,False
+211,Alte Neustadt,2021,12.0456,64.6934,,10.3118,False,False
+211,Alte Neustadt,2022,11.6021,65.2652,,9.2961,False,False
+211,Alte Neustadt,2023,11.9499,63.7925,,10.9307,False,False
+211,Alte Neustadt,2024,11.8067,63.0608,,10.7755,False,False
+212,Hohentor,2001,,,19.545,,False,False
+212,Hohentor,2004,,,15.257,,False,False
+212,Hohentor,2005,19.118,,,,False,False
+212,Hohentor,2006,17.6441,,,,False,False
+212,Hohentor,2007,16.393,,14.044,,False,False
+212,Hohentor,2008,15.3827,,,,False,False
+212,Hohentor,2009,15.3049,43.6125,,18.1538,False,False
+212,Hohentor,2010,14.8167,44.8824,15.569,,False,False
+212,Hohentor,2011,14.8826,46.7568,,16.4251,False,False
+212,Hohentor,2012,15.5501,46.5389,,15.4739,False,False
+212,Hohentor,2013,15.5256,46.3745,14.932,16.0952,False,False
+212,Hohentor,2014,16.0428,48.0147,15.991,15.0698,False,False
+212,Hohentor,2015,15.2542,49.7978,16.323,14.5479,False,False
+212,Hohentor,2016,16.5053,50.5818,18.299,14.0747,False,False
+212,Hohentor,2017,17.1598,52.9646,19.0,14.1726,False,False
+212,Hohentor,2018,16.7018,55.4417,20.569,13.024,False,False
+212,Hohentor,2019,16.5593,57.0683,20.434,13.0469,False,False
+212,Hohentor,2020,17.259,58.0214,20.808,15.2675,False,False
+212,Hohentor,2021,15.7478,60.9646,,12.9536,False,False
+212,Hohentor,2022,16.5623,62.6519,,11.5652,False,False
+212,Hohentor,2023,17.0594,59.2692,,12.599,False,False
+212,Hohentor,2024,16.9981,58.8347,,14.1617,False,False
+213,Neustadt,2001,,,22.886,,False,False
+213,Neustadt,2004,,,19.385,,False,False
+213,Neustadt,2005,13.7738,,,,False,False
+213,Neustadt,2006,12.9766,,,,False,False
+213,Neustadt,2007,12.4565,,19.558,,False,False
+213,Neustadt,2008,11.5531,,,,False,False
+213,Neustadt,2009,11.2801,47.7795,,11.541,False,False
+213,Neustadt,2010,11.625,47.3957,21.977,,False,False
+213,Neustadt,2011,11.183,49.1106,,11.1003,False,False
+213,Neustadt,2012,11.1287,49.6858,,11.2572,False,False
+213,Neustadt,2013,10.846,49.7501,23.467,10.7017,False,False
+213,Neustadt,2014,10.198,51.5946,24.296,9.34,False,False
+213,Neustadt,2015,10.3426,52.7002,24.908,10.0,False,False
+213,Neustadt,2016,10.0568,54.4257,26.143,9.2659,False,False
+213,Neustadt,2017,9.7623,55.8038,27.714,8.6258,False,False
+213,Neustadt,2018,9.1956,55.7901,29.143,8.0169,False,False
+213,Neustadt,2019,8.5885,58.0948,28.968,7.9615,False,False
+213,Neustadt,2020,9.0509,57.6043,28.329,10.7091,False,False
+213,Neustadt,2021,8.5261,60.2919,,8.0104,False,False
+213,Neustadt,2022,9.0047,60.8928,,7.6122,False,False
+213,Neustadt,2023,8.7546,60.5376,,8.7865,False,False
+213,Neustadt,2024,9.1456,59.4037,,8.5398,False,False
+214,Südervorstadt,2001,,,20.022,,False,False
+214,Südervorstadt,2004,,,17.143,,False,False
+214,Südervorstadt,2005,15.8175,,,,False,False
+214,Südervorstadt,2006,15.4939,,,,False,False
+214,Südervorstadt,2007,13.953,,15.59,,False,False
+214,Südervorstadt,2008,12.9053,,,,False,False
+214,Südervorstadt,2009,13.4928,47.9469,,14.5112,False,False
+214,Südervorstadt,2010,13.1894,48.5749,17.568,,False,False
+214,Südervorstadt,2011,12.9663,48.9937,,12.9061,False,False
+214,Südervorstadt,2012,12.3843,49.8702,,12.4566,False,False
+214,Südervorstadt,2013,12.0062,51.0272,18.721,12.3785,False,False
+214,Südervorstadt,2014,12.9303,50.6984,19.193,12.9575,False,False
+214,Südervorstadt,2015,13.344,53.307,19.964,12.2507,False,False
+214,Südervorstadt,2016,12.8755,54.9825,21.239,10.4405,False,False
+214,Südervorstadt,2017,13.0709,57.0435,23.3,9.7129,False,False
+214,Südervorstadt,2018,12.0222,57.5518,23.779,9.9266,False,False
+214,Südervorstadt,2019,11.766,59.3078,24.694,10.1161,False,False
+214,Südervorstadt,2020,12.8607,59.5268,23.218,11.6124,False,False
+214,Südervorstadt,2021,11.5876,62.1187,,10.7312,False,False
+214,Südervorstadt,2022,11.9991,63.3363,,9.2403,False,False
+214,Südervorstadt,2023,10.9182,63.9816,,9.6751,False,False
+214,Südervorstadt,2024,11.5999,61.7319,,10.8574,False,False
+215,Gartenstadt Süd,2001,,,19.206,,False,False
+215,Gartenstadt Süd,2004,,,15.635,,False,False
+215,Gartenstadt Süd,2005,19.2079,,,,False,False
+215,Gartenstadt Süd,2006,20.7393,,,,False,False
+215,Gartenstadt Süd,2007,20.1018,,16.001,,False,False
+215,Gartenstadt Süd,2008,17.4161,,,,False,False
+215,Gartenstadt Süd,2009,18.8773,51.0949,,15.1858,False,False
+215,Gartenstadt Süd,2010,18.4492,49.4956,17.884,,False,False
+215,Gartenstadt Süd,2011,17.5847,51.656,,13.5346,False,False
+215,Gartenstadt Süd,2012,17.2977,53.681,,12.8486,False,False
+215,Gartenstadt Süd,2013,16.6109,53.4522,19.008,13.2843,False,False
+215,Gartenstadt Süd,2014,15.9736,55.1848,19.815,11.2181,False,False
+215,Gartenstadt Süd,2015,14.7636,55.6429,20.988,11.4677,False,False
+215,Gartenstadt Süd,2016,14.8894,57.0882,22.335,10.5627,False,False
+215,Gartenstadt Süd,2017,16.2509,57.4185,23.297,11.4118,False,False
+215,Gartenstadt Süd,2018,15.1209,58.1372,24.014,10.5311,False,False
+215,Gartenstadt Süd,2019,15.7045,59.6635,25.428,11.4633,False,False
+215,Gartenstadt Süd,2020,15.8795,60.4651,25.376,12.3103,False,False
+215,Gartenstadt Süd,2021,15.567,61.4644,,11.7302,False,False
+215,Gartenstadt Süd,2022,16.4083,62.5127,,10.5789,False,False
+215,Gartenstadt Süd,2023,16.6745,62.3157,,11.7552,False,False
+215,Gartenstadt Süd,2024,16.5183,62.897,,11.0753,False,False
+216,Buntentor,2001,,,22.001,,False,False
+216,Buntentor,2004,,,19.406,,False,False
+216,Buntentor,2005,15.7309,,,,False,False
+216,Buntentor,2006,15.3741,,,,False,False
+216,Buntentor,2007,14.3003,,18.993,,False,False
+216,Buntentor,2008,12.5256,,,,False,False
+216,Buntentor,2009,12.5574,45.7175,,13.379,False,False
+216,Buntentor,2010,12.5,47.0655,19.843,,False,False
+216,Buntentor,2011,12.4722,48.0582,,12.6868,False,False
+216,Buntentor,2012,11.7143,50.3035,,11.7471,False,False
+216,Buntentor,2013,11.3945,51.6008,21.492,11.0394,False,False
+216,Buntentor,2014,10.5668,53.1346,22.86,10.2015,False,False
+216,Buntentor,2015,10.4392,54.6355,24.615,10.1721,False,False
+216,Buntentor,2016,10.3322,55.7432,24.834,9.8672,False,False
+216,Buntentor,2017,10.2939,57.751,26.609,8.7986,False,False
+216,Buntentor,2018,10.4978,57.3895,27.672,8.6015,False,False
+216,Buntentor,2019,9.2482,57.7409,28.246,9.4301,False,False
+216,Buntentor,2020,9.7017,59.4549,27.987,10.6922,False,False
+216,Buntentor,2021,9.2602,61.9906,,8.9686,False,False
+216,Buntentor,2022,9.9949,62.5978,,8.4205,False,False
+216,Buntentor,2023,9.3126,61.8395,,8.2005,False,False
+216,Buntentor,2024,9.1999,62.2539,,9.159,False,False
+217,Neuenland,2001,,,20.456,,False,False
+217,Neuenland,2004,,,15.142,,False,False
+217,Neuenland,2005,18.75,,,,False,False
+217,Neuenland,2006,19.2493,,,,False,False
+217,Neuenland,2007,17.4559,,15.328,,False,False
+217,Neuenland,2008,18.4358,,,,False,False
+217,Neuenland,2009,18.6089,39.6444,,20.3782,False,False
+217,Neuenland,2010,17.167,41.3973,15.565,,False,False
+217,Neuenland,2011,17.0498,44.8128,,14.8374,False,False
+217,Neuenland,2012,16.4207,43.2,,16.6667,False,False
+217,Neuenland,2013,17.5156,41.9588,15.831,16.4271,False,False
+217,Neuenland,2014,16.8174,43.2212,18.034,16.2055,False,False
+217,Neuenland,2015,16.1826,47.8675,19.219,14.0541,False,False
+217,Neuenland,2016,20.3139,46.6501,18.418,15.7706,False,False
+217,Neuenland,2017,19.9507,48.1609,20.138,16.4966,False,False
+217,Neuenland,2018,16.8317,49.2117,21.662,15.5738,False,False
+217,Neuenland,2019,17.3365,49.0233,20.565,14.1694,False,False
+217,Neuenland,2020,18.7859,46.7351,21.939,18.932,False,False
+217,Neuenland,2021,20.0701,51.497,,15.9609,False,False
+217,Neuenland,2022,38.1533,55.2013,,16.0572,False,False
+217,Neuenland,2023,28.1476,57.7195,,18.0516,False,False
+217,Neuenland,2024,23.539,58.4841,,21.4192,False,False
+218,Huckelriede,2001,,,21.741,,False,False
+218,Huckelriede,2004,,,17.176,,False,False
+218,Huckelriede,2005,20.6352,,,,False,False
+218,Huckelriede,2006,20.3727,,,,False,False
+218,Huckelriede,2007,19.1776,,16.927,,False,False
+218,Huckelriede,2008,17.8648,,,,False,False
+218,Huckelriede,2009,17.6543,43.0581,,17.3366,False,False
+218,Huckelriede,2010,17.4685,44.3132,18.108,,False,False
+218,Huckelriede,2011,18.3601,45.3163,,15.6604,False,False
+218,Huckelriede,2012,19.2044,45.9805,,15.0387,False,False
+218,Huckelriede,2013,18.8638,46.8846,18.967,15.0828,False,False
+218,Huckelriede,2014,19.5098,48.8862,19.547,14.5638,False,False
+218,Huckelriede,2015,18.0824,48.0269,20.42,14.2612,False,False
+218,Huckelriede,2016,19.7084,49.6983,21.8,14.5547,False,False
+218,Huckelriede,2017,19.62,51.5734,23.488,13.1604,False,False
+218,Huckelriede,2018,19.4633,52.7264,23.269,13.2605,False,False
+218,Huckelriede,2019,19.6276,54.1329,24.938,14.3337,False,False
+218,Huckelriede,2020,19.1503,54.0399,25.609,15.5616,False,False
+218,Huckelriede,2021,17.6729,55.8601,,14.8949,False,False
+218,Huckelriede,2022,18.2966,53.4672,,13.5681,False,False
+218,Huckelriede,2023,18.0783,50.2061,,13.7846,False,False
+218,Huckelriede,2024,18.4156,49.4697,,14.2039,False,False
+231,Habenhausen,2001,,,34.423,,False,False
+231,Habenhausen,2004,,,26.602,,False,False
+231,Habenhausen,2005,4.3337,,,,False,False
+231,Habenhausen,2006,3.9987,,,,False,False
+231,Habenhausen,2007,3.5801,,27.182,,False,False
+231,Habenhausen,2008,3.1172,,,,False,False
+231,Habenhausen,2009,3.3396,49.4411,,5.5198,False,False
+231,Habenhausen,2010,3.5622,50.1611,27.829,,False,False
+231,Habenhausen,2011,3.5304,50.1429,,4.0984,False,False
+231,Habenhausen,2012,2.9422,52.3829,,4.3511,False,False
+231,Habenhausen,2013,2.8998,53.7588,30.188,4.679,False,False
+231,Habenhausen,2014,3.3174,55.2105,31.639,4.725,False,False
+231,Habenhausen,2015,3.3865,55.879,32.56,3.8765,False,False
+231,Habenhausen,2016,2.8166,58.0414,33.86,4.9378,False,False
+231,Habenhausen,2017,3.0131,59.4851,34.664,3.7884,False,False
+231,Habenhausen,2018,2.4849,60.0752,34.977,3.8584,False,False
+231,Habenhausen,2019,2.0573,61.1173,37.21,3.2758,False,False
+231,Habenhausen,2020,2.4448,62.0898,37.288,4.0166,False,False
+231,Habenhausen,2021,2.1691,63.171,,4.0676,False,False
+231,Habenhausen,2022,2.4578,63.1603,,3.8716,False,False
+231,Habenhausen,2023,2.3923,63.4651,,3.5615,False,False
+231,Habenhausen,2024,2.4103,63.226,,3.9635,False,False
+232,Arsten,2001,,,31.706,,False,False
+232,Arsten,2004,,,26.353,,False,False
+232,Arsten,2005,10.4156,,,,False,False
+232,Arsten,2006,10.9039,,,,False,False
+232,Arsten,2007,10.6495,,25.31,,False,False
+232,Arsten,2008,10.7891,,,,False,False
+232,Arsten,2009,10.4247,52.3994,,9.7068,False,False
+232,Arsten,2010,10.0526,52.2416,24.671,,False,False
+232,Arsten,2011,10.2436,53.7223,,7.6293,False,False
+232,Arsten,2012,9.9443,54.2438,,7.7425,False,False
+232,Arsten,2013,10.2951,54.82,26.683,8.8703,False,False
+232,Arsten,2014,10.2933,55.6441,28.56,7.6602,False,False
+232,Arsten,2015,10.0081,57.1881,29.044,7.5411,False,False
+232,Arsten,2016,9.2263,58.5218,29.803,7.0075,False,False
+232,Arsten,2017,8.253,60.12,31.334,6.0765,False,False
+232,Arsten,2018,8.3527,60.1991,32.455,6.1584,False,False
+232,Arsten,2019,8.4977,61.0982,33.607,5.9245,False,False
+232,Arsten,2020,10.1701,61.3363,32.29,7.8916,False,False
+232,Arsten,2021,9.4175,62.7097,,7.3834,False,False
+232,Arsten,2022,9.5586,62.9432,,6.7626,False,False
+232,Arsten,2023,9.8896,63.2778,,7.7798,False,False
+232,Arsten,2024,10.4755,63.5861,,8.1869,False,False
+233,Kattenturm,2001,,,22.706,,False,False
+233,Kattenturm,2004,,,17.142,,False,False
+233,Kattenturm,2005,27.8587,,,,False,False
+233,Kattenturm,2006,28.7452,,,,False,False
+233,Kattenturm,2007,28.9082,,16.286,,False,False
+233,Kattenturm,2008,27.6693,,,,False,False
+233,Kattenturm,2009,28.2039,43.6806,,21.9724,False,False
+233,Kattenturm,2010,28.8979,44.7383,15.967,,False,False
+233,Kattenturm,2011,27.822,46.0329,,20.5017,False,False
+233,Kattenturm,2012,27.622,46.4842,,20.3463,False,False
+233,Kattenturm,2013,28.1859,47.1555,17.367,19.4719,False,False
+233,Kattenturm,2014,27.7127,49.0413,17.912,18.7086,False,False
+233,Kattenturm,2015,27.3283,50.3169,18.176,18.4496,False,False
+233,Kattenturm,2016,27.2942,50.3745,19.0,17.1162,False,False
+233,Kattenturm,2017,27.1775,50.6809,20.726,16.7887,False,False
+233,Kattenturm,2018,26.4029,50.9652,20.905,16.6185,False,False
+233,Kattenturm,2019,26.555,52.3574,21.997,17.4126,False,False
+233,Kattenturm,2020,26.2872,53.364,21.964,19.8762,False,False
+233,Kattenturm,2021,24.378,54.9764,,18.1619,False,False
+233,Kattenturm,2022,24.2361,56.2996,,16.261,False,False
+233,Kattenturm,2023,23.8603,54.7622,,17.0009,False,False
+233,Kattenturm,2024,23.6423,54.8522,,17.2187,False,False
+234,Kattenesch,2001,,,27.274,,False,False
+234,Kattenesch,2004,,,19.872,,False,False
+234,Kattenesch,2005,7.7202,,,,False,False
+234,Kattenesch,2006,7.7948,,,,False,False
+234,Kattenesch,2007,7.897,,22.206,,False,False
+234,Kattenesch,2008,7.6565,,,,False,False
+234,Kattenesch,2009,8.035,51.5017,,8.6197,False,False
+234,Kattenesch,2010,8.1126,54.1778,22.154,,False,False
+234,Kattenesch,2011,9.1439,54.2625,,7.0335,False,False
+234,Kattenesch,2012,9.3979,56.4227,,6.9296,False,False
+234,Kattenesch,2013,9.4488,56.6764,24.171,6.9533,False,False
+234,Kattenesch,2014,9.2304,59.7224,25.26,6.157,False,False
+234,Kattenesch,2015,9.624,58.8043,25.798,7.4265,False,False
+234,Kattenesch,2016,9.4962,61.0519,25.971,6.2406,False,False
+234,Kattenesch,2017,11.1634,61.536,27.692,6.1194,False,False
+234,Kattenesch,2018,10.4043,61.0071,27.755,7.6698,False,False
+234,Kattenesch,2019,10.4857,62.2208,29.299,7.0571,False,False
+234,Kattenesch,2020,10.6256,62.6817,28.757,9.0909,False,False
+234,Kattenesch,2021,9.4466,63.5447,,7.8302,False,False
+234,Kattenesch,2022,10.7125,63.4992,,7.5701,False,False
+234,Kattenesch,2023,10.3552,64.0,,7.4108,False,False
+234,Kattenesch,2024,10.22,63.1743,,8.1789,False,False
+241,Mittelshuchting,2001,,,23.75,,False,False
+241,Mittelshuchting,2004,,,16.48,,False,False
+241,Mittelshuchting,2005,23.9379,,,,False,False
+241,Mittelshuchting,2006,24.6358,,,,False,False
+241,Mittelshuchting,2007,25.1397,,16.434,,False,False
+241,Mittelshuchting,2008,24.0643,,,,False,False
+241,Mittelshuchting,2009,24.8783,45.7412,,19.1751,False,False
+241,Mittelshuchting,2010,25.2953,46.0621,15.675,,False,False
+241,Mittelshuchting,2011,25.5886,47.6709,,17.1616,False,False
+241,Mittelshuchting,2012,25.9246,48.018,,17.8251,False,False
+241,Mittelshuchting,2013,27.0372,47.5022,17.762,18.2028,False,False
+241,Mittelshuchting,2014,25.9441,48.9546,18.589,17.1543,False,False
+241,Mittelshuchting,2015,27.1106,49.9855,18.901,17.334,False,False
+241,Mittelshuchting,2016,28.2395,50.6846,19.794,17.4677,False,False
+241,Mittelshuchting,2017,29.4499,51.5884,20.487,16.678,False,False
+241,Mittelshuchting,2018,29.2241,52.6876,21.1,16.4481,False,False
+241,Mittelshuchting,2019,29.1229,53.4556,22.893,16.977,False,False
+241,Mittelshuchting,2020,29.6395,53.8744,22.626,19.5652,False,False
+241,Mittelshuchting,2021,27.8699,55.313,,18.3147,False,False
+241,Mittelshuchting,2022,26.9174,55.1891,,16.0017,False,False
+241,Mittelshuchting,2023,26.4017,54.8575,,17.3057,False,False
+241,Mittelshuchting,2024,25.7881,55.4723,,16.7629,False,False
+242,Sodenmatt,2001,,,21.931,,False,False
+242,Sodenmatt,2004,,,15.898,,False,False
+242,Sodenmatt,2005,26.2552,,,,False,False
+242,Sodenmatt,2006,26.2355,,,,False,False
+242,Sodenmatt,2007,26.8909,,14.76,,False,False
+242,Sodenmatt,2008,25.858,,,,False,False
+242,Sodenmatt,2009,27.0927,46.2364,,20.2105,False,False
+242,Sodenmatt,2010,26.4214,46.6398,13.994,,False,False
+242,Sodenmatt,2011,28.0642,49.2868,,17.5987,False,False
+242,Sodenmatt,2012,28.8281,49.1498,,19.1837,False,False
+242,Sodenmatt,2013,28.9273,49.4533,15.627,18.7423,False,False
+242,Sodenmatt,2014,29.3086,50.855,16.838,18.6683,False,False
+242,Sodenmatt,2015,28.8715,51.2634,17.894,18.1218,False,False
+242,Sodenmatt,2016,29.7655,50.6537,18.174,17.9122,False,False
+242,Sodenmatt,2017,30.6588,51.6999,19.7,17.0741,False,False
+242,Sodenmatt,2018,29.9657,51.9015,20.195,16.9441,False,False
+242,Sodenmatt,2019,29.9092,52.3183,20.996,17.6577,False,False
+242,Sodenmatt,2020,30.5506,53.4203,20.882,20.28,False,False
+242,Sodenmatt,2021,28.2566,54.402,,18.2755,False,False
+242,Sodenmatt,2022,27.962,55.9488,,16.8614,False,False
+242,Sodenmatt,2023,26.8571,55.5908,,17.5706,False,False
+242,Sodenmatt,2024,26.8385,55.1687,,18.3211,False,False
+243,Kirchhuchting,2001,,,22.831,,False,False
+243,Kirchhuchting,2004,,,16.992,,False,False
+243,Kirchhuchting,2005,24.0546,,,,False,False
+243,Kirchhuchting,2006,25.366,,,,False,False
+243,Kirchhuchting,2007,25.6076,,16.863,,False,False
+243,Kirchhuchting,2008,24.6432,,,,False,False
+243,Kirchhuchting,2009,26.1423,45.6362,,18.7316,False,False
+243,Kirchhuchting,2010,25.9612,45.3096,16.119,,False,False
+243,Kirchhuchting,2011,26.6303,46.8542,,18.1884,False,False
+243,Kirchhuchting,2012,27.1181,46.7229,,18.8563,False,False
+243,Kirchhuchting,2013,27.522,47.0576,17.86,18.808,False,False
+243,Kirchhuchting,2014,27.9013,47.9023,18.095,17.8106,False,False
+243,Kirchhuchting,2015,29.4268,48.3528,18.927,18.3499,False,False
+243,Kirchhuchting,2016,29.6052,49.3876,19.84,16.5275,False,False
+243,Kirchhuchting,2017,30.1859,49.7893,20.375,17.2557,False,False
+243,Kirchhuchting,2018,30.0882,50.0662,20.476,18.2211,False,False
+243,Kirchhuchting,2019,30.4972,51.1553,21.593,18.264,False,False
+243,Kirchhuchting,2020,31.4035,51.9782,21.048,21.4063,False,False
+243,Kirchhuchting,2021,29.18,54.1869,,20.379,False,False
+243,Kirchhuchting,2022,26.2959,54.0736,,18.1271,False,False
+243,Kirchhuchting,2023,25.5141,52.1527,,18.7314,False,False
+243,Kirchhuchting,2024,25.8837,51.7413,,18.9683,False,False
+244,Grolland,2001,,,28.619,,False,False
+244,Grolland,2004,,,22.014,,False,False
+244,Grolland,2005,4.8373,,,,False,False
+244,Grolland,2006,4.0897,,,,False,False
+244,Grolland,2007,4.1778,,24.475,,False,False
+244,Grolland,2008,3.7601,,,,False,False
+244,Grolland,2009,4.109,52.1809,,5.3089,False,False
+244,Grolland,2010,4.1219,54.1788,24.911,,False,False
+244,Grolland,2011,4.7195,54.8164,,5.4178,False,False
+244,Grolland,2012,3.7544,55.3789,,5.9406,False,False
+244,Grolland,2013,3.6761,55.4626,27.703,5.3524,False,False
+244,Grolland,2014,4.1887,56.8673,28.556,5.5411,False,False
+244,Grolland,2015,4.126,57.7054,28.531,5.1769,False,False
+244,Grolland,2016,4.2166,58.7708,30.271,5.8326,False,False
+244,Grolland,2017,3.9491,60.2517,32.0,6.1275,False,False
+244,Grolland,2018,3.8578,59.7193,32.358,5.665,False,False
+244,Grolland,2019,3.4783,61.8626,33.914,5.7845,False,False
+244,Grolland,2020,4.3153,62.2994,34.738,6.6246,False,False
+244,Grolland,2021,4.0373,63.1635,,5.1282,False,False
+244,Grolland,2022,4.8018,62.8971,,4.9634,False,False
+244,Grolland,2023,3.9336,62.1803,,4.3874,False,False
+244,Grolland,2024,4.378,63.8037,,5.1546,False,False
+251,Woltmershausen,2001,,,22.288,,False,False
+251,Woltmershausen,2004,,,18.097,,False,False
+251,Woltmershausen,2005,22.4977,,,,False,False
+251,Woltmershausen,2006,21.9598,,,,False,False
+251,Woltmershausen,2007,22.0785,,16.865,,False,False
+251,Woltmershausen,2008,22.7492,,,,False,False
+251,Woltmershausen,2009,23.0996,47.4156,,18.3349,False,False
+251,Woltmershausen,2010,22.1731,48.4205,17.322,,False,False
+251,Woltmershausen,2011,22.0048,49.4449,,17.0467,False,False
+251,Woltmershausen,2012,22.3484,50.7749,,16.079,False,False
+251,Woltmershausen,2013,21.9072,50.1272,18.641,16.7408,False,False
+251,Woltmershausen,2014,20.8319,51.6754,18.952,16.2852,False,False
+251,Woltmershausen,2015,20.0688,52.3831,19.281,15.1985,False,False
+251,Woltmershausen,2016,21.1117,52.8134,20.689,15.0735,False,False
+251,Woltmershausen,2017,21.3488,54.4352,21.439,14.9212,False,False
+251,Woltmershausen,2018,20.0479,56.4527,22.154,13.4825,False,False
+251,Woltmershausen,2019,19.8848,57.5151,23.089,13.8796,False,False
+251,Woltmershausen,2020,19.9187,59.1383,22.629,15.7614,False,False
+251,Woltmershausen,2021,18.2593,61.5794,,13.9615,False,False
+251,Woltmershausen,2022,18.0357,62.3306,,12.4378,False,False
+251,Woltmershausen,2023,17.9866,60.8427,,12.9256,False,False
+251,Woltmershausen,2024,17.3527,59.9111,,13.7232,False,False
+252,Rablinghausen,2001,,,25.855,,False,False
+252,Rablinghausen,2004,,,19.975,,False,False
+252,Rablinghausen,2005,11.545,,,,False,False
+252,Rablinghausen,2006,12.4094,,,,False,False
+252,Rablinghausen,2007,11.5817,,18.878,,False,False
+252,Rablinghausen,2008,11.0188,,,,False,False
+252,Rablinghausen,2009,12.7137,50.9349,,12.0109,False,False
+252,Rablinghausen,2010,13.1766,51.5448,18.756,,False,False
+252,Rablinghausen,2011,12.0583,52.238,,11.9005,False,False
+252,Rablinghausen,2012,12.8054,54.2652,,9.0828,False,False
+252,Rablinghausen,2013,13.1429,53.6547,21.68,11.296,False,False
+252,Rablinghausen,2014,13.5841,55.6281,22.746,10.1266,False,False
+252,Rablinghausen,2015,13.9337,56.7589,22.921,10.1002,False,False
+252,Rablinghausen,2016,15.0631,58.4117,23.117,9.3268,False,False
+252,Rablinghausen,2017,15.6169,58.7692,23.412,8.903,False,False
+252,Rablinghausen,2018,14.0122,66.8724,24.854,10.0346,False,False
+252,Rablinghausen,2019,13.5076,67.375,26.658,9.7849,False,False
+252,Rablinghausen,2020,13.2775,69.5333,27.056,9.5498,False,False
+252,Rablinghausen,2021,12.1014,71.5984,,9.9069,False,False
+252,Rablinghausen,2022,11.6468,72.6565,,7.6568,False,False
+252,Rablinghausen,2023,11.1921,73.4171,,8.6152,False,False
+252,Rablinghausen,2024,10.9842,72.4012,,9.0731,False,False
+261,Seehausen,2001,,,28.664,,False,False
+261,Seehausen,2004,,,26.731,,False,False
+261,Seehausen,2005,1.7224,,,,False,False
+261,Seehausen,2006,2.9258,,,,False,False
+261,Seehausen,2007,3.3473,,24.521,,False,False
+261,Seehausen,2008,4.5064,,,,False,False
+261,Seehausen,2009,3.2715,54.712,,5.6433,False,False
+261,Seehausen,2010,3.7652,56.2418,25.816,,False,False
+261,Seehausen,2011,2.6172,56.3399,,4.2222,False,False
+261,Seehausen,2012,3.5714,58.1107,,4.4968,False,False
+261,Seehausen,2013,3.2955,59.1661,26.899,3.871,False,False
+261,Seehausen,2014,4.0724,59.4415,29.329,4.6908,False,False
+261,Seehausen,2015,5.0336,59.4879,29.0,4.2283,False,False
+261,Seehausen,2016,4.7032,62.4754,29.062,5.9172,False,False
+261,Seehausen,2017,4.5556,64.042,31.69,4.6875,False,False
+261,Seehausen,2018,4.7032,66.1365,33.374,2.9183,False,False
+261,Seehausen,2019,3.6364,69.1943,34.608,3.0361,False,False
+261,Seehausen,2020,2.6651,69.9029,33.911,5.0847,False,False
+261,Seehausen,2021,2.1277,72.5448,,3.0651,False,False
+261,Seehausen,2022,2.459,72.6077,,3.1189,False,False
+261,Seehausen,2023,2.2432,72.2467,,3.1496,False,False
+261,Seehausen,2024,2.8537,72.7138,,2.5896,False,False
+271,Strom,2001,,,26.006,,False,False
+271,Strom,2004,,,21.672,,False,False
+271,Strom,2005,5.5096,,,,False,False
+271,Strom,2006,7.4586,,,,False,False
+271,Strom,2007,4.1667,,22.22,,False,False
+271,Strom,2008,5.814,,,,False,False
+271,Strom,2009,5.8309,52.7434,,5.6962,False,False
+271,Strom,2010,2.1084,55.0877,21.703,,False,False
+271,Strom,2011,3.869,54.1958,,3.125,False,False
+271,Strom,2012,4.7904,55.9441,,3.0303,False,False
+271,Strom,2013,7.1856,57.5439,28.335,6.2857,False,False
+271,Strom,2014,2.2535,56.8966,30.318,5.7143,False,False
+271,Strom,2015,2.8902,56.7063,31.224,5.1136,False,False
+271,Strom,2016,6.7227,57.6214,30.973,6.0109,False,False
+271,Strom,2017,4.6243,55.298,33.687,6.1798,False,False
+271,Strom,2018,3.6364,,35.652,,False,False
+271,Strom,2019,2.9221,,37.784,,False,False
+271,Strom,2020,2.4316,,35.231,,False,False
+271,Strom,2021,1.875,,,,False,False
+271,Strom,2022,10.2167,,,,False,False
+271,Strom,2023,2.7523,,,,False,False
+271,Strom,2024,2.8571,,,,False,False
+311,Steintor,2001,,,21.62,,False,False
+311,Steintor,2004,,,19.778,,False,False
+311,Steintor,2005,13.6261,,,,False,False
+311,Steintor,2006,12.9841,,,,False,False
+311,Steintor,2007,13.1509,,21.259,,False,False
+311,Steintor,2008,12.3022,,,,False,False
+311,Steintor,2009,12.4981,42.3369,,15.5866,False,False
+311,Steintor,2010,12.0777,42.9368,22.585,,False,False
+311,Steintor,2011,11.2267,45.1662,,13.8639,False,False
+311,Steintor,2012,10.6975,45.8591,,13.3568,False,False
+311,Steintor,2013,10.4511,45.6167,24.8,12.6892,False,False
+311,Steintor,2014,10.2901,47.4055,25.557,11.5047,False,False
+311,Steintor,2015,10.3713,49.303,25.378,11.7468,False,False
+311,Steintor,2016,9.5053,49.9827,26.91,10.0373,False,False
+311,Steintor,2017,9.2739,51.5317,28.562,9.2327,False,False
+311,Steintor,2018,9.0019,53.2846,29.144,9.1934,False,False
+311,Steintor,2019,8.9693,54.9089,29.339,9.2398,False,False
+311,Steintor,2020,9.2541,54.6942,29.401,11.2389,False,False
+311,Steintor,2021,7.9604,58.3706,,8.9561,False,False
+311,Steintor,2022,8.8878,58.3907,,8.0238,False,False
+311,Steintor,2023,8.417,57.8084,,8.9694,False,False
+311,Steintor,2024,7.6244,58.0798,,8.1259,False,False
+312,Fesenfeld,2001,,,25.372,,False,False
+312,Fesenfeld,2004,,,22.134,,False,False
+312,Fesenfeld,2005,9.7936,,,,False,False
+312,Fesenfeld,2006,9.2708,,,,False,False
+312,Fesenfeld,2007,8.994,,23.201,,False,False
+312,Fesenfeld,2008,9.0172,,,,False,False
+312,Fesenfeld,2009,9.2602,45.0156,,11.6637,False,False
+312,Fesenfeld,2010,8.7299,46.6936,25.355,,False,False
+312,Fesenfeld,2011,8.1435,48.8639,,10.6883,False,False
+312,Fesenfeld,2012,7.7038,50.0228,,9.4327,False,False
+312,Fesenfeld,2013,7.5644,50.5745,27.481,9.6255,False,False
+312,Fesenfeld,2014,7.0757,50.8672,28.376,8.8896,False,False
+312,Fesenfeld,2015,6.9701,52.8231,28.858,8.2658,False,False
+312,Fesenfeld,2016,6.8155,53.4379,29.138,7.6094,False,False
+312,Fesenfeld,2017,7.1175,54.9783,30.223,7.531,False,False
+312,Fesenfeld,2018,7.4131,55.8552,31.657,7.2762,False,False
+312,Fesenfeld,2019,7.0752,57.184,30.813,7.8091,False,False
+312,Fesenfeld,2020,7.8149,58.235,31.426,8.901,False,False
+312,Fesenfeld,2021,6.7363,59.6508,,7.8083,False,False
+312,Fesenfeld,2022,7.3037,60.0849,,6.8849,False,False
+312,Fesenfeld,2023,7.0545,60.2496,,8.1023,False,False
+312,Fesenfeld,2024,6.6715,60.3419,,7.4752,False,False
+313,Peterswerder,2001,,,26.224,,False,False
+313,Peterswerder,2004,,,23.96,,False,False
+313,Peterswerder,2005,10.2146,,,,False,False
+313,Peterswerder,2006,10.0036,,,,False,False
+313,Peterswerder,2007,9.4629,,25.294,,False,False
+313,Peterswerder,2008,9.579,,,,False,False
+313,Peterswerder,2009,9.8374,46.7467,,10.7124,False,False
+313,Peterswerder,2010,9.757,47.9244,26.338,,False,False
+313,Peterswerder,2011,8.9211,49.821,,9.6178,False,False
+313,Peterswerder,2012,8.8169,51.3163,,8.9954,False,False
+313,Peterswerder,2013,8.2641,52.3092,28.521,8.7635,False,False
+313,Peterswerder,2014,8.0875,53.8504,29.541,7.981,False,False
+313,Peterswerder,2015,7.9435,55.1422,30.315,8.2021,False,False
+313,Peterswerder,2016,7.496,55.9437,31.161,6.8688,False,False
+313,Peterswerder,2017,7.2537,56.9208,32.284,6.7523,False,False
+313,Peterswerder,2018,6.481,58.6043,33.21,6.1953,False,False
+313,Peterswerder,2019,5.9388,59.0744,34.275,6.4531,False,False
+313,Peterswerder,2020,6.3075,59.146,34.164,7.1099,False,False
+313,Peterswerder,2021,5.861,60.4187,,6.9741,False,False
+313,Peterswerder,2022,6.1804,61.4035,,5.0514,False,False
+313,Peterswerder,2023,5.8136,60.93,,5.6738,False,False
+313,Peterswerder,2024,5.5805,61.2526,,6.6321,False,False
+314,Hulsberg,2001,,,23.666,,False,False
+314,Hulsberg,2004,,,20.164,,False,False
+314,Hulsberg,2005,14.5936,,,,False,False
+314,Hulsberg,2006,14.5115,,,,False,False
+314,Hulsberg,2007,13.5281,,20.106,,False,False
+314,Hulsberg,2008,13.9013,,,,False,False
+314,Hulsberg,2009,14.0418,46.9983,,14.4195,False,False
+314,Hulsberg,2010,14.1023,48.3158,21.076,,False,False
+314,Hulsberg,2011,14.0174,49.308,,12.7289,False,False
+314,Hulsberg,2012,12.8275,49.214,,12.8795,False,False
+314,Hulsberg,2013,11.8884,50.9931,23.243,11.5315,False,False
+314,Hulsberg,2014,11.8769,51.6163,24.404,11.1311,False,False
+314,Hulsberg,2015,12.8876,53.3456,23.832,11.8563,False,False
+314,Hulsberg,2016,13.8058,53.9208,25.224,11.5699,False,False
+314,Hulsberg,2017,13.0762,57.1164,25.742,10.05,False,False
+314,Hulsberg,2018,11.477,57.6887,26.457,8.3369,False,False
+314,Hulsberg,2019,11.405,58.7123,27.72,9.8064,False,False
+314,Hulsberg,2020,11.8548,59.3028,28.333,11.0458,False,False
+314,Hulsberg,2021,10.6431,61.6334,,9.8657,False,False
+314,Hulsberg,2022,10.5406,63.3058,,8.0774,False,False
+314,Hulsberg,2023,10.14,62.2652,,9.0229,False,False
+314,Hulsberg,2024,10.9108,61.8262,,10.044,False,False
+321,Neu-Schwachhausen,2001,,,27.676,,False,False
+321,Neu-Schwachhausen,2004,,,23.817,,False,False
+321,Neu-Schwachhausen,2005,6.2729,,,,False,False
+321,Neu-Schwachhausen,2006,5.7326,,,,False,False
+321,Neu-Schwachhausen,2007,5.7594,,25.415,,False,False
+321,Neu-Schwachhausen,2008,5.2423,,,,False,False
+321,Neu-Schwachhausen,2009,5.119,47.4676,,6.7434,False,False
+321,Neu-Schwachhausen,2010,5.0987,48.5718,27.275,,False,False
+321,Neu-Schwachhausen,2011,4.3046,51.8478,,5.9635,False,False
+321,Neu-Schwachhausen,2012,4.2359,53.1263,,5.0718,False,False
+321,Neu-Schwachhausen,2013,4.2963,53.5237,29.8,4.6218,False,False
+321,Neu-Schwachhausen,2014,4.588,54.4934,31.007,5.3394,False,False
+321,Neu-Schwachhausen,2015,4.8161,56.2274,31.776,4.8119,False,False
+321,Neu-Schwachhausen,2016,4.7974,57.6553,33.111,3.7227,False,False
+321,Neu-Schwachhausen,2017,4.7013,58.9161,34.399,4.6426,False,False
+321,Neu-Schwachhausen,2018,4.948,59.6553,35.221,4.4418,False,False
+321,Neu-Schwachhausen,2019,5.1581,59.8621,35.907,4.5169,False,False
+321,Neu-Schwachhausen,2020,5.3342,59.9244,35.053,5.3929,False,False
+321,Neu-Schwachhausen,2021,5.6303,62.2309,,5.3571,False,False
+321,Neu-Schwachhausen,2022,5.8773,62.4253,,5.1457,False,False
+321,Neu-Schwachhausen,2023,6.3234,62.4874,,5.4941,False,False
+321,Neu-Schwachhausen,2024,6.2779,62.7481,,6.196,False,False
+322,Bürgerpark,2001,,,34.213,,False,False
+322,Bürgerpark,2004,,,31.249,,False,False
+322,Bürgerpark,2005,3.7943,,,,False,False
+322,Bürgerpark,2006,3.1344,,,,False,False
+322,Bürgerpark,2007,3.6324,,33.692,,False,False
+322,Bürgerpark,2008,3.0773,,,,False,False
+322,Bürgerpark,2009,3.1915,42.2788,,6.0455,False,False
+322,Bürgerpark,2010,2.381,45.3958,35.995,,False,False
+322,Bürgerpark,2011,2.5509,47.2263,,5.1282,False,False
+322,Bürgerpark,2012,2.3735,47.8934,,5.1499,False,False
+322,Bürgerpark,2013,2.2293,48.8264,37.978,4.8325,False,False
+322,Bürgerpark,2014,1.9561,50.0337,38.62,4.4987,False,False
+322,Bürgerpark,2015,1.8546,50.8301,41.113,4.0078,False,False
+322,Bürgerpark,2016,2.4595,51.2125,41.024,4.5512,False,False
+322,Bürgerpark,2017,2.9386,50.9961,42.323,4.5141,False,False
+322,Bürgerpark,2018,2.594,53.0007,44.282,4.0293,False,False
+322,Bürgerpark,2019,1.9666,55.8546,43.633,3.4381,False,False
+322,Bürgerpark,2020,2.5154,55.4374,45.671,4.4917,False,False
+322,Bürgerpark,2021,2.3565,56.0925,,4.8595,False,False
+322,Bürgerpark,2022,3.6934,57.1834,,3.8186,False,False
+322,Bürgerpark,2023,3.0673,57.2147,,6.0213,False,False
+322,Bürgerpark,2024,3.1566,57.1738,,4.9279,False,False
+323,Barkhof,2001,,,31.906,,False,False
+323,Barkhof,2004,,,28.736,,False,False
+323,Barkhof,2005,5.0522,,,,False,False
+323,Barkhof,2006,4.6257,,,,False,False
+323,Barkhof,2007,4.1159,,30.401,,False,False
+323,Barkhof,2008,3.9932,,,,False,False
+323,Barkhof,2009,3.6512,45.9633,,6.2196,False,False
+323,Barkhof,2010,3.4923,48.5646,31.538,,False,False
+323,Barkhof,2011,3.5103,48.7327,,5.5607,False,False
+323,Barkhof,2012,3.2079,50.263,,5.0587,False,False
+323,Barkhof,2013,3.5699,52.2888,33.899,4.811,False,False
+323,Barkhof,2014,3.4469,53.5839,35.44,5.2502,False,False
+323,Barkhof,2015,3.4011,54.499,36.048,5.1012,False,False
+323,Barkhof,2016,3.239,55.2509,36.889,4.3443,False,False
+323,Barkhof,2017,3.0193,56.7431,38.896,4.1085,False,False
+323,Barkhof,2018,3.0478,58.1003,41.212,4.1921,False,False
+323,Barkhof,2019,3.7283,60.2019,42.939,4.684,False,False
+323,Barkhof,2020,3.9532,59.4557,41.825,6.4422,False,False
+323,Barkhof,2021,3.1017,61.2587,,4.5752,False,False
+323,Barkhof,2022,3.6928,61.7766,,3.9259,False,False
+323,Barkhof,2023,3.121,62.4759,,4.912,False,False
+323,Barkhof,2024,3.3107,62.6622,,5.3014,False,False
+324,Riensberg,2001,,,27.397,,False,False
+324,Riensberg,2004,,,24.839,,False,False
+324,Riensberg,2005,5.5913,,,,False,False
+324,Riensberg,2006,5.9132,,,,False,False
+324,Riensberg,2007,5.7143,,26.044,,False,False
+324,Riensberg,2008,5.0223,,,,False,False
+324,Riensberg,2009,5.072,50.219,,6.6124,False,False
+324,Riensberg,2010,4.8394,51.1091,27.449,,False,False
+324,Riensberg,2011,4.9879,53.4534,,5.3303,False,False
+324,Riensberg,2012,4.34,53.8661,,4.9886,False,False
+324,Riensberg,2013,4.4484,55.0687,29.649,5.4319,False,False
+324,Riensberg,2014,4.4586,54.7542,30.549,4.8004,False,False
+324,Riensberg,2015,4.6218,55.9834,31.467,5.0989,False,False
+324,Riensberg,2016,4.7041,56.3719,32.601,4.7557,False,False
+324,Riensberg,2017,5.0258,57.8578,33.706,4.2265,False,False
+324,Riensberg,2018,5.6886,58.8041,34.457,4.7306,False,False
+324,Riensberg,2019,5.9524,59.7894,35.359,5.1148,False,False
+324,Riensberg,2020,6.6987,59.619,35.739,6.6008,False,False
+324,Riensberg,2021,6.2644,59.885,,6.1496,False,False
+324,Riensberg,2022,6.9293,61.8119,,4.7856,False,False
+324,Riensberg,2023,6.3063,62.3246,,5.9457,False,False
+324,Riensberg,2024,6.1703,61.6233,,6.0561,False,False
+325,Radio Bremen,2001,,,32.049,,False,False
+325,Radio Bremen,2004,,,26.375,,False,False
+325,Radio Bremen,2005,7.8811,,,,False,False
+325,Radio Bremen,2006,8.4135,,,,False,False
+325,Radio Bremen,2007,7.1776,,28.984,,False,False
+325,Radio Bremen,2008,7.5107,,,,False,False
+325,Radio Bremen,2009,7.7621,43.2637,,8.638,False,False
+325,Radio Bremen,2010,7.4739,45.9743,30.677,,False,False
+325,Radio Bremen,2011,7.1714,47.8191,,7.3842,False,False
+325,Radio Bremen,2012,7.1879,48.8597,,6.5432,False,False
+325,Radio Bremen,2013,6.7278,50.6503,32.914,6.2475,False,False
+325,Radio Bremen,2014,6.823,49.9413,34.309,7.0691,False,False
+325,Radio Bremen,2015,7.5857,53.2723,34.468,6.7437,False,False
+325,Radio Bremen,2016,6.8542,55.7205,36.362,5.644,False,False
+325,Radio Bremen,2017,7.8235,54.7056,37.438,6.628,False,False
+325,Radio Bremen,2018,7.5093,55.3551,37.932,6.6216,False,False
+325,Radio Bremen,2019,7.7086,57.8825,38.169,5.931,False,False
+325,Radio Bremen,2020,7.3481,57.514,37.895,7.4124,False,False
+325,Radio Bremen,2021,6.4544,58.4741,,5.8466,False,False
+325,Radio Bremen,2022,7.114,59.5465,,5.8626,False,False
+325,Radio Bremen,2023,5.9779,58.6695,,5.958,False,False
+325,Radio Bremen,2024,5.7509,59.3675,,6.601,False,False
+326,Schwachhausen,2001,,,34.633,,False,False
+326,Schwachhausen,2004,,,29.715,,False,False
+326,Schwachhausen,2005,4.7095,,,,False,False
+326,Schwachhausen,2006,5.062,,,,False,False
+326,Schwachhausen,2007,4.8789,,31.664,,False,False
+326,Schwachhausen,2008,4.9313,,,,False,False
+326,Schwachhausen,2009,4.745,43.194,,6.5354,False,False
+326,Schwachhausen,2010,4.7428,45.6393,32.839,,False,False
+326,Schwachhausen,2011,3.863,46.6983,,5.9948,False,False
+326,Schwachhausen,2012,4.3226,47.1934,,5.286,False,False
+326,Schwachhausen,2013,3.9777,49.5544,34.874,6.4807,False,False
+326,Schwachhausen,2014,3.5948,50.9898,36.18,4.9473,False,False
+326,Schwachhausen,2015,3.3806,50.6586,37.171,6.16,False,False
+326,Schwachhausen,2016,2.6711,51.5794,37.58,5.0199,False,False
+326,Schwachhausen,2017,2.8003,55.1003,39.347,4.4596,False,False
+326,Schwachhausen,2018,2.4926,53.9138,40.83,4.2935,False,False
+326,Schwachhausen,2019,2.095,57.2689,40.962,4.065,False,False
+326,Schwachhausen,2020,3.1351,57.6087,41.331,4.6763,False,False
+326,Schwachhausen,2021,3.2697,58.1551,,3.7196,False,False
+326,Schwachhausen,2022,4.2211,58.9306,,3.4884,False,False
+326,Schwachhausen,2023,3.4983,60.5186,,4.2113,False,False
+326,Schwachhausen,2024,3.3517,60.2361,,4.1814,False,False
+327,Gete,2001,,,31.342,,False,False
+327,Gete,2004,,,27.905,,False,False
+327,Gete,2005,4.9627,,,,False,False
+327,Gete,2006,4.7083,,,,False,False
+327,Gete,2007,4.8927,,29.556,,False,False
+327,Gete,2008,4.1626,,,,False,False
+327,Gete,2009,4.2651,46.724,,6.366,False,False
+327,Gete,2010,3.7432,47.0789,32.039,,False,False
+327,Gete,2011,3.6869,47.638,,5.7678,False,False
+327,Gete,2012,3.3166,50.047,,5.1017,False,False
+327,Gete,2013,3.7674,50.4791,34.424,5.4539,False,False
+327,Gete,2014,3.5351,51.2174,35.757,4.8261,False,False
+327,Gete,2015,3.6078,52.3588,35.484,4.9348,False,False
+327,Gete,2016,4.8332,52.1345,36.8,5.4196,False,False
+327,Gete,2017,4.292,54.258,37.416,4.781,False,False
+327,Gete,2018,4.1653,55.8706,38.781,4.115,False,False
+327,Gete,2019,3.3361,58.2552,39.456,4.6948,False,False
+327,Gete,2020,3.5268,57.5024,39.891,5.2764,False,False
+327,Gete,2021,3.0278,57.7062,,5.4071,False,False
+327,Gete,2022,4.044,58.8875,,4.4878,False,False
+327,Gete,2023,3.557,60.2844,,5.0226,False,False
+327,Gete,2024,3.8647,60.3256,,5.6862,False,False
+331,Gartenstadt Vahr,2001,,,24.045,,False,False
+331,Gartenstadt Vahr,2004,,,19.923,,False,False
+331,Gartenstadt Vahr,2005,12.4462,,,,False,False
+331,Gartenstadt Vahr,2006,13.8639,,,,False,False
+331,Gartenstadt Vahr,2007,12.8742,,20.702,,False,False
+331,Gartenstadt Vahr,2008,12.442,,,,False,False
+331,Gartenstadt Vahr,2009,13.7293,50.4767,,10.5012,False,False
+331,Gartenstadt Vahr,2010,13.9378,50.9385,20.839,,False,False
+331,Gartenstadt Vahr,2011,12.9144,53.3483,,9.4785,False,False
+331,Gartenstadt Vahr,2012,12.4593,54.3442,,9.7996,False,False
+331,Gartenstadt Vahr,2013,11.6685,54.5575,22.039,9.3636,False,False
+331,Gartenstadt Vahr,2014,11.4353,56.3189,23.275,8.9417,False,False
+331,Gartenstadt Vahr,2015,11.1192,56.4492,23.472,8.4951,False,False
+331,Gartenstadt Vahr,2016,11.4352,56.5714,24.96,7.7958,False,False
+331,Gartenstadt Vahr,2017,11.4148,58.2151,25.787,7.5768,False,False
+331,Gartenstadt Vahr,2018,11.0391,59.416,27.148,7.3573,False,False
+331,Gartenstadt Vahr,2019,11.391,61.7682,27.819,8.3227,False,False
+331,Gartenstadt Vahr,2020,12.69,61.8649,28.06,9.6313,False,False
+331,Gartenstadt Vahr,2021,11.5753,62.2919,,9.1429,False,False
+331,Gartenstadt Vahr,2022,11.6379,62.7776,,7.6298,False,False
+331,Gartenstadt Vahr,2023,11.6109,61.5544,,8.7838,False,False
+331,Gartenstadt Vahr,2024,10.9357,62.7467,,9.177,False,False
+332,Neue Vahr Nord,2001,,,19.304,,False,False
+332,Neue Vahr Nord,2004,,,12.075,,False,False
+332,Neue Vahr Nord,2005,33.5334,,,,False,False
+332,Neue Vahr Nord,2006,35.557,,,,False,False
+332,Neue Vahr Nord,2007,35.3173,,11.793,,False,False
+332,Neue Vahr Nord,2008,32.7088,,,,False,False
+332,Neue Vahr Nord,2009,34.0517,43.2368,,22.3176,False,False
+332,Neue Vahr Nord,2010,33.5464,44.6501,11.903,,False,False
+332,Neue Vahr Nord,2011,32.8155,46.4976,,18.8335,False,False
+332,Neue Vahr Nord,2012,32.2778,47.596,,18.5057,False,False
+332,Neue Vahr Nord,2013,31.9687,47.4729,14.478,18.1252,False,False
+332,Neue Vahr Nord,2014,30.2895,48.9266,15.003,17.73,False,False
+332,Neue Vahr Nord,2015,30.0016,50.4115,16.313,16.0225,False,False
+332,Neue Vahr Nord,2016,28.158,52.6398,17.6,14.2448,False,False
+332,Neue Vahr Nord,2017,29.7555,53.8178,18.807,13.5968,False,False
+332,Neue Vahr Nord,2018,29.2482,54.8913,19.613,14.2073,False,False
+332,Neue Vahr Nord,2019,27.814,56.4845,20.979,14.2562,False,False
+332,Neue Vahr Nord,2020,27.9747,56.6823,20.357,17.421,False,False
+332,Neue Vahr Nord,2021,26.1164,58.7817,,15.7135,False,False
+332,Neue Vahr Nord,2022,26.4854,58.3729,,15.7099,False,False
+332,Neue Vahr Nord,2023,26.4783,56.6537,,16.5826,False,False
+332,Neue Vahr Nord,2024,26.2726,56.709,,18.0061,False,False
+334,Neue Vahr Südwest,2001,,,18.652,,False,False
+334,Neue Vahr Südwest,2004,,,13.296,,False,False
+334,Neue Vahr Südwest,2005,27.1585,,,,False,False
+334,Neue Vahr Südwest,2006,29.1484,,,,False,False
+334,Neue Vahr Südwest,2007,27.2128,,13.346,,False,False
+334,Neue Vahr Südwest,2008,27.0038,,,,False,False
+334,Neue Vahr Südwest,2009,28.9103,49.8589,,16.0217,False,False
+334,Neue Vahr Südwest,2010,26.6847,48.9111,13.503,,False,False
+334,Neue Vahr Südwest,2011,24.2414,52.2364,,14.0039,False,False
+334,Neue Vahr Südwest,2012,24.0511,53.4002,,14.8977,False,False
+334,Neue Vahr Südwest,2013,21.97,52.6337,16.304,13.8816,False,False
+334,Neue Vahr Südwest,2014,21.9064,54.4212,16.813,13.2051,False,False
+334,Neue Vahr Südwest,2015,20.1638,54.9097,17.536,12.6814,False,False
+334,Neue Vahr Südwest,2016,21.4455,58.3448,18.463,9.9515,False,False
+334,Neue Vahr Südwest,2017,21.0597,60.0275,19.161,10.4862,False,False
+334,Neue Vahr Südwest,2018,21.3115,59.8629,20.581,9.3713,False,False
+334,Neue Vahr Südwest,2019,21.2588,62.3753,21.056,10.6001,False,False
+334,Neue Vahr Südwest,2020,22.6512,63.5392,20.88,13.7097,False,False
+334,Neue Vahr Südwest,2021,21.1205,63.8528,,12.7869,False,False
+334,Neue Vahr Südwest,2022,20.4727,68.4137,,10.4935,False,False
+334,Neue Vahr Südwest,2023,19.7781,64.8105,,12.4804,False,False
+334,Neue Vahr Südwest,2024,19.7864,63.2097,,12.4279,False,False
+335,Neue Vahr Südost,2001,,,20.053,,False,False
+335,Neue Vahr Südost,2004,,,13.071,,False,False
+335,Neue Vahr Südost,2005,28.2797,,,,False,False
+335,Neue Vahr Südost,2006,29.1585,,,,False,False
+335,Neue Vahr Südost,2007,29.721,,12.272,,False,False
+335,Neue Vahr Südost,2008,27.2384,,,,False,False
+335,Neue Vahr Südost,2009,29.2524,46.2657,,19.3414,False,False
+335,Neue Vahr Südost,2010,29.523,46.8868,13.501,,False,False
+335,Neue Vahr Südost,2011,28.3015,48.8128,,18.4716,False,False
+335,Neue Vahr Südost,2012,27.5985,48.4213,,18.7296,False,False
+335,Neue Vahr Südost,2013,27.995,50.1764,15.606,17.155,False,False
+335,Neue Vahr Südost,2014,28.1466,51.1534,16.194,16.7246,False,False
+335,Neue Vahr Südost,2015,27.4934,52.4668,17.274,16.2042,False,False
+335,Neue Vahr Südost,2016,28.1578,53.906,18.233,14.6473,False,False
+335,Neue Vahr Südost,2017,28.8642,54.8961,18.887,14.6341,False,False
+335,Neue Vahr Südost,2018,28.9281,55.916,20.292,14.743,False,False
+335,Neue Vahr Südost,2019,27.8697,57.0271,21.416,14.5687,False,False
+335,Neue Vahr Südost,2020,28.4995,57.7268,20.957,17.189,False,False
+335,Neue Vahr Südost,2021,26.8016,60.4626,,15.7863,False,False
+335,Neue Vahr Südost,2022,24.4381,60.2979,,15.1322,False,False
+335,Neue Vahr Südost,2023,24.9207,58.4726,,16.1916,False,False
+335,Neue Vahr Südost,2024,24.4699,59.0784,,16.7066,False,False
+341,Horn,2001,,,32.65,,False,False
+341,Horn,2004,,,24.648,,False,False
+341,Horn,2005,6.5649,,,,False,False
+341,Horn,2006,6.4649,,,,False,False
+341,Horn,2007,5.3318,,28.992,,False,False
+341,Horn,2008,5.4688,,,,False,False
+341,Horn,2009,6.0237,44.1026,,6.739,False,False
+341,Horn,2010,5.122,44.7586,31.525,,False,False
+341,Horn,2011,4.3199,45.5314,,5.424,False,False
+341,Horn,2012,4.386,47.0437,,6.1359,False,False
+341,Horn,2013,3.9988,47.7949,34.682,5.8616,False,False
+341,Horn,2014,4.0587,50.2981,35.814,4.2084,False,False
+341,Horn,2015,4.3206,51.1837,36.514,5.1249,False,False
+341,Horn,2016,3.9739,52.1397,37.251,5.0499,False,False
+341,Horn,2017,3.975,53.5984,39.267,4.7503,False,False
+341,Horn,2018,4.3392,55.1807,39.663,3.7237,False,False
+341,Horn,2019,3.8927,56.8887,40.702,4.2278,False,False
+341,Horn,2020,3.7347,56.0709,39.581,5.7793,False,False
+341,Horn,2021,4.0045,57.3012,,4.8331,False,False
+341,Horn,2022,3.9033,58.4889,,5.1873,False,False
+341,Horn,2023,3.5683,60.9462,,4.6171,False,False
+341,Horn,2024,3.5513,60.3467,,4.5688,False,False
+342,Lehe,2001,,,24.718,,False,False
+342,Lehe,2004,,,20.014,,False,False
+342,Lehe,2005,6.0626,,,,False,False
+342,Lehe,2006,6.1927,,,,False,False
+342,Lehe,2007,5.918,,18.79,,False,False
+342,Lehe,2008,5.8102,,,,False,False
+342,Lehe,2009,5.7845,40.0134,,7.6596,False,False
+342,Lehe,2010,5.7647,39.7738,20.607,,False,False
+342,Lehe,2011,5.0015,41.7701,,7.4413,False,False
+342,Lehe,2012,5.0733,42.0403,,6.8198,False,False
+342,Lehe,2013,4.8836,41.764,20.998,6.9735,False,False
+342,Lehe,2014,4.6607,43.0717,22.019,5.6256,False,False
+342,Lehe,2015,4.0419,44.8395,23.0,5.491,False,False
+342,Lehe,2016,4.1937,47.6132,23.973,6.0194,False,False
+342,Lehe,2017,4.2248,50.8631,24.902,4.9065,False,False
+342,Lehe,2018,4.7121,50.8073,25.971,4.6176,False,False
+342,Lehe,2019,5.3463,51.0985,23.9,4.6762,False,False
+342,Lehe,2020,5.2535,49.0268,25.262,6.0276,False,False
+342,Lehe,2021,4.7773,50.1827,,5.6234,False,False
+342,Lehe,2022,6.599,52.0572,,4.9736,False,False
+342,Lehe,2023,6.0178,54.5827,,6.0428,False,False
+342,Lehe,2024,6.2507,54.14,,6.6759,False,False
+343,Lehesterdeich,2001,,,28.566,,False,False
+343,Lehesterdeich,2004,,,23.008,,False,False
+343,Lehesterdeich,2005,10.0346,,,,False,False
+343,Lehesterdeich,2006,9.9871,,,,False,False
+343,Lehesterdeich,2007,9.4219,,23.805,,False,False
+343,Lehesterdeich,2008,9.1374,,,,False,False
+343,Lehesterdeich,2009,9.491,50.5397,,7.9651,False,False
+343,Lehesterdeich,2010,8.3847,51.1399,25.331,,False,False
+343,Lehesterdeich,2011,8.7239,54.0295,,7.0396,False,False
+343,Lehesterdeich,2012,7.9584,54.781,,7.6186,False,False
+343,Lehesterdeich,2013,8.5341,55.6324,27.562,7.0735,False,False
+343,Lehesterdeich,2014,8.5493,56.915,28.332,7.1299,False,False
+343,Lehesterdeich,2015,7.4947,56.8942,28.967,6.1284,False,False
+343,Lehesterdeich,2016,7.0931,57.8087,29.511,5.984,False,False
+343,Lehesterdeich,2017,7.4091,60.0547,31.104,5.7333,False,False
+343,Lehesterdeich,2018,7.7681,60.7498,32.587,5.4406,False,False
+343,Lehesterdeich,2019,8.0005,62.2259,34.023,5.389,False,False
+343,Lehesterdeich,2020,8.3212,62.5397,34.163,6.8654,False,False
+343,Lehesterdeich,2021,7.5662,62.8848,,6.443,False,False
+343,Lehesterdeich,2022,8.5954,63.5225,,5.1319,False,False
+343,Lehesterdeich,2023,8.8861,62.505,,6.5287,False,False
+343,Lehesterdeich,2024,8.8795,62.4753,,7.3423,False,False
+351,Borgfeld,2001,,,37.628,,False,False
+351,Borgfeld,2004,,,33.701,,False,False
+351,Borgfeld,2005,2.0481,,,,False,False
+351,Borgfeld,2006,1.8122,,,,False,False
+351,Borgfeld,2007,1.8541,,38.394,,False,False
+351,Borgfeld,2008,1.9622,,,,False,False
+351,Borgfeld,2009,2.16,47.7621,,3.6357,False,False
+351,Borgfeld,2010,1.9989,47.9849,40.875,,False,False
+351,Borgfeld,2011,1.7289,49.5926,,3.8765,False,False
+351,Borgfeld,2012,1.6057,50.547,,3.1447,False,False
+351,Borgfeld,2013,1.414,51.8197,43.7,3.4007,False,False
+351,Borgfeld,2014,1.3404,51.544,45.636,3.0722,False,False
+351,Borgfeld,2015,1.3287,52.1754,46.923,3.3355,False,False
+351,Borgfeld,2016,1.3744,52.357,48.162,3.111,False,False
+351,Borgfeld,2017,1.4637,54.0965,48.273,3.0031,False,False
+351,Borgfeld,2018,1.2513,54.3612,50.898,2.6675,False,False
+351,Borgfeld,2019,1.2316,55.8887,52.222,2.9287,False,False
+351,Borgfeld,2020,1.4831,55.7439,51.863,3.4751,False,False
+351,Borgfeld,2021,1.5456,55.6805,,3.0792,False,False
+351,Borgfeld,2022,1.7321,56.2393,,2.5901,False,False
+351,Borgfeld,2023,1.7457,56.2995,,2.1538,False,False
+351,Borgfeld,2024,1.7015,57.1034,,3.4463,False,False
+361,Oberneuland,2001,,,39.042,,False,False
+361,Oberneuland,2004,,,30.627,,False,False
+361,Oberneuland,2005,4.2439,,,,False,False
+361,Oberneuland,2006,4.3273,,,,False,False
+361,Oberneuland,2007,3.7232,,33.917,,False,False
+361,Oberneuland,2008,3.6008,,,,False,False
+361,Oberneuland,2009,3.6748,42.5716,,7.5562,False,False
+361,Oberneuland,2010,3.3174,43.5488,34.735,,False,False
+361,Oberneuland,2011,3.1739,45.448,,6.2382,False,False
+361,Oberneuland,2012,3.1045,46.3216,,5.0921,False,False
+361,Oberneuland,2013,2.9901,48.0727,37.593,5.5891,False,False
+361,Oberneuland,2014,3.2237,48.903,39.209,4.8845,False,False
+361,Oberneuland,2015,3.5902,49.1587,39.841,4.8463,False,False
+361,Oberneuland,2016,3.345,50.7588,40.868,4.2922,False,False
+361,Oberneuland,2017,4.4379,52.5434,42.59,4.3938,False,False
+361,Oberneuland,2018,4.5893,52.7107,43.095,4.6605,False,False
+361,Oberneuland,2019,4.462,53.9409,43.925,4.5204,False,False
+361,Oberneuland,2020,4.2617,53.7841,44.329,6.351,False,False
+361,Oberneuland,2021,3.9334,53.3861,,4.9821,False,False
+361,Oberneuland,2022,4.1316,54.4964,,4.7358,False,False
+361,Oberneuland,2023,3.8122,56.3971,,5.098,False,False
+361,Oberneuland,2024,4.4713,56.202,,5.4656,False,False
+371,Ellener Feld,2001,,,23.353,,False,False
+371,Ellener Feld,2004,,,18.289,,False,False
+371,Ellener Feld,2005,13.6505,,,,False,False
+371,Ellener Feld,2006,9.9005,,,,False,False
+371,Ellener Feld,2007,11.3224,,18.747,,False,False
+371,Ellener Feld,2008,12.5783,,,,False,False
+371,Ellener Feld,2009,11.6417,54.8421,,8.9161,False,False
+371,Ellener Feld,2010,10.765,55.2639,19.123,,False,False
+371,Ellener Feld,2011,10.6109,55.1578,,8.9317,False,False
+371,Ellener Feld,2012,10.9209,55.1177,,8.9956,False,False
+371,Ellener Feld,2013,10.4895,57.0372,20.717,9.3199,False,False
+371,Ellener Feld,2014,10.7274,60.3793,21.541,6.905,False,False
+371,Ellener Feld,2015,10.7242,60.274,21.541,7.1429,False,False
+371,Ellener Feld,2016,12.9761,59.8847,23.426,6.0535,False,False
+371,Ellener Feld,2017,14.0138,59.1981,24.853,7.7273,False,False
+371,Ellener Feld,2018,11.0963,61.4376,25.664,6.2356,False,False
+371,Ellener Feld,2019,10.4083,64.5062,26.797,7.5221,False,False
+371,Ellener Feld,2020,10.0566,61.9108,26.981,8.8522,False,False
+371,Ellener Feld,2021,8.7855,63.3678,,7.8561,False,False
+371,Ellener Feld,2022,8.9146,64.9704,,6.4057,False,False
+371,Ellener Feld,2023,9.9322,63.1228,,7.3478,False,False
+371,Ellener Feld,2024,11.2453,61.9301,,8.1044,False,False
+372,Ellenerbrok-Schevemoor,2001,,,24.139,,False,False
+372,Ellenerbrok-Schevemoor,2004,,,18.62,,False,False
+372,Ellenerbrok-Schevemoor,2005,17.9521,,,,False,False
+372,Ellenerbrok-Schevemoor,2006,19.1311,,,,False,False
+372,Ellenerbrok-Schevemoor,2007,18.9548,,18.271,,False,False
+372,Ellenerbrok-Schevemoor,2008,18.253,,,,False,False
+372,Ellenerbrok-Schevemoor,2009,18.9228,48.5377,,14.9787,False,False
+372,Ellenerbrok-Schevemoor,2010,19.8431,49.3177,17.932,,False,False
+372,Ellenerbrok-Schevemoor,2011,18.8849,50.7518,,13.2154,False,False
+372,Ellenerbrok-Schevemoor,2012,19.3671,52.2173,,13.4541,False,False
+372,Ellenerbrok-Schevemoor,2013,20.0645,52.8315,19.223,13.2156,False,False
+372,Ellenerbrok-Schevemoor,2014,19.3349,54.4167,20.003,12.2063,False,False
+372,Ellenerbrok-Schevemoor,2015,18.7789,54.7627,20.563,12.2607,False,False
+372,Ellenerbrok-Schevemoor,2016,18.9733,55.8491,21.587,11.7359,False,False
+372,Ellenerbrok-Schevemoor,2017,19.4063,57.2781,22.519,10.8632,False,False
+372,Ellenerbrok-Schevemoor,2018,19.4347,58.0396,23.425,10.8664,False,False
+372,Ellenerbrok-Schevemoor,2019,19.2492,58.8347,25.693,11.2132,False,False
+372,Ellenerbrok-Schevemoor,2020,18.8753,59.2698,25.063,12.7269,False,False
+372,Ellenerbrok-Schevemoor,2021,18.175,60.7915,,11.9006,False,False
+372,Ellenerbrok-Schevemoor,2022,17.3385,61.2594,,10.3836,False,False
+372,Ellenerbrok-Schevemoor,2023,16.7965,60.2781,,10.857,False,False
+372,Ellenerbrok-Schevemoor,2024,17.2843,60.0425,,11.8448,False,False
+373,Tenever,2001,,,20.881,,False,False
+373,Tenever,2004,,,13.744,,False,False
+373,Tenever,2005,40.2735,,,,False,False
+373,Tenever,2006,42.2578,,,,False,False
+373,Tenever,2007,40.8751,,12.89,,False,False
+373,Tenever,2008,38.6485,,,,False,False
+373,Tenever,2009,39.5598,39.3084,,27.0254,False,False
+373,Tenever,2010,39.3219,40.2937,12.568,,False,False
+373,Tenever,2011,37.7884,42.3049,,24.1717,False,False
+373,Tenever,2012,38.0132,41.8537,,23.3873,False,False
+373,Tenever,2013,37.3481,41.3315,14.637,23.4287,False,False
+373,Tenever,2014,35.9379,42.7021,15.19,22.117,False,False
+373,Tenever,2015,36.4876,44.4985,15.929,20.8868,False,False
+373,Tenever,2016,34.5374,45.4538,16.763,19.8626,False,False
+373,Tenever,2017,34.7645,47.7593,17.874,18.8559,False,False
+373,Tenever,2018,34.5994,49.1131,18.448,17.2643,False,False
+373,Tenever,2019,35.6586,50.2912,19.657,17.1616,False,False
+373,Tenever,2020,35.3788,50.1536,20.207,21.7907,False,False
+373,Tenever,2021,33.9249,51.7295,,20.9846,False,False
+373,Tenever,2022,31.0721,51.4286,,18.966,False,False
+373,Tenever,2023,31.6266,50.4658,,19.3947,False,False
+373,Tenever,2024,30.2551,51.2898,,19.7758,False,False
+374,Osterholz,2001,,,30.466,,False,False
+374,Osterholz,2004,,,24.377,,False,False
+374,Osterholz,2005,5.2023,,,,False,False
+374,Osterholz,2006,6.7975,,,,False,False
+374,Osterholz,2007,5.4838,,24.44,,False,False
+374,Osterholz,2008,5.3441,,,,False,False
+374,Osterholz,2009,5.6681,54.842,,6.9204,False,False
+374,Osterholz,2010,5.9598,54.3513,25.332,,False,False
+374,Osterholz,2011,6.2216,55.3762,,6.2927,False,False
+374,Osterholz,2012,5.4706,55.4644,,6.2317,False,False
+374,Osterholz,2013,5.4545,56.3934,28.04,5.8991,False,False
+374,Osterholz,2014,6.0738,56.6562,28.577,5.1749,False,False
+374,Osterholz,2015,5.9895,58.3754,28.688,5.8632,False,False
+374,Osterholz,2016,5.2805,58.8554,29.392,5.1081,False,False
+374,Osterholz,2017,5.119,61.0691,29.959,4.8845,False,False
+374,Osterholz,2018,4.0878,61.8073,31.384,4.4376,False,False
+374,Osterholz,2019,4.4582,63.9619,32.838,3.8284,False,False
+374,Osterholz,2020,3.9764,64.42,33.591,4.8931,False,False
+374,Osterholz,2021,3.5682,64.3396,,4.872,False,False
+374,Osterholz,2022,4.1244,64.9802,,4.0,False,False
+374,Osterholz,2023,4.3544,64.8072,,4.2587,False,False
+374,Osterholz,2024,3.6106,65.107,,4.734,False,False
+375,Blockdiek,2001,,,22.15,,False,False
+375,Blockdiek,2004,,,15.101,,False,False
+375,Blockdiek,2005,30.684,,,,False,False
+375,Blockdiek,2006,31.1169,,,,False,False
+375,Blockdiek,2007,31.1139,,13.518,,False,False
+375,Blockdiek,2008,28.3973,,,,False,False
+375,Blockdiek,2009,29.7465,43.029,,19.5957,False,False
+375,Blockdiek,2010,29.5888,44.0924,13.475,,False,False
+375,Blockdiek,2011,27.5085,47.0548,,17.3392,False,False
+375,Blockdiek,2012,27.5716,48.137,,16.4659,False,False
+375,Blockdiek,2013,26.5664,48.363,16.002,16.9811,False,False
+375,Blockdiek,2014,26.3953,49.8831,16.328,16.1164,False,False
+375,Blockdiek,2015,25.9708,51.5222,17.312,14.9923,False,False
+375,Blockdiek,2016,25.5935,53.6854,17.994,13.3055,False,False
+375,Blockdiek,2017,26.8935,55.1232,19.302,12.6697,False,False
+375,Blockdiek,2018,25.4429,55.5542,20.003,13.3708,False,False
+375,Blockdiek,2019,24.787,56.3067,21.505,14.0325,False,False
+375,Blockdiek,2020,24.6163,56.5026,21.862,16.6245,False,False
+375,Blockdiek,2021,22.9271,58.5634,,15.5011,False,False
+375,Blockdiek,2022,21.2844,58.3828,,14.7038,False,False
+375,Blockdiek,2023,20.9593,57.4108,,15.2768,False,False
+375,Blockdiek,2024,20.9611,58.0992,,15.494,False,False
+381,Sebaldsbrück,2001,,,25.506,,False,False
+381,Sebaldsbrück,2004,,,19.6,,False,False
+381,Sebaldsbrück,2005,15.6782,,,,False,False
+381,Sebaldsbrück,2006,16.3985,,,,False,False
+381,Sebaldsbrück,2007,15.7614,,19.329,,False,False
+381,Sebaldsbrück,2008,16.1473,,,,False,False
+381,Sebaldsbrück,2009,16.8536,48.5868,,13.5734,False,False
+381,Sebaldsbrück,2010,16.0474,49.8096,19.47,,False,False
+381,Sebaldsbrück,2011,16.4896,51.0048,,11.8945,False,False
+381,Sebaldsbrück,2012,16.0125,51.1798,,12.5464,False,False
+381,Sebaldsbrück,2013,16.585,51.113,20.97,11.9631,False,False
+381,Sebaldsbrück,2014,16.0977,52.8737,21.989,11.8258,False,False
+381,Sebaldsbrück,2015,15.6556,54.2452,22.698,11.0754,False,False
+381,Sebaldsbrück,2016,15.7073,55.2661,23.621,9.7953,False,False
+381,Sebaldsbrück,2017,15.7464,57.3125,24.52,10.1024,False,False
+381,Sebaldsbrück,2018,14.6348,58.1929,25.875,9.908,False,False
+381,Sebaldsbrück,2019,14.024,57.4844,27.038,10.0395,False,False
+381,Sebaldsbrück,2020,15.0081,59.128,27.14,11.8421,False,False
+381,Sebaldsbrück,2021,14.5798,60.2746,,11.1488,False,False
+381,Sebaldsbrück,2022,14.275,61.4779,,10.1263,False,False
+381,Sebaldsbrück,2023,13.8283,60.5931,,11.3397,False,False
+381,Sebaldsbrück,2024,13.6393,60.7894,,10.9762,False,False
+382,Hastedt,2001,,,24.107,,False,False
+382,Hastedt,2004,,,20.449,,False,False
+382,Hastedt,2005,13.5424,,,,False,False
+382,Hastedt,2006,14.6809,,,,False,False
+382,Hastedt,2007,13.7515,,20.347,,False,False
+382,Hastedt,2008,13.2896,,,,False,False
+382,Hastedt,2009,14.5357,50.0689,,12.77,False,False
+382,Hastedt,2010,13.51,50.4173,20.67,,False,False
+382,Hastedt,2011,13.3792,52.1285,,11.059,False,False
+382,Hastedt,2012,13.1864,52.8469,,11.4286,False,False
+382,Hastedt,2013,13.0334,53.5206,21.818,11.1136,False,False
+382,Hastedt,2014,12.7483,53.762,22.633,10.8399,False,False
+382,Hastedt,2015,12.4365,54.669,23.11,10.3323,False,False
+382,Hastedt,2016,14.7121,55.203,23.947,10.2548,False,False
+382,Hastedt,2017,15.1059,56.5459,25.18,10.1271,False,False
+382,Hastedt,2018,13.7574,58.2144,26.044,9.5587,False,False
+382,Hastedt,2019,13.1687,61.3449,26.857,9.7481,False,False
+382,Hastedt,2020,13.1428,60.7625,26.758,11.2872,False,False
+382,Hastedt,2021,12.1988,62.5143,,9.9052,False,False
+382,Hastedt,2022,12.7857,63.291,,9.1673,False,False
+382,Hastedt,2023,13.7075,61.4261,,10.8502,False,False
+382,Hastedt,2024,12.4187,61.5617,,11.5414,False,False
+383,Hemelingen,2001,,,23.27,,False,False
+383,Hemelingen,2004,,,18.33,,False,False
+383,Hemelingen,2005,23.9658,,,,False,False
+383,Hemelingen,2006,25.3515,,,,False,False
+383,Hemelingen,2007,24.8771,,17.325,,False,False
+383,Hemelingen,2008,24.2324,,,,False,False
+383,Hemelingen,2009,24.3208,43.9309,,17.9466,False,False
+383,Hemelingen,2010,24.0632,44.3328,16.932,,False,False
+383,Hemelingen,2011,23.1268,46.5771,,16.4508,False,False
+383,Hemelingen,2012,23.5198,47.5566,,16.4037,False,False
+383,Hemelingen,2013,24.7912,46.6851,17.544,17.4837,False,False
+383,Hemelingen,2014,24.0865,48.6253,18.236,17.0053,False,False
+383,Hemelingen,2015,25.6769,49.3886,18.7,16.3333,False,False
+383,Hemelingen,2016,26.2013,51.0565,19.369,15.2005,False,False
+383,Hemelingen,2017,26.5374,52.053,20.705,14.7104,False,False
+383,Hemelingen,2018,25.9853,52.6547,21.587,14.4276,False,False
+383,Hemelingen,2019,25.3328,53.1457,23.0,15.652,False,False
+383,Hemelingen,2020,25.6002,54.3432,22.153,17.6518,False,False
+383,Hemelingen,2021,24.0797,56.2162,,17.3784,False,False
+383,Hemelingen,2022,23.1069,57.5571,,15.2165,False,False
+383,Hemelingen,2023,23.9336,57.1018,,15.195,False,False
+383,Hemelingen,2024,23.5626,56.7673,,16.2271,False,False
+384,Arbergen,2001,,,29.538,,False,False
+384,Arbergen,2004,,,23.815,,False,False
+384,Arbergen,2005,8.1885,,,,False,False
+384,Arbergen,2006,8.5662,,,,False,False
+384,Arbergen,2007,8.2868,,24.111,,False,False
+384,Arbergen,2008,7.0363,,,,False,False
+384,Arbergen,2009,7.9889,54.9672,,8.1699,False,False
+384,Arbergen,2010,9.0078,54.5606,23.165,,False,False
+384,Arbergen,2011,8.4119,56.376,,7.1036,False,False
+384,Arbergen,2012,8.2008,55.9767,,6.7961,False,False
+384,Arbergen,2013,8.0518,57.8977,25.09,6.5949,False,False
+384,Arbergen,2014,7.7598,58.3414,25.921,5.6849,False,False
+384,Arbergen,2015,7.8947,58.8397,26.604,6.25,False,False
+384,Arbergen,2016,10.3016,59.2663,27.948,6.9539,False,False
+384,Arbergen,2017,10.5346,59.6934,28.367,6.5817,False,False
+384,Arbergen,2018,8.7093,61.5977,29.436,6.3936,False,False
+384,Arbergen,2019,9.6731,62.9512,30.898,6.183,False,False
+384,Arbergen,2020,9.9567,62.9728,30.669,7.5789,False,False
+384,Arbergen,2021,9.38,63.9571,,6.864,False,False
+384,Arbergen,2022,9.7691,64.0314,,6.8135,False,False
+384,Arbergen,2023,10.1576,64.1458,,5.9462,False,False
+384,Arbergen,2024,9.9252,63.6562,,6.6427,False,False
+385,Mahndorf,2001,,,28.609,,False,False
+385,Mahndorf,2004,,,22.911,,False,False
+385,Mahndorf,2005,13.4588,,,,False,False
+385,Mahndorf,2006,14.203,,,,False,False
+385,Mahndorf,2007,14.1574,,22.695,,False,False
+385,Mahndorf,2008,13.5847,,,,False,False
+385,Mahndorf,2009,13.1516,52.1037,,11.5454,False,False
+385,Mahndorf,2010,13.6662,53.2305,22.43,,False,False
+385,Mahndorf,2011,12.7379,53.8235,,9.5174,False,False
+385,Mahndorf,2012,13.3363,55.3846,,9.7228,False,False
+385,Mahndorf,2013,13.7369,55.8033,23.364,9.1426,False,False
+385,Mahndorf,2014,13.8327,56.6797,24.508,10.4567,False,False
+385,Mahndorf,2015,13.5721,57.669,25.399,9.4128,False,False
+385,Mahndorf,2016,13.5701,58.5115,25.339,8.3116,False,False
+385,Mahndorf,2017,14.3279,59.672,26.954,8.0514,False,False
+385,Mahndorf,2018,14.0685,60.7054,28.108,7.1368,False,False
+385,Mahndorf,2019,14.1986,60.9325,29.489,8.218,False,False
+385,Mahndorf,2020,14.2239,61.8499,29.178,9.9099,False,False
+385,Mahndorf,2021,13.0346,64.308,,9.446,False,False
+385,Mahndorf,2022,12.0914,63.7029,,7.0608,False,False
+385,Mahndorf,2023,12.4693,64.4674,,7.9441,False,False
+385,Mahndorf,2024,12.3786,64.6453,,9.2896,False,False
+411,Blockland,2001,,,25.815,,False,False
+411,Blockland,2004,,,23.456,,False,False
+411,Blockland,2005,4.3478,,,,False,False
+411,Blockland,2006,3.9344,,,,False,False
+411,Blockland,2007,3.096,,27.555,,False,False
+411,Blockland,2008,2.5,,,,False,False
+411,Blockland,2009,2.8391,42.8843,,5.042,False,False
+411,Blockland,2010,2.4615,43.3145,27.0,,False,False
+411,Blockland,2011,4.2208,42.7746,,2.6316,False,False
+411,Blockland,2012,2.3179,41.3655,,3.7383,False,False
+411,Blockland,2013,3.268,44.2656,28.214,4.3478,False,False
+411,Blockland,2014,3.9867,48.6056,32.385,3.937,False,False
+411,Blockland,2015,3.2051,47.6563,31.095,5.4264,False,False
+411,Blockland,2016,2.5237,45.3333,33.214,8.4615,False,False
+411,Blockland,2017,1.8987,48.1836,33.572,3.0769,False,False
+411,Blockland,2018,1.8576,,33.758,,False,False
+411,Blockland,2019,2.5723,,38.088,,False,False
+411,Blockland,2020,1.8072,,35.284,,False,False
+411,Blockland,2021,1.2121,,,,False,False
+411,Blockland,2022,3.8922,,,,False,False
+411,Blockland,2023,3.3951,,,,False,False
+411,Blockland,2024,1.9048,,,,False,False
+421,Regensburger Straße,2001,,,22.545,,False,False
+421,Regensburger Straße,2004,,,20.055,,False,False
+421,Regensburger Straße,2005,13.9448,,,,False,False
+421,Regensburger Straße,2006,14.3853,,,,False,False
+421,Regensburger Straße,2007,13.5896,,19.603,,False,False
+421,Regensburger Straße,2008,13.5429,,,,False,False
+421,Regensburger Straße,2009,13.6418,49.5263,,13.1533,False,False
+421,Regensburger Straße,2010,13.5714,48.8985,20.913,,False,False
+421,Regensburger Straße,2011,13.6239,50.9191,,12.3223,False,False
+421,Regensburger Straße,2012,13.3415,50.9383,,13.2273,False,False
+421,Regensburger Straße,2013,12.8549,51.8275,21.877,11.7966,False,False
+421,Regensburger Straße,2014,12.8461,53.661,23.338,11.2422,False,False
+421,Regensburger Straße,2015,12.1718,54.3703,24.035,10.8759,False,False
+421,Regensburger Straße,2016,12.0976,54.6816,24.872,9.198,False,False
+421,Regensburger Straße,2017,12.0826,56.7652,25.94,8.7785,False,False
+421,Regensburger Straße,2018,11.5529,57.1511,27.496,8.2247,False,False
+421,Regensburger Straße,2019,11.0865,58.4239,27.787,9.3731,False,False
+421,Regensburger Straße,2020,11.0399,59.3039,28.065,10.7926,False,False
+421,Regensburger Straße,2021,10.151,61.5783,,9.3732,False,False
+421,Regensburger Straße,2022,11.1892,61.8748,,7.9596,False,False
+421,Regensburger Straße,2023,11.2676,60.3849,,8.4643,False,False
+421,Regensburger Straße,2024,11.662,61.227,,9.1751,False,False
+422,Findorff-Bürgerweide,2001,,,21.204,,False,False
+422,Findorff-Bürgerweide,2004,,,18.832,,False,False
+422,Findorff-Bürgerweide,2005,13.3937,,,,False,False
+422,Findorff-Bürgerweide,2006,13.5125,,,,False,False
+422,Findorff-Bürgerweide,2007,14.0201,,18.177,,False,False
+422,Findorff-Bürgerweide,2008,13.3466,,,,False,False
+422,Findorff-Bürgerweide,2009,14.0313,47.2298,,15.157,False,False
+422,Findorff-Bürgerweide,2010,13.113,47.7944,19.136,,False,False
+422,Findorff-Bürgerweide,2011,13.2871,49.611,,13.0973,False,False
+422,Findorff-Bürgerweide,2012,12.6993,50.25,,14.1562,False,False
+422,Findorff-Bürgerweide,2013,12.1179,50.6753,21.057,13.0662,False,False
+422,Findorff-Bürgerweide,2014,12.8311,51.9688,22.263,11.5742,False,False
+422,Findorff-Bürgerweide,2015,13.3175,54.3834,23.044,11.0553,False,False
+422,Findorff-Bürgerweide,2016,13.0013,55.5762,24.214,9.6373,False,False
+422,Findorff-Bürgerweide,2017,11.9615,57.2546,25.723,9.9093,False,False
+422,Findorff-Bürgerweide,2018,11.2742,58.1934,27.241,8.7669,False,False
+422,Findorff-Bürgerweide,2019,11.0827,61.0096,27.933,8.7757,False,False
+422,Findorff-Bürgerweide,2020,11.5464,61.8672,26.755,10.2888,False,False
+422,Findorff-Bürgerweide,2021,10.4036,64.3707,,9.1288,False,False
+422,Findorff-Bürgerweide,2022,10.8671,64.5462,,8.0085,False,False
+422,Findorff-Bürgerweide,2023,10.5075,63.9007,,8.4246,False,False
+422,Findorff-Bürgerweide,2024,10.6859,64.017,,8.4704,False,False
+423,Weidedamm,2001,,,26.71,,False,False
+423,Weidedamm,2004,,,20.711,,False,False
+423,Weidedamm,2005,8.7759,,,,False,False
+423,Weidedamm,2006,9.5109,,,,False,False
+423,Weidedamm,2007,9.4097,,22.078,,False,False
+423,Weidedamm,2008,9.322,,,,False,False
+423,Weidedamm,2009,9.7766,49.2237,,9.9208,False,False
+423,Weidedamm,2010,9.5159,49.4779,23.123,,False,False
+423,Weidedamm,2011,9.7042,50.8177,,9.424,False,False
+423,Weidedamm,2012,9.752,52.1587,,8.9576,False,False
+423,Weidedamm,2013,9.733,52.5637,24.877,9.0199,False,False
+423,Weidedamm,2014,9.3831,53.9652,26.384,8.6366,False,False
+423,Weidedamm,2015,8.8016,54.483,27.31,8.2479,False,False
+423,Weidedamm,2016,8.6205,55.2162,27.934,6.99,False,False
+423,Weidedamm,2017,8.8468,56.171,29.408,7.2926,False,False
+423,Weidedamm,2018,8.177,57.5552,30.462,6.8886,False,False
+423,Weidedamm,2019,8.1731,58.7436,31.194,6.4882,False,False
+423,Weidedamm,2020,8.7463,59.6294,31.393,7.4711,False,False
+423,Weidedamm,2021,8.0693,61.0129,,7.4037,False,False
+423,Weidedamm,2022,8.5987,61.2815,,6.4215,False,False
+423,Weidedamm,2023,8.6524,62.5959,,6.3028,False,False
+423,Weidedamm,2024,8.6612,62.1634,,7.2169,False,False
+424,In den Hufen,2001,,,13.204,,False,False
+424,In den Hufen,2004,,,11.002,,False,False
+424,In den Hufen,2005,12.6263,,,,False,False
+424,In den Hufen,2006,8.9888,,,,False,False
+424,In den Hufen,2007,10.2703,,10.72,,False,False
+424,In den Hufen,2008,9.7701,,,,False,False
+424,In den Hufen,2009,9.4937,56.6434,,10.989,False,False
+424,In den Hufen,2010,10.4575,58.5185,12.673,,False,False
+424,In den Hufen,2011,9.2715,35.4717,,16.0714,False,False
+424,In den Hufen,2012,9.1549,39.2308,,10.5263,False,False
+424,In den Hufen,2013,7.9137,41.5686,21.272,11.6667,False,False
+424,In den Hufen,2014,12.0567,38.5827,16.983,12.5,False,False
+424,In den Hufen,2015,13.6364,38.8664,17.191,15.7895,False,False
+424,In den Hufen,2016,8.4615,47.4576,21.515,8.1967,False,False
+424,In den Hufen,2017,6.9231,48.0687,21.51,6.6667,False,False
+424,In den Hufen,2018,5.0,,27.052,,False,False
+424,In den Hufen,2019,9.5652,,27.416,,False,False
+424,In den Hufen,2020,8.9286,,29.004,,False,False
+424,In den Hufen,2021,6.1404,,,,False,False
+424,In den Hufen,2022,5.5556,,,,False,False
+424,In den Hufen,2023,3.9604,,,,False,False
+424,In den Hufen,2024,0.9901,,,,False,False
+431,Utbremen,2001,,,19.942,,False,False
+431,Utbremen,2004,,,15.402,,False,False
+431,Utbremen,2005,21.9249,,,,False,False
+431,Utbremen,2006,22.9292,,,,False,False
+431,Utbremen,2007,24.6774,,14.172,,False,False
+431,Utbremen,2008,23.32,,,,False,False
+431,Utbremen,2009,24.9601,45.0518,,18.6383,False,False
+431,Utbremen,2010,22.7773,46.8265,14.742,,False,False
+431,Utbremen,2011,23.2558,49.5883,,16.3492,False,False
+431,Utbremen,2012,23.0134,50.8251,,16.4341,False,False
+431,Utbremen,2013,21.4341,51.0539,16.831,17.0472,False,False
+431,Utbremen,2014,21.8326,53.3793,17.838,13.9362,False,False
+431,Utbremen,2015,22.615,52.6556,18.953,14.3175,False,False
+431,Utbremen,2016,23.722,53.5504,19.506,13.9535,False,False
+431,Utbremen,2017,24.3045,54.2282,21.158,13.8593,False,False
+431,Utbremen,2018,23.4066,54.4843,21.789,13.2762,False,False
+431,Utbremen,2019,21.9882,56.6495,22.968,13.9059,False,False
+431,Utbremen,2020,22.1502,56.0292,22.456,15.9945,False,False
+431,Utbremen,2021,20.0076,57.8447,,13.8716,False,False
+431,Utbremen,2022,18.8729,59.658,,11.0269,False,False
+431,Utbremen,2023,20.0523,60.5425,,12.8037,False,False
+431,Utbremen,2024,20.1029,61.8321,,11.5039,False,False
+432,Steffensweg,2001,,,18.947,,False,False
+432,Steffensweg,2004,,,16.271,,False,False
+432,Steffensweg,2005,19.0011,,,,False,False
+432,Steffensweg,2006,21.0282,,,,False,False
+432,Steffensweg,2007,21.5294,,14.571,,False,False
+432,Steffensweg,2008,21.3341,,,,False,False
+432,Steffensweg,2009,21.7503,45.6769,,21.3048,False,False
+432,Steffensweg,2010,21.3048,46.2684,15.172,,False,False
+432,Steffensweg,2011,21.7061,48.2885,,17.3242,False,False
+432,Steffensweg,2012,22.0309,48.6053,,19.2115,False,False
+432,Steffensweg,2013,20.771,50.1487,16.916,18.1671,False,False
+432,Steffensweg,2014,21.1168,50.9836,16.831,15.7895,False,False
+432,Steffensweg,2015,20.5584,52.9136,18.072,15.4719,False,False
+432,Steffensweg,2016,20.3744,55.2804,19.452,12.5821,False,False
+432,Steffensweg,2017,20.2922,54.1103,20.363,13.9822,False,False
+432,Steffensweg,2018,20.6421,54.7433,21.235,13.09,False,False
+432,Steffensweg,2019,19.4256,56.7664,22.109,13.1404,False,False
+432,Steffensweg,2020,19.7264,58.3923,20.413,15.5596,False,False
+432,Steffensweg,2021,19.354,60.4497,,14.2793,False,False
+432,Steffensweg,2022,17.6998,61.3818,,12.3098,False,False
+432,Steffensweg,2023,17.204,61.2477,,12.2799,False,False
+432,Steffensweg,2024,16.9187,60.8379,,12.2592,False,False
+433,Westend,2001,,,21.111,,False,False
+433,Westend,2004,,,16.485,,False,False
+433,Westend,2005,19.6712,,,,False,False
+433,Westend,2006,20.1379,,,,False,False
+433,Westend,2007,20.7394,,15.112,,False,False
+433,Westend,2008,19.7432,,,,False,False
+433,Westend,2009,20.3889,45.354,,19.1188,False,False
+433,Westend,2010,19.6721,46.2415,15.801,,False,False
+433,Westend,2011,19.5117,46.5942,,19.0049,False,False
+433,Westend,2012,18.3022,47.0019,,17.3469,False,False
+433,Westend,2013,18.8846,47.1514,16.638,17.6689,False,False
+433,Westend,2014,19.4013,48.3762,17.21,16.4907,False,False
+433,Westend,2015,19.8188,49.9841,18.683,15.9858,False,False
+433,Westend,2016,19.0806,51.2116,18.963,14.4409,False,False
+433,Westend,2017,20.0865,52.3508,20.192,15.1128,False,False
+433,Westend,2018,18.8954,53.2238,21.498,13.887,False,False
+433,Westend,2019,19.3231,55.2085,21.96,14.8876,False,False
+433,Westend,2020,18.4851,56.22,21.566,16.5739,False,False
+433,Westend,2021,17.2294,59.1731,,14.5649,False,False
+433,Westend,2022,18.0454,60.4228,,11.8989,False,False
+433,Westend,2023,17.9746,56.6501,,13.2511,False,False
+433,Westend,2024,17.802,55.9518,,13.6005,False,False
+434,Walle,2001,,,22.645,,False,False
+434,Walle,2004,,,17.448,,False,False
+434,Walle,2005,21.8629,,,,False,False
+434,Walle,2006,21.9343,,,,False,False
+434,Walle,2007,21.1981,,17.503,,False,False
+434,Walle,2008,20.2553,,,,False,False
+434,Walle,2009,20.8759,42.9076,,20.8626,False,False
+434,Walle,2010,21.5659,44.7742,17.895,,False,False
+434,Walle,2011,20.7393,47.2232,,18.3512,False,False
+434,Walle,2012,21.1,47.2274,,18.2636,False,False
+434,Walle,2013,21.6584,47.6513,19.51,18.3568,False,False
+434,Walle,2014,21.4789,48.9265,19.741,18.8774,False,False
+434,Walle,2015,22.0117,50.0801,20.233,18.4348,False,False
+434,Walle,2016,21.8166,50.5802,21.02,17.6284,False,False
+434,Walle,2017,21.826,52.6538,22.013,16.9858,False,False
+434,Walle,2018,21.2186,53.9242,23.159,15.5047,False,False
+434,Walle,2019,21.0347,55.8406,24.011,16.0558,False,False
+434,Walle,2020,21.5254,56.7203,24.185,18.3449,False,False
+434,Walle,2021,19.6457,59.5977,,15.9374,False,False
+434,Walle,2022,19.553,59.1338,,14.0898,False,False
+434,Walle,2023,18.6631,58.0458,,14.4421,False,False
+434,Walle,2024,18.0283,58.781,,14.9909,False,False
+435,Osterfeuerberg,2001,,,22.102,,False,False
+435,Osterfeuerberg,2004,,,16.732,,False,False
+435,Osterfeuerberg,2005,22.4377,,,,False,False
+435,Osterfeuerberg,2006,21.1506,,,,False,False
+435,Osterfeuerberg,2007,19.6284,,15.822,,False,False
+435,Osterfeuerberg,2008,19.0771,,,,False,False
+435,Osterfeuerberg,2009,18.6507,45.3043,,17.7436,False,False
+435,Osterfeuerberg,2010,19.5836,45.897,16.457,,False,False
+435,Osterfeuerberg,2011,19.5394,46.4148,,18.191,False,False
+435,Osterfeuerberg,2012,20.1156,47.4043,,18.8047,False,False
+435,Osterfeuerberg,2013,20.3394,47.6056,18.042,19.6004,False,False
+435,Osterfeuerberg,2014,20.8962,48.6659,19.202,18.1393,False,False
+435,Osterfeuerberg,2015,19.6977,49.3732,18.84,19.5691,False,False
+435,Osterfeuerberg,2016,19.2938,50.2121,19.137,17.5281,False,False
+435,Osterfeuerberg,2017,18.8108,52.1307,21.018,15.7689,False,False
+435,Osterfeuerberg,2018,17.8296,54.254,21.71,15.1629,False,False
+435,Osterfeuerberg,2019,17.9331,55.3555,23.244,16.9003,False,False
+435,Osterfeuerberg,2020,18.3348,56.6676,22.982,17.757,False,False
+435,Osterfeuerberg,2021,17.7721,58.061,,16.3435,False,False
+435,Osterfeuerberg,2022,16.4788,57.6187,,14.8148,False,False
+435,Osterfeuerberg,2023,18.6459,57.5459,,15.6128,False,False
+435,Osterfeuerberg,2024,17.8779,55.8158,,16.1126,False,False
+436,Hohweg,2001,,,18.321,,False,False
+436,Hohweg,2004,,,9.337,,False,False
+436,Hohweg,2005,16.7109,,,,False,False
+436,Hohweg,2006,13.0682,,,,False,False
+436,Hohweg,2007,13.7725,,10.054,,False,False
+436,Hohweg,2008,12.8931,,,,False,False
+436,Hohweg,2009,15.7143,59.3284,,14.0541,False,False
+436,Hohweg,2010,14.786,61.6977,10.069,,False,False
+436,Hohweg,2011,12.5475,60.7375,,10.828,False,False
+436,Hohweg,2012,16.1157,66.8182,,10.9091,False,False
+436,Hohweg,2013,14.1631,60.8273,11.385,10.7143,False,False
+436,Hohweg,2014,16.8831,67.8304,11.65,13.3758,False,False
+436,Hohweg,2015,13.5447,60.1594,14.729,10.119,False,False
+436,Hohweg,2016,20.6573,66.1191,13.333,11.0497,False,False
+436,Hohweg,2017,20.197,93.733,12.855,8.5106,False,False
+436,Hohweg,2018,25.6158,,9.582,,False,False
+436,Hohweg,2019,24.7475,,11.84,,False,False
+436,Hohweg,2020,24.2857,,16.251,,False,False
+436,Hohweg,2021,20.098,,,,False,False
+436,Hohweg,2022,19.802,,,,False,False
+436,Hohweg,2023,18.0851,,,,False,False
+436,Hohweg,2024,20.1087,,,,False,False
+437,Ueberseestadt,2001,,,23.306,,False,False
+437,Ueberseestadt,2004,,,8.351,,False,False
+437,Ueberseestadt,2005,31.25,,,,False,False
+437,Ueberseestadt,2006,38.4615,,,,False,False
+437,Ueberseestadt,2007,40.3846,,,,False,False
+437,Ueberseestadt,2008,41.1765,,,,False,False
+437,Ueberseestadt,2009,25.2033,54.3689,,30.0,False,False
+437,Ueberseestadt,2010,16.2651,21.9512,32.981,,False,False
+437,Ueberseestadt,2011,10.8434,47.9564,,10.2041,False,False
+437,Ueberseestadt,2012,8.8146,45.8015,,7.6923,False,False
+437,Ueberseestadt,2013,8.2742,51.3043,39.536,8.2902,False,False
+437,Ueberseestadt,2014,6.0317,40.9938,40.624,7.907,False,False
+437,Ueberseestadt,2015,5.6543,38.3678,39.471,10.7649,False,False
+437,Ueberseestadt,2016,27.519,35.2941,35.838,19.4346,False,False
+437,Ueberseestadt,2017,27.443,40.4337,36.655,15.6915,False,False
+437,Ueberseestadt,2018,21.9579,47.942,37.513,12.2081,False,False
+437,Ueberseestadt,2019,21.2046,57.0055,37.224,11.8216,False,False
+437,Ueberseestadt,2020,20.4804,57.3532,35.827,11.5408,False,False
+437,Ueberseestadt,2021,17.6765,58.0305,,10.8895,False,False
+437,Ueberseestadt,2022,20.414,57.0235,,10.6208,False,False
+437,Ueberseestadt,2023,18.1894,52.1716,,11.2018,False,False
+437,Ueberseestadt,2024,19.4222,47.633,,14.129,False,False
+441,Lindenhof,2001,,,19.397,,False,False
+441,Lindenhof,2004,,,12.292,,False,False
+441,Lindenhof,2005,29.7407,,,,False,False
+441,Lindenhof,2006,29.6092,,,,False,False
+441,Lindenhof,2007,29.0963,,12.192,,False,False
+441,Lindenhof,2008,27.4021,,,,False,False
+441,Lindenhof,2009,28.4371,38.6763,,27.1858,False,False
+441,Lindenhof,2010,28.4466,38.8852,11.893,,False,False
+441,Lindenhof,2011,28.9881,40.6533,,25.5385,False,False
+441,Lindenhof,2012,30.4159,40.4283,,27.5074,False,False
+441,Lindenhof,2013,31.452,40.1754,13.19,27.3298,False,False
+441,Lindenhof,2014,31.7091,41.2297,13.247,26.118,False,False
+441,Lindenhof,2015,33.2797,42.8648,12.636,27.096,False,False
+441,Lindenhof,2016,34.2462,43.247,13.98,27.0374,False,False
+441,Lindenhof,2017,34.3052,43.8038,15.346,25.7159,False,False
+441,Lindenhof,2018,33.3333,45.0466,15.029,24.6245,False,False
+441,Lindenhof,2019,33.6293,47.4887,16.373,24.9797,False,False
+441,Lindenhof,2020,33.8373,48.5917,16.003,28.0966,False,False
+441,Lindenhof,2021,33.3529,51.8512,,25.7482,False,False
+441,Lindenhof,2022,30.5517,52.9779,,22.5293,False,False
+441,Lindenhof,2023,30.3869,51.6736,,22.6498,False,False
+441,Lindenhof,2024,28.4106,51.8087,,22.2081,False,False
+442,Gröpelingen,2001,,,19.277,,False,False
+442,Gröpelingen,2004,,,12.884,,False,False
+442,Gröpelingen,2005,35.0803,,,,False,False
+442,Gröpelingen,2006,37.1719,,,,False,False
+442,Gröpelingen,2007,35.3476,,11.522,,False,False
+442,Gröpelingen,2008,35.1903,,,,False,False
+442,Gröpelingen,2009,37.259,38.6324,,29.7392,False,False
+442,Gröpelingen,2010,38.191,38.0549,11.37,,False,False
+442,Gröpelingen,2011,38.7187,39.3651,,30.7048,False,False
+442,Gröpelingen,2012,39.5167,39.9443,,29.9664,False,False
+442,Gröpelingen,2013,39.5416,40.307,12.565,30.5291,False,False
+442,Gröpelingen,2014,39.6379,41.3634,13.391,30.8878,False,False
+442,Gröpelingen,2015,41.3089,42.1803,13.961,30.6781,False,False
+442,Gröpelingen,2016,41.4842,44.2881,15.171,29.7716,False,False
+442,Gröpelingen,2017,40.9739,44.7213,15.622,29.5818,False,False
+442,Gröpelingen,2018,40.5882,45.38,15.887,27.5526,False,False
+442,Gröpelingen,2019,38.4403,46.0312,17.0,27.8,False,False
+442,Gröpelingen,2020,39.1499,46.7179,16.91,29.6955,False,False
+442,Gröpelingen,2021,36.8077,50.39,,27.154,False,False
+442,Gröpelingen,2022,34.3735,51.014,,25.3752,False,False
+442,Gröpelingen,2023,33.5522,50.0155,,25.6505,False,False
+442,Gröpelingen,2024,32.2077,50.0423,,25.2641,False,False
+443,Ohlenhof,2001,,,19.795,,False,False
+443,Ohlenhof,2004,,,13.833,,False,False
+443,Ohlenhof,2005,31.2366,,,,False,False
+443,Ohlenhof,2006,33.325,,,,False,False
+443,Ohlenhof,2007,32.6566,,12.105,,False,False
+443,Ohlenhof,2008,32.9766,,,,False,False
+443,Ohlenhof,2009,34.5877,36.6648,,32.6443,False,False
+443,Ohlenhof,2010,36.5346,37.1234,11.711,,False,False
+443,Ohlenhof,2011,35.1301,39.0179,,30.5202,False,False
+443,Ohlenhof,2012,35.1031,38.6711,,30.7502,False,False
+443,Ohlenhof,2013,36.4148,37.8882,12.464,31.898,False,False
+443,Ohlenhof,2014,39.1726,39.6628,13.076,32.3049,False,False
+443,Ohlenhof,2015,40.7425,41.4383,13.529,31.5136,False,False
+443,Ohlenhof,2016,41.815,42.0398,14.943,30.7148,False,False
+443,Ohlenhof,2017,41.3206,42.8634,15.777,30.0881,False,False
+443,Ohlenhof,2018,39.0583,44.5254,15.759,27.8355,False,False
+443,Ohlenhof,2019,38.249,47.312,16.863,27.9592,False,False
+443,Ohlenhof,2020,39.4327,47.9537,16.635,30.352,False,False
+443,Ohlenhof,2021,38.3944,50.4634,,28.8225,False,False
+443,Ohlenhof,2022,35.0984,51.1171,,25.6588,False,False
+443,Ohlenhof,2023,35.6045,48.5598,,26.8407,False,False
+443,Ohlenhof,2024,34.6216,49.0596,,27.5409,False,False
+444,In den Wischen,2001,,,,,False,False
+444,In den Wischen,2004,,,,,False,False
+444,In den Wischen,2005,,,,,False,False
+444,In den Wischen,2006,,,,,False,False
+444,In den Wischen,2007,,,,,False,False
+444,In den Wischen,2008,,,,,False,False
+444,In den Wischen,2009,,,,,False,False
+444,In den Wischen,2010,,,,,False,False
+444,In den Wischen,2011,,,,,False,False
+444,In den Wischen,2012,,,,,False,False
+444,In den Wischen,2013,,,,,False,False
+444,In den Wischen,2014,,,,,False,False
+444,In den Wischen,2015,,,,,False,False
+444,In den Wischen,2016,,,,,False,False
+444,In den Wischen,2017,,,,,False,False
+444,In den Wischen,2018,,,,,False,False
+444,In den Wischen,2019,,,,,False,False
+444,In den Wischen,2020,,,,,False,False
+444,In den Wischen,2021,,,,,False,False
+444,In den Wischen,2022,,,,,False,False
+444,In den Wischen,2023,,,,,False,False
+444,In den Wischen,2024,,,,,False,False
+445,Oslebshausen,2001,,,24.214,,False,False
+445,Oslebshausen,2004,,,17.35,,False,False
+445,Oslebshausen,2005,22.809,,,,False,False
+445,Oslebshausen,2006,23.5013,,,,False,False
+445,Oslebshausen,2007,22.7324,,16.182,,False,False
+445,Oslebshausen,2008,21.4527,,,,False,False
+445,Oslebshausen,2009,23.5791,44.3678,,20.3589,False,False
+445,Oslebshausen,2010,22.799,45.4498,15.719,,False,False
+445,Oslebshausen,2011,22.5145,46.9429,,19.2377,False,False
+445,Oslebshausen,2012,23.101,47.5899,,18.0944,False,False
+445,Oslebshausen,2013,23.2095,47.228,17.482,18.7981,False,False
+445,Oslebshausen,2014,23.3399,48.2205,18.116,18.3998,False,False
+445,Oslebshausen,2015,24.7242,49.3875,18.198,19.3433,False,False
+445,Oslebshausen,2016,25.0895,49.7938,18.891,18.6961,False,False
+445,Oslebshausen,2017,25.7866,49.3032,19.994,18.6172,False,False
+445,Oslebshausen,2018,25.9205,50.602,20.013,17.8894,False,False
+445,Oslebshausen,2019,24.538,52.003,21.351,18.2338,False,False
+445,Oslebshausen,2020,25.2813,52.3925,21.412,19.6194,False,False
+445,Oslebshausen,2021,23.8335,53.339,,19.7816,False,False
+445,Oslebshausen,2022,23.55,54.7381,,16.5321,False,False
+445,Oslebshausen,2023,22.4434,53.7487,,16.716,False,False
+445,Oslebshausen,2024,22.259,53.5122,,16.6022,False,False
+511,Burg-Grambke,2001,,,25.359,,False,False
+511,Burg-Grambke,2004,,,19.576,,False,False
+511,Burg-Grambke,2005,19.1699,,,,False,False
+511,Burg-Grambke,2006,19.1108,,,,False,False
+511,Burg-Grambke,2007,19.3279,,19.187,,False,False
+511,Burg-Grambke,2008,17.2999,,,,False,False
+511,Burg-Grambke,2009,18.7936,47.1895,,15.9456,False,False
+511,Burg-Grambke,2010,19.3897,48.9805,19.015,,False,False
+511,Burg-Grambke,2011,18.2806,50.9559,,13.7309,False,False
+511,Burg-Grambke,2012,18.9587,52.0545,,13.6012,False,False
+511,Burg-Grambke,2013,19.3231,52.2597,22.007,14.1866,False,False
+511,Burg-Grambke,2014,19.7835,52.5286,22.937,14.8643,False,False
+511,Burg-Grambke,2015,20.8616,53.9444,23.769,15.5906,False,False
+511,Burg-Grambke,2016,20.8952,53.9741,24.345,15.3009,False,False
+511,Burg-Grambke,2017,20.7877,53.5702,24.762,14.3173,False,False
+511,Burg-Grambke,2018,19.9181,59.9625,25.988,12.38,False,False
+511,Burg-Grambke,2019,21.1705,59.9546,27.557,13.8345,False,False
+511,Burg-Grambke,2020,21.1927,60.6642,27.265,15.4694,False,False
+511,Burg-Grambke,2021,20.3377,61.4022,,14.0656,False,False
+511,Burg-Grambke,2022,19.1168,61.0101,,12.7868,False,False
+511,Burg-Grambke,2023,18.8874,61.7987,,13.5444,False,False
+511,Burg-Grambke,2024,18.2562,62.0972,,13.6127,False,False
+512,Werderland,2001,,,23.539,,False,False
+512,Werderland,2004,,,23.072,,False,False
+512,Werderland,2005,5.3004,,,,False,False
+512,Werderland,2006,6.1856,,,,False,False
+512,Werderland,2007,3.3333,,21.18,,False,False
+512,Werderland,2008,5.8065,,,,False,False
+512,Werderland,2009,2.3102,39.5303,,12.931,False,False
+512,Werderland,2010,2.7586,43.2866,22.223,,False,False
+512,Werderland,2011,2.7304,43.1452,,7.7586,False,False
+512,Werderland,2012,2.4476,46.0606,,6.5574,False,False
+512,Werderland,2013,2.5455,51.2605,23.459,3.937,False,False
+512,Werderland,2014,3.0418,50.989,27.132,5.6911,False,False
+512,Werderland,2015,4.1825,53.5147,29.057,4.8387,False,False
+512,Werderland,2016,5.0193,54.9199,29.198,6.25,False,False
+512,Werderland,2017,5.098,59.3103,30.073,5.8394,False,False
+512,Werderland,2018,3.252,,30.862,,False,False
+512,Werderland,2019,3.252,,34.65,,False,False
+512,Werderland,2020,3.937,,29.693,,False,False
+512,Werderland,2021,2.8455,,,,False,False
+512,Werderland,2022,4.7619,,,,False,False
+512,Werderland,2023,5.042,,,,False,False
+512,Werderland,2024,5.1282,,,,False,False
+513,Burgdamm,2001,,,23.178,,False,False
+513,Burgdamm,2004,,,17.228,,False,False
+513,Burgdamm,2005,24.5459,,,,False,False
+513,Burgdamm,2006,24.3324,,,,False,False
+513,Burgdamm,2007,23.3708,,16.893,,False,False
+513,Burgdamm,2008,22.2315,,,,False,False
+513,Burgdamm,2009,23.1973,47.3513,,18.0176,False,False
+513,Burgdamm,2010,23.6877,48.1199,16.999,,False,False
+513,Burgdamm,2011,22.5791,49.6122,,16.7485,False,False
+513,Burgdamm,2012,23.2885,50.2216,,15.9664,False,False
+513,Burgdamm,2013,23.671,49.4541,19.165,17.0653,False,False
+513,Burgdamm,2014,23.1006,50.3836,19.57,17.4719,False,False
+513,Burgdamm,2015,24.5582,51.8275,19.321,17.3934,False,False
+513,Burgdamm,2016,25.2782,52.8144,20.92,17.0273,False,False
+513,Burgdamm,2017,26.2509,53.4179,21.805,17.0376,False,False
+513,Burgdamm,2018,26.7855,53.5253,22.819,16.5037,False,False
+513,Burgdamm,2019,26.1228,54.5126,23.895,17.5802,False,False
+513,Burgdamm,2020,27.5405,55.847,23.565,19.2257,False,False
+513,Burgdamm,2021,24.7127,57.4096,,16.948,False,False
+513,Burgdamm,2022,24.8102,57.413,,15.0364,False,False
+513,Burgdamm,2023,24.9649,56.2847,,16.9694,False,False
+513,Burgdamm,2024,24.7451,55.3956,,17.2689,False,False
+514,Lesum,2001,,,26.8,,False,False
+514,Lesum,2004,,,20.845,,False,False
+514,Lesum,2005,12.2357,,,,False,False
+514,Lesum,2006,11.5556,,,,False,False
+514,Lesum,2007,11.0508,,21.944,,False,False
+514,Lesum,2008,11.2783,,,,False,False
+514,Lesum,2009,12.2145,46.6612,,11.0187,False,False
+514,Lesum,2010,12.1345,48.2092,22.182,,False,False
+514,Lesum,2011,12.2329,48.8534,,10.2966,False,False
+514,Lesum,2012,12.498,49.1473,,11.1523,False,False
+514,Lesum,2013,12.6842,50.2412,23.879,10.6565,False,False
+514,Lesum,2014,12.0939,51.7706,24.411,10.5196,False,False
+514,Lesum,2015,11.9441,52.6306,25.562,10.7837,False,False
+514,Lesum,2016,12.8635,53.61,27.189,10.7187,False,False
+514,Lesum,2017,13.2528,54.1043,29.212,9.8754,False,False
+514,Lesum,2018,14.7412,55.5123,29.903,9.3085,False,False
+514,Lesum,2019,15.6834,55.9375,29.784,10.3309,False,False
+514,Lesum,2020,14.1594,55.8615,28.837,11.7847,False,False
+514,Lesum,2021,13.5021,56.759,,10.9148,False,False
+514,Lesum,2022,14.3027,58.4972,,9.7506,False,False
+514,Lesum,2023,15.3968,57.8761,,11.0894,False,False
+514,Lesum,2024,15.0567,56.4805,,11.0516,False,False
+515,St. Magnus,2001,,,28.885,,False,False
+515,St. Magnus,2004,,,23.535,,False,False
+515,St. Magnus,2005,9.0654,,,,False,False
+515,St. Magnus,2006,9.0075,,,,False,False
+515,St. Magnus,2007,6.6366,,25.137,,False,False
+515,St. Magnus,2008,6.3007,,,,False,False
+515,St. Magnus,2009,7.0307,49.9715,,8.1804,False,False
+515,St. Magnus,2010,7.3023,50.3883,24.015,,False,False
+515,St. Magnus,2011,6.1224,51.0825,,7.5781,False,False
+515,St. Magnus,2012,6.3456,50.9315,,7.7419,False,False
+515,St. Magnus,2013,6.4701,50.9608,26.468,7.2871,False,False
+515,St. Magnus,2014,6.5578,51.2563,27.638,7.4546,False,False
+515,St. Magnus,2015,6.1229,53.1614,27.627,7.494,False,False
+515,St. Magnus,2016,6.0592,54.6319,29.406,6.6388,False,False
+515,St. Magnus,2017,6.4652,54.5263,30.598,5.7325,False,False
+515,St. Magnus,2018,5.9093,53.9609,31.176,5.2394,False,False
+515,St. Magnus,2019,5.3564,55.1379,31.699,4.9115,False,False
+515,St. Magnus,2020,6.0767,54.3765,32.088,6.4831,False,False
+515,St. Magnus,2021,5.9786,54.7695,,6.5703,False,False
+515,St. Magnus,2022,6.3173,54.2276,,6.4627,False,False
+515,St. Magnus,2023,5.7288,52.4203,,7.7878,False,False
+515,St. Magnus,2024,6.1761,51.7043,,9.2288,False,False
+521,Vegesack,2001,,,23.256,,False,False
+521,Vegesack,2004,,,18.882,,False,False
+521,Vegesack,2005,22.2859,,,,False,False
+521,Vegesack,2006,21.8509,,,,False,False
+521,Vegesack,2007,21.5667,,17.854,,False,False
+521,Vegesack,2008,19.5803,,,,False,False
+521,Vegesack,2009,19.7237,41.8066,,19.3798,False,False
+521,Vegesack,2010,19.6678,41.9043,18.09,,False,False
+521,Vegesack,2011,20.5208,44.6826,,16.8907,False,False
+521,Vegesack,2012,20.9621,44.9757,,17.1658,False,False
+521,Vegesack,2013,20.8092,46.4964,20.478,17.4474,False,False
+521,Vegesack,2014,20.8489,48.3945,20.472,16.7223,False,False
+521,Vegesack,2015,21.6713,48.0171,21.42,16.9345,False,False
+521,Vegesack,2016,23.6142,49.1038,23.277,17.74,False,False
+521,Vegesack,2017,24.3658,51.5104,24.692,14.673,False,False
+521,Vegesack,2018,22.6431,52.3073,25.27,16.2109,False,False
+521,Vegesack,2019,23.6491,53.162,26.664,16.6337,False,False
+521,Vegesack,2020,23.591,53.822,26.222,17.2201,False,False
+521,Vegesack,2021,22.0164,54.2462,,16.3503,False,False
+521,Vegesack,2022,22.2269,55.5416,,15.2575,False,False
+521,Vegesack,2023,22.4659,54.1027,,16.144,False,False
+521,Vegesack,2024,21.5853,54.5885,,16.24,False,False
+522,Grohn,2001,,,23.239,,False,False
+522,Grohn,2004,,,12.296,,False,False
+522,Grohn,2005,23.8566,,,,False,False
+522,Grohn,2006,21.7704,,,,False,False
+522,Grohn,2007,21.1494,,12.002,,False,False
+522,Grohn,2008,21.6851,,,,False,False
+522,Grohn,2009,23.7759,37.354,,19.7146,False,False
+522,Grohn,2010,23.8602,37.7227,15.002,,False,False
+522,Grohn,2011,24.5522,39.2758,,20.543,False,False
+522,Grohn,2012,25.0927,39.9062,,21.5676,False,False
+522,Grohn,2013,26.1359,40.2507,17.061,20.829,False,False
+522,Grohn,2014,25.2361,42.5996,17.004,20.4922,False,False
+522,Grohn,2015,26.3802,42.2355,17.371,21.3273,False,False
+522,Grohn,2016,30.5359,42.3389,18.204,21.9882,False,False
+522,Grohn,2017,33.2126,41.72,19.73,22.0469,False,False
+522,Grohn,2018,33.5842,40.7693,19.445,21.9477,False,False
+522,Grohn,2019,33.327,43.1994,21.54,21.8863,False,False
+522,Grohn,2020,32.6322,43.055,21.782,22.881,False,False
+522,Grohn,2021,32.6695,44.7651,,22.3031,False,False
+522,Grohn,2022,30.9206,45.7878,,20.489,False,False
+522,Grohn,2023,28.8576,44.2759,,21.4818,False,False
+522,Grohn,2024,26.3705,44.186,,20.4433,False,False
+523,Schönebeck,2001,,,28.128,,False,False
+523,Schönebeck,2004,,,22.993,,False,False
+523,Schönebeck,2005,12.2239,,,,False,False
+523,Schönebeck,2006,10.6515,,,,False,False
+523,Schönebeck,2007,10.6106,,23.006,,False,False
+523,Schönebeck,2008,10.9336,,,,False,False
+523,Schönebeck,2009,12.056,45.1075,,11.2105,False,False
+523,Schönebeck,2010,12.4071,46.9382,23.646,,False,False
+523,Schönebeck,2011,12.104,48.3328,,10.3986,False,False
+523,Schönebeck,2012,11.9326,49.2128,,8.7033,False,False
+523,Schönebeck,2013,12.0426,49.1544,26.425,10.5293,False,False
+523,Schönebeck,2014,12.2812,50.7756,27.324,10.341,False,False
+523,Schönebeck,2015,12.859,52.7514,28.528,11.1348,False,False
+523,Schönebeck,2016,13.6976,53.941,28.806,10.6977,False,False
+523,Schönebeck,2017,12.8539,54.8752,28.947,10.6512,False,False
+523,Schönebeck,2018,12.8568,55.7453,29.964,10.6521,False,False
+523,Schönebeck,2019,13.9202,57.1251,31.285,10.0098,False,False
+523,Schönebeck,2020,13.1566,57.3655,31.807,10.3751,False,False
+523,Schönebeck,2021,12.6775,57.9891,,9.224,False,False
+523,Schönebeck,2022,12.5423,58.2611,,8.4144,False,False
+523,Schönebeck,2023,12.5274,57.1735,,11.1482,False,False
+523,Schönebeck,2024,12.5184,58.9977,,10.0611,False,False
+524,Aumund-Hammersbeck,2001,,,22.729,,False,False
+524,Aumund-Hammersbeck,2004,,,15.687,,False,False
+524,Aumund-Hammersbeck,2005,21.2295,,,,False,False
+524,Aumund-Hammersbeck,2006,21.684,,,,False,False
+524,Aumund-Hammersbeck,2007,20.681,,16.522,,False,False
+524,Aumund-Hammersbeck,2008,19.6471,,,,False,False
+524,Aumund-Hammersbeck,2009,20.8333,45.0386,,19.0388,False,False
+524,Aumund-Hammersbeck,2010,20.6379,45.6297,16.884,,False,False
+524,Aumund-Hammersbeck,2011,19.1176,46.7791,,17.4797,False,False
+524,Aumund-Hammersbeck,2012,19.3736,46.3311,,16.8185,False,False
+524,Aumund-Hammersbeck,2013,20.0493,47.27,18.833,18.3212,False,False
+524,Aumund-Hammersbeck,2014,20.8523,48.504,19.715,17.5797,False,False
+524,Aumund-Hammersbeck,2015,21.194,49.2059,20.093,18.0498,False,False
+524,Aumund-Hammersbeck,2016,21.9211,49.893,21.961,17.0227,False,False
+524,Aumund-Hammersbeck,2017,22.7454,51.1003,23.354,16.5237,False,False
+524,Aumund-Hammersbeck,2018,21.8031,52.208,24.297,16.0194,False,False
+524,Aumund-Hammersbeck,2019,21.0876,53.6704,25.522,16.6981,False,False
+524,Aumund-Hammersbeck,2020,21.9866,54.6012,25.422,17.0133,False,False
+524,Aumund-Hammersbeck,2021,20.8674,55.8893,,16.192,False,False
+524,Aumund-Hammersbeck,2022,20.4863,57.4888,,14.212,False,False
+524,Aumund-Hammersbeck,2023,20.6465,56.2083,,15.3801,False,False
+524,Aumund-Hammersbeck,2024,19.8662,55.9722,,15.7159,False,False
+525,Fähr-Lobbendorf,2001,,,20.238,,False,False
+525,Fähr-Lobbendorf,2004,,,15.737,,False,False
+525,Fähr-Lobbendorf,2005,22.224,,,,False,False
+525,Fähr-Lobbendorf,2006,21.8673,,,,False,False
+525,Fähr-Lobbendorf,2007,21.3734,,16.181,,False,False
+525,Fähr-Lobbendorf,2008,19.9359,,,,False,False
+525,Fähr-Lobbendorf,2009,21.0261,47.0833,,19.6145,False,False
+525,Fähr-Lobbendorf,2010,21.5853,47.6493,16.081,,False,False
+525,Fähr-Lobbendorf,2011,21.1522,49.0307,,17.6628,False,False
+525,Fähr-Lobbendorf,2012,20.5247,49.5881,,18.0019,False,False
+525,Fähr-Lobbendorf,2013,20.8096,50.1754,18.235,17.8685,False,False
+525,Fähr-Lobbendorf,2014,20.3096,51.1482,19.072,17.8078,False,False
+525,Fähr-Lobbendorf,2015,20.3997,51.5482,19.124,17.4875,False,False
+525,Fähr-Lobbendorf,2016,20.0363,50.7945,20.149,16.6053,False,False
+525,Fähr-Lobbendorf,2017,21.0967,50.4836,20.934,16.903,False,False
+525,Fähr-Lobbendorf,2018,21.242,50.4112,21.465,16.3967,False,False
+525,Fähr-Lobbendorf,2019,22.3915,50.8766,23.052,17.3877,False,False
+525,Fähr-Lobbendorf,2020,22.2593,52.085,23.208,18.4123,False,False
+525,Fähr-Lobbendorf,2021,21.1799,53.4987,,16.7606,False,False
+525,Fähr-Lobbendorf,2022,18.8131,51.308,,15.7392,False,False
+525,Fähr-Lobbendorf,2023,17.4794,45.7987,,18.177,False,False
+525,Fähr-Lobbendorf,2024,17.6689,44.1589,,17.4107,False,False
+531,Blumenthal,2001,,,22.166,,False,False
+531,Blumenthal,2004,,,16.615,,False,False
+531,Blumenthal,2005,25.3729,,,,False,False
+531,Blumenthal,2006,24.9154,,,,False,False
+531,Blumenthal,2007,23.3581,,16.236,,False,False
+531,Blumenthal,2008,23.5286,,,,False,False
+531,Blumenthal,2009,25.0621,42.5368,,21.4329,False,False
+531,Blumenthal,2010,25.949,41.881,14.842,,False,False
+531,Blumenthal,2011,25.5592,43.8806,,21.2033,False,False
+531,Blumenthal,2012,25.3753,44.584,,20.5292,False,False
+531,Blumenthal,2013,25.0066,44.3043,17.225,20.0414,False,False
+531,Blumenthal,2014,25.8014,46.3082,18.428,20.348,False,False
+531,Blumenthal,2015,28.4591,46.846,18.413,21.3026,False,False
+531,Blumenthal,2016,30.0731,48.7793,19.745,21.1026,False,False
+531,Blumenthal,2017,31.7372,48.2219,20.323,21.4538,False,False
+531,Blumenthal,2018,31.253,49.0021,20.934,20.6365,False,False
+531,Blumenthal,2019,31.295,50.2289,21.528,21.432,False,False
+531,Blumenthal,2020,32.6163,50.9885,21.998,22.4837,False,False
+531,Blumenthal,2021,32.6018,52.6727,,21.2617,False,False
+531,Blumenthal,2022,31.9127,53.0669,,20.2828,False,False
+531,Blumenthal,2023,31.1351,52.1329,,20.8409,False,False
+531,Blumenthal,2024,29.737,51.1193,,21.9825,False,False
+532,Rönnebeck,2001,,,24.197,,False,False
+532,Rönnebeck,2004,,,17.964,,False,False
+532,Rönnebeck,2005,15.4486,,,,False,False
+532,Rönnebeck,2006,15.5549,,,,False,False
+532,Rönnebeck,2007,15.2563,,17.574,,False,False
+532,Rönnebeck,2008,14.4713,,,,False,False
+532,Rönnebeck,2009,15.7032,49.4386,,13.855,False,False
+532,Rönnebeck,2010,16.3221,49.6485,17.284,,False,False
+532,Rönnebeck,2011,14.2946,50.9441,,12.801,False,False
+532,Rönnebeck,2012,15.3216,52.3197,,10.0577,False,False
+532,Rönnebeck,2013,16.0714,52.0435,20.738,11.761,False,False
+532,Rönnebeck,2014,16.6453,52.8245,21.137,12.7885,False,False
+532,Rönnebeck,2015,14.9803,51.6894,21.27,11.725,False,False
+532,Rönnebeck,2016,18.5447,51.2558,23.491,12.6383,False,False
+532,Rönnebeck,2017,20.0764,51.822,24.785,14.3105,False,False
+532,Rönnebeck,2018,19.0901,54.3866,25.166,12.9069,False,False
+532,Rönnebeck,2019,19.528,56.7994,26.663,12.8304,False,False
+532,Rönnebeck,2020,19.5835,57.2724,26.258,13.6214,False,False
+532,Rönnebeck,2021,19.1563,56.952,,14.0131,False,False
+532,Rönnebeck,2022,19.074,56.8283,,12.4726,False,False
+532,Rönnebeck,2023,18.0039,57.0582,,13.7513,False,False
+532,Rönnebeck,2024,17.4355,58.1205,,13.9403,False,False
+533,Lüssum-Bockhorn,2001,,,21.673,,False,False
+533,Lüssum-Bockhorn,2004,,,15.772,,False,False
+533,Lüssum-Bockhorn,2005,27.3468,,,,False,False
+533,Lüssum-Bockhorn,2006,26.6436,,,,False,False
+533,Lüssum-Bockhorn,2007,25.762,,15.721,,False,False
+533,Lüssum-Bockhorn,2008,24.881,,,,False,False
+533,Lüssum-Bockhorn,2009,25.768,44.7144,,21.3665,False,False
+533,Lüssum-Bockhorn,2010,25.5524,44.7182,15.54,,False,False
+533,Lüssum-Bockhorn,2011,24.7731,46.7177,,19.357,False,False
+533,Lüssum-Bockhorn,2012,24.5973,47.361,,18.4325,False,False
+533,Lüssum-Bockhorn,2013,26.2658,47.3036,17.795,19.2,False,False
+533,Lüssum-Bockhorn,2014,26.4221,49.174,18.576,19.58,False,False
+533,Lüssum-Bockhorn,2015,25.3819,49.9501,18.832,19.4808,False,False
+533,Lüssum-Bockhorn,2016,27.978,49.7557,20.479,19.0204,False,False
+533,Lüssum-Bockhorn,2017,30.3806,49.763,21.373,18.5744,False,False
+533,Lüssum-Bockhorn,2018,30.6591,50.5671,22.388,19.2511,False,False
+533,Lüssum-Bockhorn,2019,30.0794,51.1037,23.324,20.0562,False,False
+533,Lüssum-Bockhorn,2020,31.5299,51.2136,23.433,21.8936,False,False
+533,Lüssum-Bockhorn,2021,31.1906,52.7687,,21.1141,False,False
+533,Lüssum-Bockhorn,2022,28.6407,53.2282,,19.1311,False,False
+533,Lüssum-Bockhorn,2023,28.5176,52.5559,,19.2397,False,False
+533,Lüssum-Bockhorn,2024,27.6394,52.3915,,19.3542,False,False
+534,Farge,2001,,,25.648,,False,False
+534,Farge,2004,,,19.798,,False,False
+534,Farge,2005,16.6112,,,,False,False
+534,Farge,2006,17.848,,,,False,False
+534,Farge,2007,16.3142,,20.643,,False,False
+534,Farge,2008,14.4562,,,,False,False
+534,Farge,2009,15.5022,48.5437,,14.7465,False,False
+534,Farge,2010,14.2476,48.0021,19.39,,False,False
+534,Farge,2011,11.4732,50.5224,,12.1156,False,False
+534,Farge,2012,13.2387,52.8885,,9.3023,False,False
+534,Farge,2013,12.9444,53.7838,21.836,10.602,False,False
+534,Farge,2014,14.0083,54.3726,22.087,12.6527,False,False
+534,Farge,2015,14.3386,55.4825,23.375,11.3835,False,False
+534,Farge,2016,16.069,55.9826,22.959,12.7443,False,False
+534,Farge,2017,15.78,59.2873,24.791,9.4059,False,False
+534,Farge,2018,16.5539,59.9023,26.125,10.9677,False,False
+534,Farge,2019,16.6968,60.022,27.742,13.1851,False,False
+534,Farge,2020,16.7883,60.4248,27.286,13.7959,False,False
+534,Farge,2021,17.1861,61.6256,,12.6806,False,False
+534,Farge,2022,16.9095,60.3795,,13.0924,False,False
+534,Farge,2023,18.1577,59.8677,,12.2779,False,False
+534,Farge,2024,17.698,60.9602,,13.2031,False,False
+535,Rekum,2001,,,27.451,,False,False
+535,Rekum,2004,,,24.519,,False,False
+535,Rekum,2005,10.767,,,,False,False
+535,Rekum,2006,10.2808,,,,False,False
+535,Rekum,2007,10.3764,,23.763,,False,False
+535,Rekum,2008,9.5912,,,,False,False
+535,Rekum,2009,8.7533,50.5931,,9.206,False,False
+535,Rekum,2010,8.4591,52.0451,23.425,,False,False
+535,Rekum,2011,8.8635,53.1949,,8.0717,False,False
+535,Rekum,2012,8.2346,54.4186,,7.6663,False,False
+535,Rekum,2013,8.2579,55.1399,25.405,7.6749,False,False
+535,Rekum,2014,8.7529,55.8218,26.752,8.1111,False,False
+535,Rekum,2015,9.3521,56.5834,27.494,7.1982,False,False
+535,Rekum,2016,10.039,57.6589,27.946,7.6099,False,False
+535,Rekum,2017,9.5686,58.194,28.447,7.4468,False,False
+535,Rekum,2018,8.8466,60.7527,28.97,6.9959,False,False
+535,Rekum,2019,9.0755,60.964,31.63,6.5557,False,False
+535,Rekum,2020,9.1603,62.8671,31.319,7.415,False,False
+535,Rekum,2021,7.2695,64.1727,,6.499,False,False
+535,Rekum,2022,7.5429,63.5252,,7.0526,False,False
+535,Rekum,2023,8.044,63.9572,,6.6597,False,False
+535,Rekum,2024,7.9466,65.0232,,6.5708,False,False

@@ -1,0 +1,159 @@
+﻿method,geo_code,geo_name,min,max,median
+composite,111,Altstadt,42.0,59.0,48.0
+composite,112,Bahnhofsvorstadt,7.0,12.0,10.0
+composite,113,Ostertor,32.0,48.0,40.0
+composite,211,Alte Neustadt,43.0,55.0,47.0
+composite,212,Hohentor,29.0,31.0,29.0
+composite,213,Neustadt,45.0,53.0,49.0
+composite,214,Südervorstadt,42.0,49.0,44.0
+composite,215,Gartenstadt Süd,38.0,48.0,39.5
+composite,216,Buntentor,51.0,59.0,55.0
+composite,217,Neuenland,9.0,21.0,14.0
+composite,218,Huckelriede,11.0,25.0,19.0
+composite,231,Habenhausen,76.0,78.0,77.0
+composite,232,Arsten,52.0,66.0,58.0
+composite,233,Kattenturm,14.0,18.0,16.0
+composite,234,Kattenesch,55.0,63.0,57.0
+composite,241,Mittelshuchting,12.0,19.0,14.0
+composite,242,Sodenmatt,10.0,13.0,11.0
+composite,243,Kirchhuchting,8.0,10.0,9.0
+composite,244,Grolland,72.0,76.0,75.0
+composite,251,Woltmershausen,30.0,33.0,30.0
+composite,252,Rablinghausen,57.0,78.0,74.0
+composite,261,Seehausen,79.0,79.0,79.0
+composite,311,Steintor,42.0,58.0,51.0
+composite,312,Fesenfeld,54.0,63.0,59.0
+composite,313,Peterswerder,61.0,68.0,66.0
+composite,314,Hulsberg,46.0,51.0,48.0
+composite,321,Neu-Schwachhausen,68.0,72.0,69.0
+composite,322,Bürgerpark,49.0,71.0,65.0
+composite,323,Barkhof,72.0,76.0,74.0
+composite,324,Riensberg,65.0,69.0,67.0
+composite,325,Radio Bremen,52.0,65.0,62.0
+composite,326,Schwachhausen,70.0,75.0,73.0
+composite,327,Gete,60.0,71.0,69.0
+composite,331,Gartenstadt Vahr,49.0,59.0,52.0
+composite,332,Neue Vahr Nord,11.0,19.0,13.0
+composite,334,Neue Vahr Südwest,29.0,44.0,36.0
+composite,335,Neue Vahr Südost,16.0,25.0,22.0
+composite,341,Horn,68.0,74.0,72.0
+composite,342,Lehe,34.0,62.0,46.0
+composite,343,Lehesterdeich,59.0,64.0,62.0
+composite,351,Borgfeld,54.0,77.0,71.0
+composite,361,Oberneuland,43.0,69.0,59.0
+composite,371,Ellener Feld,49.0,57.0,53.0
+composite,372,Ellenerbrok-Schevemoor,32.0,36.0,35.0
+composite,373,Tenever,4.0,7.0,6.0
+composite,374,Osterholz,76.0,78.0,77.0
+composite,375,Blockdiek,21.0,27.0,25.0
+composite,381,Sebaldsbrück,39.0,42.0,40.0
+composite,382,Hastedt,39.0,47.0,43.0
+composite,383,Hemelingen,17.0,21.0,21.0
+composite,384,Arbergen,58.0,72.0,64.0
+composite,385,Mahndorf,46.0,67.0,54.0
+composite,421,Regensburger Straße,45.0,50.0,47.0
+composite,422,Findorff-Bürgerweide,51.0,69.0,58.0
+composite,423,Weidedamm,60.0,63.0,61.0
+composite,431,Utbremen,29.0,40.0,34.0
+composite,432,Steffensweg,34.0,38.0,37.0
+composite,433,Westend,24.0,27.0,26.0
+composite,434,Walle,26.0,30.0,27.0
+composite,435,Osterfeuerberg,22.0,25.0,24.0
+composite,437,Ueberseestadt,8.0,22.0,14.5
+composite,441,Lindenhof,4.0,7.0,5.0
+composite,442,Gröpelingen,2.0,3.0,2.0
+composite,443,Ohlenhof,1.0,1.0,1.0
+composite,445,Oslebshausen,14.0,18.0,17.0
+composite,511,Burg-Grambke,30.0,39.0,33.0
+composite,513,Burgdamm,13.0,18.0,15.0
+composite,514,Lesum,29.0,37.0,32.0
+composite,515,St. Magnus,26.0,56.0,38.0
+composite,521,Vegesack,18.0,21.0,20.0
+composite,522,Grohn,2.0,6.0,3.0
+composite,523,Schönebeck,39.0,43.0,40.0
+composite,524,Aumund-Hammersbeck,21.0,24.0,23.0
+composite,525,Fähr-Lobbendorf,4.0,20.0,9.0
+composite,531,Blumenthal,3.0,5.0,4.0
+composite,532,Rönnebeck,27.0,29.0,28.0
+composite,533,Lüssum-Bockhorn,7.0,10.0,7.0
+composite,534,Farge,31.0,36.0,33.0
+composite,535,Rekum,64.0,74.0,70.0
+topsis,111,Altstadt,40.0,47.0,42.0
+topsis,112,Bahnhofsvorstadt,7.0,9.0,8.0
+topsis,113,Ostertor,42.0,55.0,48.0
+topsis,211,Alte Neustadt,41.0,47.0,43.0
+topsis,212,Hohentor,27.0,35.0,31.0
+topsis,213,Neustadt,49.0,57.0,55.0
+topsis,214,Südervorstadt,41.0,45.0,43.0
+topsis,215,Gartenstadt Süd,37.0,41.0,37.0
+topsis,216,Buntentor,51.0,58.0,54.0
+topsis,217,Neuenland,5.0,16.0,10.0
+topsis,218,Huckelriede,23.0,28.0,25.0
+topsis,231,Habenhausen,77.0,78.0,78.0
+topsis,232,Arsten,52.0,59.0,54.0
+topsis,233,Kattenturm,14.0,16.0,15.0
+topsis,234,Kattenesch,53.0,58.0,55.0
+topsis,241,Mittelshuchting,12.0,16.0,13.0
+topsis,242,Sodenmatt,7.0,11.0,11.0
+topsis,243,Kirchhuchting,8.0,11.0,10.0
+topsis,244,Grolland,70.0,76.0,73.0
+topsis,251,Woltmershausen,29.0,33.0,32.0
+topsis,252,Rablinghausen,49.0,63.0,50.0
+topsis,261,Seehausen,79.0,79.0,79.0
+topsis,311,Steintor,52.0,61.0,58.0
+topsis,312,Fesenfeld,59.0,64.0,63.0
+topsis,313,Peterswerder,65.0,70.0,67.0
+topsis,314,Hulsberg,44.0,49.0,47.0
+topsis,321,Neu-Schwachhausen,65.0,72.0,67.0
+topsis,322,Bürgerpark,65.0,75.0,71.0
+topsis,323,Barkhof,71.0,76.0,74.0
+topsis,324,Riensberg,65.0,70.0,68.0
+topsis,325,Radio Bremen,62.0,67.0,65.0
+topsis,326,Schwachhausen,74.0,76.0,75.0
+topsis,327,Gete,69.0,72.0,70.0
+topsis,331,Gartenstadt Vahr,48.0,51.0,49.0
+topsis,332,Neue Vahr Nord,10.0,13.0,12.0
+topsis,334,Neue Vahr Südwest,23.0,33.0,30.0
+topsis,335,Neue Vahr Südost,14.0,19.0,16.0
+topsis,341,Horn,72.0,75.0,73.0
+topsis,342,Lehe,50.0,64.0,63.0
+topsis,343,Lehesterdeich,58.0,63.0,59.0
+topsis,351,Borgfeld,67.0,78.0,75.0
+topsis,361,Oberneuland,59.0,70.0,69.0
+topsis,371,Ellener Feld,47.0,58.0,51.0
+topsis,372,Ellenerbrok-Schevemoor,34.0,36.0,35.0
+topsis,373,Tenever,3.0,8.0,5.0
+topsis,374,Osterholz,73.0,78.0,77.0
+topsis,375,Blockdiek,20.0,25.0,21.0
+topsis,381,Sebaldsbrück,39.0,40.0,39.0
+topsis,382,Hastedt,37.0,42.0,40.0
+topsis,383,Hemelingen,17.0,20.0,17.0
+topsis,384,Arbergen,54.0,67.0,59.0
+topsis,385,Mahndorf,43.0,54.0,46.0
+topsis,421,Regensburger Straße,44.0,49.0,47.0
+topsis,422,Findorff-Bürgerweide,50.0,56.0,52.0
+topsis,423,Weidedamm,59.0,64.0,61.0
+topsis,431,Utbremen,22.0,37.0,33.0
+topsis,432,Steffensweg,34.0,36.0,35.5
+topsis,433,Westend,26.0,31.0,29.0
+topsis,434,Walle,24.0,29.0,26.0
+topsis,435,Osterfeuerberg,21.0,29.0,24.0
+topsis,437,Ueberseestadt,20.0,26.0,23.0
+topsis,441,Lindenhof,3.0,5.0,4.0
+topsis,442,Gröpelingen,2.0,2.0,2.0
+topsis,443,Ohlenhof,1.0,1.0,1.0
+topsis,445,Oslebshausen,16.0,18.0,18.0
+topsis,511,Burg-Grambke,26.0,33.0,30.0
+topsis,513,Burgdamm,13.0,14.0,13.0
+topsis,514,Lesum,36.0,39.0,38.0
+topsis,515,St. Magnus,39.0,62.0,55.0
+topsis,521,Vegesack,18.0,20.0,19.0
+topsis,522,Grohn,5.0,8.0,6.0
+topsis,523,Schönebeck,40.0,44.0,42.0
+topsis,524,Aumund-Hammersbeck,21.0,24.0,22.0
+topsis,525,Fähr-Lobbendorf,12.0,27.0,20.0
+topsis,531,Blumenthal,3.0,4.0,3.0
+topsis,532,Rönnebeck,27.0,32.0,29.0
+topsis,533,Lüssum-Bockhorn,6.0,9.0,7.0
+topsis,534,Farge,31.0,34.0,32.0
+topsis,535,Rekum,61.0,72.0,64.0
