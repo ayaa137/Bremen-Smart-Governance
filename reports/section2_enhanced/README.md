@@ -1,6 +1,6 @@
 # Section 2 navigation
 
-The group-report contribution is [final_submission/section2_final_draft.md](final_submission/section2_final_draft.md). Word counts and preparation checks are recorded separately in that folder. The earlier integration draft remains unchanged.
+The group-report contribution is [final_submission/section2_data_and_indicator_analysis.md](final_submission/section2_data_and_indicator_analysis.md). Word counts and preparation checks are recorded separately in that folder. The earlier integration draft remains unchanged.
 
 Use these three existing PNGs, in this order (all paths below are relative to the repository root):
 

@@ -14,7 +14,7 @@ def main():
             if enhanced.sha(ROOT/name)!=digest:
                 mismatches.append(name)
     assert set(mismatches)=={'src/analyze_section2_v2.py','src/section2_enhanced/build_enhancement.py'}, mismatches
-    draft=(Path(__file__).parent/'section2_final_draft.md').read_text(encoding='utf-8')
+    draft=(Path(__file__).parent/'section2_data_and_indicator_analysis.md').read_text(encoding='utf-8')
     body,captions=draft.split('Figure 1. Economic maps, 2024.')
     headings=[line for line in body.splitlines() if line.startswith('## ')]
     main_text='\n'.join(line for line in body.splitlines() if not line.startswith('## '))
@@ -23,7 +23,7 @@ def main():
             'headings':sum(len(line.removeprefix('## ').split()) for line in headings)}
     counts['main_plus_captions']=counts['main_text']+counts['captions']
     counts['including_headings']=counts['main_plus_captions']+counts['headings']
-    assert 260<=counts['main_text']<=275
+    assert 290<=counts['including_headings']<=295
     for label in ['Figure 1','Figure 2','Figure 3']:assert label in main_text
     import pandas as pd
     distributions=pd.read_csv(ROOT/'reports/section2_enhanced/distribution_robustness.csv')
