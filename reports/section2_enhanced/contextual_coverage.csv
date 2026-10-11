@@ -1,0 +1,4 @@
+feature,reporting_year,unit,valid_n,missing_n,missing_pct,source_worksheet,definition_and_denominator
+child_benefits,2024,%,84,4,4.5454545454545459,Sozialleistungen,SGB II entitled recipients under 15 / population under 15. Overlaps overall benefit receipt; not independent evidence.
+income_median,2020,1000 EUR,84,4,4.5454545454545459,Lohn- und Einkommensteuer,"Median total income per taxpayer, thousand EUR. Taxpayer unit differs from person/household; not disposable income. Latest year 2020."
+single_parents,2024,%,83,5,5.6818181818181817,Privathaushalte,Single-parent households / main-residence households with children. Family structure is not intrinsic disadvantage; not scored.

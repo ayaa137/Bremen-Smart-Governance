@@ -1,0 +1,6 @@
+﻿quadrant,agreement_group,n
+above unemployment / above SGB II,same side of both medians,38
+above unemployment / below SGB II,opposite sides of medians,1
+below unemployment / below SGB II,same side of both medians,38
+below unemployment / equal SGB II,median boundary,1
+equal unemployment / above SGB II,median boundary,1

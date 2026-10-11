@@ -1,0 +1,89 @@
+﻿geo_code,unemployment,employment,benefit_receipt,child_benefits,single_parents,income_median,geo_name,scoring_eligible
+111,False,False,False,False,False,False,Altstadt,True
+112,False,False,False,False,False,False,Bahnhofsvorstadt,True
+113,False,False,False,False,False,False,Ostertor,True
+122,True,True,True,True,True,True,Industriehäfen,False
+124,True,True,True,True,True,True,Neustädter Hafen,False
+125,True,True,True,True,True,True,Hohentorshafen,False
+211,False,False,False,False,False,False,Alte Neustadt,True
+212,False,False,False,False,False,False,Hohentor,True
+213,False,False,False,False,False,False,Neustadt,True
+214,False,False,False,False,False,False,Südervorstadt,True
+215,False,False,False,False,False,False,Gartenstadt Süd,True
+216,False,False,False,False,False,False,Buntentor,True
+217,False,False,False,False,False,False,Neuenland,True
+218,False,False,False,False,False,False,Huckelriede,True
+231,False,False,False,False,False,False,Habenhausen,True
+232,False,False,False,False,False,False,Arsten,True
+233,False,False,False,False,False,False,Kattenturm,True
+234,False,False,False,False,False,False,Kattenesch,True
+241,False,False,False,False,False,False,Mittelshuchting,True
+242,False,False,False,False,False,False,Sodenmatt,True
+243,False,False,False,False,False,False,Kirchhuchting,True
+244,False,False,False,False,False,False,Grolland,True
+251,False,False,False,False,False,False,Woltmershausen,True
+252,False,False,False,False,False,False,Rablinghausen,True
+261,False,False,False,False,False,False,Seehausen,True
+271,True,True,False,False,False,False,Strom,False
+311,False,False,False,False,False,False,Steintor,True
+312,False,False,False,False,False,False,Fesenfeld,True
+313,False,False,False,False,False,False,Peterswerder,True
+314,False,False,False,False,False,False,Hulsberg,True
+321,False,False,False,False,False,False,Neu-Schwachhausen,True
+322,False,False,False,False,False,False,Bürgerpark,True
+323,False,False,False,False,False,False,Barkhof,True
+324,False,False,False,False,False,False,Riensberg,True
+325,False,False,False,False,False,False,Radio Bremen,True
+326,False,False,False,False,False,False,Schwachhausen,True
+327,False,False,False,False,False,False,Gete,True
+331,False,False,False,False,False,False,Gartenstadt Vahr,True
+332,False,False,False,False,False,False,Neue Vahr Nord,True
+334,False,False,False,False,False,False,Neue Vahr Südwest,True
+335,False,False,False,False,False,False,Neue Vahr Südost,True
+341,False,False,False,False,False,False,Horn,True
+342,False,False,False,False,False,False,Lehe,True
+343,False,False,False,False,False,False,Lehesterdeich,True
+351,False,False,False,False,False,False,Borgfeld,True
+361,False,False,False,False,False,False,Oberneuland,True
+371,False,False,False,False,False,False,Ellener Feld,True
+372,False,False,False,False,False,False,Ellenerbrok-Schevemoor,True
+373,False,False,False,False,False,False,Tenever,True
+374,False,False,False,False,False,False,Osterholz,True
+375,False,False,False,False,False,False,Blockdiek,True
+381,False,False,False,False,False,False,Sebaldsbrück,True
+382,False,False,False,False,False,False,Hastedt,True
+383,False,False,False,False,False,False,Hemelingen,True
+384,False,False,False,False,False,False,Arbergen,True
+385,False,False,False,False,False,False,Mahndorf,True
+411,True,True,False,False,False,False,Blockland,False
+421,False,False,False,False,False,False,Regensburger Straße,True
+422,False,False,False,False,False,False,Findorff-Bürgerweide,True
+423,False,False,False,False,False,False,Weidedamm,True
+424,True,True,False,False,True,False,In den Hufen,False
+431,False,False,False,False,False,False,Utbremen,True
+432,False,False,False,False,False,False,Steffensweg,True
+433,False,False,False,False,False,False,Westend,True
+434,False,False,False,False,False,False,Walle,True
+435,False,False,False,False,False,False,Osterfeuerberg,True
+436,True,True,False,False,False,False,Hohweg,False
+437,False,False,False,False,False,False,Ueberseestadt,True
+441,False,False,False,False,False,False,Lindenhof,True
+442,False,False,False,False,False,False,Gröpelingen,True
+443,False,False,False,False,False,False,Ohlenhof,True
+444,True,True,True,True,True,True,In den Wischen,False
+445,False,False,False,False,False,False,Oslebshausen,True
+511,False,False,False,False,False,False,Burg-Grambke,True
+512,True,True,False,False,False,False,Werderland,False
+513,False,False,False,False,False,False,Burgdamm,True
+514,False,False,False,False,False,False,Lesum,True
+515,False,False,False,False,False,False,St. Magnus,True
+521,False,False,False,False,False,False,Vegesack,True
+522,False,False,False,False,False,False,Grohn,True
+523,False,False,False,False,False,False,Schönebeck,True
+524,False,False,False,False,False,False,Aumund-Hammersbeck,True
+525,False,False,False,False,False,False,Fähr-Lobbendorf,True
+531,False,False,False,False,False,False,Blumenthal,True
+532,False,False,False,False,False,False,Rönnebeck,True
+533,False,False,False,False,False,False,Lüssum-Bockhorn,True
+534,False,False,False,False,False,False,Farge,True
+535,False,False,False,False,False,False,Rekum,True

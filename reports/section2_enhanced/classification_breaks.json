@@ -1,0 +1,42 @@
+{
+  "sample_n": 79,
+  "quantiles": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "method": "numpy linear sample quantiles; values equal to cutpoints assigned to lower class; ties never split",
+  "repeated_boundary_rule": "Stop map production rather than silently reduce classes or split tied observations",
+  "breakpoints_percent": {
+    "unemployment": [
+      8.5398,
+      14.129
+    ],
+    "benefit_receipt": [
+      10.22,
+      18.0283
+    ]
+  },
+  "observed_boundary_ties": {
+    "unemployment": 2,
+    "benefit_receipt": 2
+  },
+  "value_ties": {
+    "unemployment": 0,
+    "benefit_receipt": 0
+  },
+  "class_coding": "0 lower, 1 middle, 2 upper; missing has no numeric class",
+  "same_tertile_n": 65,
+  "differing_tertile_n": 14,
+  "spearman_rho": 0.9738558909444986,
+  "univariate_map_breaks": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35
+  ],
+  "univariate_map_rule": "Shared fixed 5-percentage-point bins [a,b), final upper endpoint included. Quantiles only for the bivariate map; no threshold implies official risk."
+}

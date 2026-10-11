@@ -1,0 +1,106 @@
+{
+  "generator": "src/refine_section2_figures.py",
+  "script_sha256": "0ea8d1144494780233d799fabb98e333eb3a2375ec12a9ae9777187c3a2c8b46",
+  "baseline_manifest_sha256": "1a8544dd35e46c0c1f0c61374963bd426e1df651e8cf9fccfab252e7b6dd89de",
+  "selection": {
+    "rule": "Five highest and five lowest unemployment observations among the 79 Ortsteile with both economic indicators; code is a deterministic secondary sort, no boundary ties present.",
+    "highest": [
+      {
+        "geo_code": "443",
+        "geo_name": "Ohlenhof"
+      },
+      {
+        "geo_code": "442",
+        "geo_name": "Gröpelingen"
+      },
+      {
+        "geo_code": "441",
+        "geo_name": "Lindenhof"
+      },
+      {
+        "geo_code": "531",
+        "geo_name": "Blumenthal"
+      },
+      {
+        "geo_code": "217",
+        "geo_name": "Neuenland"
+      }
+    ],
+    "lowest": [
+      {
+        "geo_code": "261",
+        "geo_name": "Seehausen"
+      },
+      {
+        "geo_code": "351",
+        "geo_name": "Borgfeld"
+      },
+      {
+        "geo_code": "231",
+        "geo_name": "Habenhausen"
+      },
+      {
+        "geo_code": "326",
+        "geo_name": "Schwachhausen"
+      },
+      {
+        "geo_code": "341",
+        "geo_name": "Horn"
+      }
+    ],
+    "representative": false
+  },
+  "validation": {
+    "figure2": {
+      "n": 79,
+      "spearman_rho": 0.9738558909444986,
+      "all_point_coordinates_verified": true
+    },
+    "figure3": {
+      "panels": [
+        {
+          "indicator": "single_parent_pct",
+          "n": 83,
+          "xlim": [
+            8.10105,
+            44.512150000000005
+          ],
+          "ylim": [
+            0.0,
+            19.95
+          ]
+        },
+        {
+          "indicator": "floor_area_m2_per_resident",
+          "n": 85,
+          "xlim": [
+            26.402995,
+            65.393705
+          ],
+          "ylim": [
+            0.0,
+            22.05
+          ]
+        },
+        {
+          "indicator": "age65plus_pct",
+          "n": 84,
+          "xlim": [
+            6.041015000000001,
+            41.11528500000001
+          ],
+          "ylim": [
+            0.0,
+            19.95
+          ]
+        }
+      ],
+      "original_data_bins_and_scales_preserved": true
+    }
+  },
+  "outputs": {
+    "figures\\section2\\figure1_compact_extreme_unemployment_2024.png": "a1e6eb7292933181aafd0a347533c27b803961ab0adef33978ffce187f38ac51",
+    "figures\\section2\\figure2_scatter_revised_annotation_2024.png": "9e3d6dffe9cdbd32f10f03dd95722ec832ab60c479fc647abd7bba91b54934f5",
+    "figures\\section2\\figure3_context_distributions_revised_caption_2024.png": "a6d36f8a520711b1371c6c92efa0891bf039ae8cc58df123fe7f565f4f11a75e"
+  }
+}

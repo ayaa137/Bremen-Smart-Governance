@@ -1,0 +1,12 @@
+indicator_id,geo_code,geo_name,reporting_year,value,tukey_outlier,is_minimum,is_maximum,workbook_value_verified,action,workbook_row_1based,workbook_column_1based,raw_value
+unemployment_pct,261,Seehausen,2024,2.5896,False,True,False,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,28.0,82.0,2.5896
+unemployment_pct,443,Ohlenhof,2024,27.5409,False,False,True,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,74.0,82.0,27.5409
+sgb_ii_under65_pct,424,In den Hufen,2024,0.9901,False,True,False,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,64.0,82.0,0.9901
+sgb_ii_under65_pct,443,Ohlenhof,2024,34.6216,False,False,True,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,74.0,82.0,34.6216
+single_parent_pct,411,Blockland,2024,9.7561,False,True,False,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,60.0,102.0,9.7561
+single_parent_pct,436,Hohweg,2024,42.8571,True,False,True,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,70.0,102.0,42.8571
+floor_area_m2_per_resident,122,Industriehäfen,2024,28.1753,False,True,False,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,7.0,110.0,28.1753
+floor_area_m2_per_resident,322,Bürgerpark,2024,63.6214,False,False,True,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,35.0,110.0,63.6214
+age65plus_pct,424,In den Hufen,2024,39.521,True,False,True,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,64.0,154.0,39.521
+age65plus_pct,436,Hohweg,2024,36.3322,True,False,False,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,70.0,154.0,36.3322
+age65plus_pct,437,Ueberseestadt,2024,7.6353,False,True,False,True,Retained; matches original workbook. Source agreement does not establish substantive validity.,71.0,154.0,7.6353

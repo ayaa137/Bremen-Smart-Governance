@@ -1,0 +1,109 @@
+{
+  "branch": "analysis/section-2-v2",
+  "commit": "20b79ae817c5d7c7b80e1d93c79d415d47037be7",
+  "reporting_year": 2024,
+  "geographic_level": "Ortsteil",
+  "master_rows": 88,
+  "complete_rows": 79,
+  "selected_rows": 9152,
+  "workbook_cells_verified": 9152,
+  "duplicate_keys": 0,
+  "invalid_selected_values": 0,
+  "source_hashes_verified": 24,
+  "input_schemas": {
+    "master": [
+      "geo_code",
+      "geo_name",
+      "benefit_receipt",
+      "employment",
+      "unemployment",
+      "year",
+      "geo_level",
+      "unemployment_year",
+      "unemployment_unit",
+      "employment_year",
+      "employment_unit",
+      "benefit_receipt_year",
+      "benefit_receipt_unit",
+      "scoring_eligible",
+      "exclusion_reason"
+    ],
+    "selected_long": [
+      "source_file",
+      "source_sheet",
+      "indicator",
+      "indicator_slug",
+      "indicator_block",
+      "unit",
+      "year",
+      "year_start",
+      "year_end",
+      "reporting_period",
+      "geo_code",
+      "geo_name",
+      "geo_label",
+      "geo_level",
+      "raw_value",
+      "value",
+      "value_status",
+      "feature",
+      "analysis_unit"
+    ],
+    "definitions": [
+      "feature",
+      "original_german_name",
+      "english_name",
+      "source_file",
+      "source_sheet",
+      "indicator_block",
+      "unit",
+      "original_inferred_unit",
+      "geo_level",
+      "available_years",
+      "latest_year",
+      "latest_covered",
+      "total_ortsteile",
+      "latest_coverage_proportion",
+      "latest_missing_rate",
+      "role",
+      "disadvantage_direction",
+      "definition",
+      "comparability_limitations"
+    ]
+  },
+  "guide_status": "The specifically titled five-page Section 2 Guide was not located; implementation follows the user's pasted requirements and shared project documents.",
+  "exact_reference_dates_verified": false,
+  "historical_comparability_verified": false,
+  "quadrant": {
+    "n": 79,
+    "unemployment_median": 10.9762,
+    "benefit_receipt_median": 13.2323,
+    "nonboundary_n": 77,
+    "same_side_n": 76,
+    "opposite_side_n": 1,
+    "boundary_n": 2,
+    "same_side_pct_nonboundary": 98.7012987012987
+  },
+  "source_status_counts": {
+    "ok": 8576,
+    "missing": 576
+  },
+  "primary_missing_counts": {
+    "unemployment": 9,
+    "employment": 9,
+    "benefit_receipt": 4
+  },
+  "geometry_status": "No authoritative Ortsteil polygon file present; no maps generated.",
+  "protected_file_count": 202,
+  "figure_validation": {
+    "distribution_count_each": 79,
+    "selected_comparison_n": 10,
+    "scatter_n_each": 79,
+    "quadrant_count": 79,
+    "missingness_shape": [
+      88,
+      6
+    ],
+    "histograms_and_scatter_inputs_verified": true
+  }
+}

@@ -1,0 +1,4 @@
+﻿feature,sample,year,unit,sample_n,valid_n,missing_n,missing_pct,represented_master_n,mean,median,minimum,minimum_names,maximum,maximum_names,sd_sample,q1,q3,iqr,p10,p90,range,range_unit
+child_benefits,available contextual cases,2024,%,88,84,4,4.545454545454546,88,22.080546428571427,20.770200000000003,0.0,In den Hufen,53.6825,Bahnhofsvorstadt,13.310856663536574,11.090875,32.293825,21.202949999999998,4.341170000000001,38.933510000000005,53.6825,percentage points
+single_parents,available contextual cases,2024,%,88,83,5,5.681818181818182,88,24.925524096385544,25.9427,9.7561,Blockland,42.8571,Hohweg,6.843054856418211,20.7198,29.204549999999998,8.484749999999998,16.32918,33.771359999999994,33.101,percentage points
+income_median,available contextual cases,2020,1000 EUR,88,84,4,4.545454545454546,88,28.00603571428571,27.098,16.003,Lindenhof,51.863,Borgfeld,7.058810078306449,22.38025,31.87725,9.497,20.8296,36.8497,35.86,1000 EUR

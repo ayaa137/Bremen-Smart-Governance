@@ -1,0 +1,7 @@
+﻿feature,year,represented_n,observed_n,missing_n,missing_pct
+unemployment,2024,88,79,9,10.227272727272728
+employment,2024,88,79,9,10.227272727272728
+benefit_receipt,2024,88,84,4,4.545454545454546
+child_benefits,2024,88,84,4,4.545454545454546
+single_parents,2024,88,83,5,5.681818181818182
+income_median,2020,88,84,4,4.545454545454546

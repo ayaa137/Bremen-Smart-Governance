@@ -1,0 +1,89 @@
+geo_code,geo_name,unemployment,benefit_receipt,unemployment_class,unemployment_group,benefit_receipt_class,benefit_receipt_group,combined_bivariate_category,missingness_status,year
+111,Altstadt,9.9128000000000007,13.2323,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+112,Bahnhofsvorstadt,20.261199999999999,26.3826,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+113,Ostertor,9.7395999999999994,9.3679000000000006,1,middle third,0,lower third,middle third unemployment / lower third SGB II,both observed,2024
+122,Industriehäfen,,,,,,,missing either indicator,both missing,2024
+124,Neustädter Hafen,,,,,,,missing either indicator,both missing,2024
+125,Hohentorshafen,,,,,,,missing either indicator,both missing,2024
+211,Alte Neustadt,10.775499999999999,11.806699999999999,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+212,Hohentor,14.1617,16.998100000000001,2,upper third,1,middle third,upper third unemployment / middle third SGB II,both observed,2024
+213,Neustadt,8.5397999999999996,9.1456,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+214,Südervorstadt,10.8574,11.5999,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+215,Gartenstadt Süd,11.0753,16.5183,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+216,Buntentor,9.1590000000000007,9.1998999999999995,1,middle third,0,lower third,middle third unemployment / lower third SGB II,both observed,2024
+217,Neuenland,21.4192,23.539000000000001,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+218,Huckelriede,14.203900000000001,18.415600000000001,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+231,Habenhausen,3.9634999999999998,2.4102999999999999,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+232,Arsten,8.1868999999999996,10.4755,0,lower third,1,middle third,lower third unemployment / middle third SGB II,both observed,2024
+233,Kattenturm,17.218699999999998,23.642299999999999,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+234,Kattenesch,8.1789000000000005,10.220000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+241,Mittelshuchting,16.762899999999998,25.7881,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+242,Sodenmatt,18.321100000000001,26.8385,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+243,Kirchhuchting,18.968299999999999,25.883700000000001,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+244,Grolland,5.1546000000000003,4.3780000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+251,Woltmershausen,13.7232,17.352699999999999,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+252,Rablinghausen,9.0731000000000002,10.9842,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+261,Seehausen,2.5895999999999999,2.8536999999999999,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+271,Strom,,2.8571,,,,,missing either indicator,unemployment missing,2024
+311,Steintor,8.1258999999999997,7.6243999999999996,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+312,Fesenfeld,7.4752000000000001,6.6715,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+313,Peterswerder,6.6321000000000003,5.5804999999999998,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+314,Hulsberg,10.044,10.9108,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+321,Neu-Schwachhausen,6.1959999999999997,6.2778999999999998,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+322,Bürgerpark,4.9279000000000002,3.1566000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+323,Barkhof,5.3014000000000001,3.3107000000000002,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+324,Riensberg,6.0560999999999998,6.1703000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+325,Radio Bremen,6.601,5.7508999999999997,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+326,Schwachhausen,4.1814,3.3517000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+327,Gete,5.6862000000000004,3.8647,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+331,Gartenstadt Vahr,9.1769999999999996,10.935700000000001,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+332,Neue Vahr Nord,18.0061,26.272600000000001,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+334,Neue Vahr Südwest,12.427899999999999,19.7864,1,middle third,2,upper third,middle third unemployment / upper third SGB II,both observed,2024
+335,Neue Vahr Südost,16.706600000000002,24.469899999999999,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+341,Horn,4.5688000000000004,3.5512999999999999,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+342,Lehe,6.6759000000000004,6.2507000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+343,Lehesterdeich,7.3422999999999998,8.8795000000000002,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+351,Borgfeld,3.4462999999999999,1.7015,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+361,Oberneuland,5.4656000000000002,4.4713000000000003,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+371,Ellener Feld,8.1044,11.2453,0,lower third,1,middle third,lower third unemployment / middle third SGB II,both observed,2024
+372,Ellenerbrok-Schevemoor,11.844799999999999,17.284300000000002,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+373,Tenever,19.7758,30.255099999999999,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+374,Osterholz,4.734,3.6105999999999998,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+375,Blockdiek,15.494,20.961099999999998,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+381,Sebaldsbrück,10.9762,13.6393,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+382,Hastedt,11.541399999999999,12.418699999999999,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+383,Hemelingen,16.2271,23.5626,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+384,Arbergen,6.6426999999999996,9.9252000000000002,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+385,Mahndorf,9.2896000000000001,12.3786,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+411,Blockland,,1.9048,,,,,missing either indicator,unemployment missing,2024
+421,Regensburger Straße,9.1751000000000005,11.662000000000001,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+422,Findorff-Bürgerweide,8.4703999999999997,10.6859,0,lower third,1,middle third,lower third unemployment / middle third SGB II,both observed,2024
+423,Weidedamm,7.2168999999999999,8.6611999999999991,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024
+424,In den Hufen,,0.99009999999999998,,,,,missing either indicator,unemployment missing,2024
+431,Utbremen,11.5039,20.102900000000002,1,middle third,2,upper third,middle third unemployment / upper third SGB II,both observed,2024
+432,Steffensweg,12.2592,16.918700000000001,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+433,Westend,13.6005,17.802,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+434,Walle,14.9909,18.028300000000002,2,upper third,1,middle third,upper third unemployment / middle third SGB II,both observed,2024
+435,Osterfeuerberg,16.1126,17.8779,2,upper third,1,middle third,upper third unemployment / middle third SGB II,both observed,2024
+436,Hohweg,,20.108699999999999,,,,,missing either indicator,unemployment missing,2024
+437,Ueberseestadt,14.129,19.4222,1,middle third,2,upper third,middle third unemployment / upper third SGB II,both observed,2024
+441,Lindenhof,22.208100000000002,28.410599999999999,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+442,Gröpelingen,25.264099999999999,32.207700000000003,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+443,Ohlenhof,27.540900000000001,34.621600000000001,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+444,In den Wischen,,,,,,,missing either indicator,both missing,2024
+445,Oslebshausen,16.6022,22.259,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+511,Burg-Grambke,13.6127,18.2562,1,middle third,2,upper third,middle third unemployment / upper third SGB II,both observed,2024
+512,Werderland,,5.1281999999999996,,,,,missing either indicator,unemployment missing,2024
+513,Burgdamm,17.268899999999999,24.745100000000001,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+514,Lesum,11.051600000000001,15.056699999999999,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+515,St. Magnus,9.2287999999999997,6.1760999999999999,1,middle third,0,lower third,middle third unemployment / lower third SGB II,both observed,2024
+521,Vegesack,16.239999999999998,21.5853,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+522,Grohn,20.443300000000001,26.3705,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+523,Schönebeck,10.0611,12.5184,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+524,Aumund-Hammersbeck,15.7159,19.866199999999999,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+525,Fähr-Lobbendorf,17.410699999999999,17.668900000000001,2,upper third,1,middle third,upper third unemployment / middle third SGB II,both observed,2024
+531,Blumenthal,21.982500000000002,29.736999999999998,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+532,Rönnebeck,13.940300000000001,17.435500000000001,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+533,Lüssum-Bockhorn,19.354199999999999,27.639399999999998,2,upper third,2,upper third,upper third unemployment / upper third SGB II,both observed,2024
+534,Farge,13.203099999999999,17.698,1,middle third,1,middle third,middle third unemployment / middle third SGB II,both observed,2024
+535,Rekum,6.5708000000000002,7.9466000000000001,0,lower third,0,lower third,lower third unemployment / lower third SGB II,both observed,2024

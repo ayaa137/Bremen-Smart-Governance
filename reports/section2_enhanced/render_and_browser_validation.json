@@ -1,0 +1,37 @@
+{
+  "explorer": {
+    "static_checks": "PASS",
+    "browser_status": "PASS",
+    "self_tests": {
+      "status": "PASS",
+      "tests": 16,
+      "details": [
+        "88 unique records",
+        "88 polygon paths",
+        "79 complete records",
+        "coverage unemployment",
+        "definition unemployment",
+        "legend unemployment",
+        "coverage employment",
+        "definition employment",
+        "legend employment",
+        "coverage benefit_receipt",
+        "definition benefit_receipt",
+        "legend benefit_receipt",
+        "missing click",
+        "Oberneuland selector",
+        "keyboard activation",
+        "observed display value"
+      ]
+    },
+    "browser": "Installed Microsoft Edge, isolated temporary profile, headless; no browser installation.",
+    "user_validation_limit": "Automated selectors/click/keyboard/value/coverage tests; no universal accessibility certification."
+  },
+  "quarto": {
+    "status": "PASS",
+    "version": "1.10.18",
+    "standalone_html": true,
+    "external_render_resources": 0,
+    "pdf_report_status": "Not rendered: no installed LaTeX toolchain; vector PDF figures are supplied. Bundled Typst availability is audited separately."
+  }
+}

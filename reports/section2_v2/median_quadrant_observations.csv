@@ -1,0 +1,80 @@
+﻿geo_code,geo_name,year,unemployment,benefit_receipt,unemployment_side,benefit_side,agreement_group,quadrant
+111,Altstadt,2024,9.9128,13.2323,below,equal,median boundary,below unemployment / equal SGB II
+112,Bahnhofsvorstadt,2024,20.2612,26.3826,above,above,same side of both medians,above unemployment / above SGB II
+113,Ostertor,2024,9.7396,9.3679,below,below,same side of both medians,below unemployment / below SGB II
+211,Alte Neustadt,2024,10.7755,11.8067,below,below,same side of both medians,below unemployment / below SGB II
+212,Hohentor,2024,14.1617,16.9981,above,above,same side of both medians,above unemployment / above SGB II
+213,Neustadt,2024,8.5398,9.1456,below,below,same side of both medians,below unemployment / below SGB II
+214,Südervorstadt,2024,10.8574,11.5999,below,below,same side of both medians,below unemployment / below SGB II
+215,Gartenstadt Süd,2024,11.0753,16.5183,above,above,same side of both medians,above unemployment / above SGB II
+216,Buntentor,2024,9.159,9.1999,below,below,same side of both medians,below unemployment / below SGB II
+217,Neuenland,2024,21.4192,23.539,above,above,same side of both medians,above unemployment / above SGB II
+218,Huckelriede,2024,14.2039,18.4156,above,above,same side of both medians,above unemployment / above SGB II
+231,Habenhausen,2024,3.9635,2.4103,below,below,same side of both medians,below unemployment / below SGB II
+232,Arsten,2024,8.1869,10.4755,below,below,same side of both medians,below unemployment / below SGB II
+233,Kattenturm,2024,17.2187,23.6423,above,above,same side of both medians,above unemployment / above SGB II
+234,Kattenesch,2024,8.1789,10.22,below,below,same side of both medians,below unemployment / below SGB II
+241,Mittelshuchting,2024,16.7629,25.7881,above,above,same side of both medians,above unemployment / above SGB II
+242,Sodenmatt,2024,18.3211,26.8385,above,above,same side of both medians,above unemployment / above SGB II
+243,Kirchhuchting,2024,18.9683,25.8837,above,above,same side of both medians,above unemployment / above SGB II
+244,Grolland,2024,5.1546,4.378,below,below,same side of both medians,below unemployment / below SGB II
+251,Woltmershausen,2024,13.7232,17.3527,above,above,same side of both medians,above unemployment / above SGB II
+252,Rablinghausen,2024,9.0731,10.9842,below,below,same side of both medians,below unemployment / below SGB II
+261,Seehausen,2024,2.5896,2.8537,below,below,same side of both medians,below unemployment / below SGB II
+311,Steintor,2024,8.1259,7.6244,below,below,same side of both medians,below unemployment / below SGB II
+312,Fesenfeld,2024,7.4752,6.6715,below,below,same side of both medians,below unemployment / below SGB II
+313,Peterswerder,2024,6.6321,5.5805,below,below,same side of both medians,below unemployment / below SGB II
+314,Hulsberg,2024,10.044,10.9108,below,below,same side of both medians,below unemployment / below SGB II
+321,Neu-Schwachhausen,2024,6.196,6.2779,below,below,same side of both medians,below unemployment / below SGB II
+322,Bürgerpark,2024,4.9279,3.1566,below,below,same side of both medians,below unemployment / below SGB II
+323,Barkhof,2024,5.3014,3.3107,below,below,same side of both medians,below unemployment / below SGB II
+324,Riensberg,2024,6.0561,6.1703,below,below,same side of both medians,below unemployment / below SGB II
+325,Radio Bremen,2024,6.601,5.7509,below,below,same side of both medians,below unemployment / below SGB II
+326,Schwachhausen,2024,4.1814,3.3517,below,below,same side of both medians,below unemployment / below SGB II
+327,Gete,2024,5.6862,3.8647,below,below,same side of both medians,below unemployment / below SGB II
+331,Gartenstadt Vahr,2024,9.177,10.9357,below,below,same side of both medians,below unemployment / below SGB II
+332,Neue Vahr Nord,2024,18.0061,26.2726,above,above,same side of both medians,above unemployment / above SGB II
+334,Neue Vahr Südwest,2024,12.4279,19.7864,above,above,same side of both medians,above unemployment / above SGB II
+335,Neue Vahr Südost,2024,16.7066,24.4699,above,above,same side of both medians,above unemployment / above SGB II
+341,Horn,2024,4.5688,3.5513,below,below,same side of both medians,below unemployment / below SGB II
+342,Lehe,2024,6.6759,6.2507,below,below,same side of both medians,below unemployment / below SGB II
+343,Lehesterdeich,2024,7.3423,8.8795,below,below,same side of both medians,below unemployment / below SGB II
+351,Borgfeld,2024,3.4463,1.7015,below,below,same side of both medians,below unemployment / below SGB II
+361,Oberneuland,2024,5.4656,4.4713,below,below,same side of both medians,below unemployment / below SGB II
+371,Ellener Feld,2024,8.1044,11.2453,below,below,same side of both medians,below unemployment / below SGB II
+372,Ellenerbrok-Schevemoor,2024,11.8448,17.2843,above,above,same side of both medians,above unemployment / above SGB II
+373,Tenever,2024,19.7758,30.2551,above,above,same side of both medians,above unemployment / above SGB II
+374,Osterholz,2024,4.734,3.6106,below,below,same side of both medians,below unemployment / below SGB II
+375,Blockdiek,2024,15.494,20.9611,above,above,same side of both medians,above unemployment / above SGB II
+381,Sebaldsbrück,2024,10.9762,13.6393,equal,above,median boundary,equal unemployment / above SGB II
+382,Hastedt,2024,11.5414,12.4187,above,below,opposite sides of medians,above unemployment / below SGB II
+383,Hemelingen,2024,16.2271,23.5626,above,above,same side of both medians,above unemployment / above SGB II
+384,Arbergen,2024,6.6427,9.9252,below,below,same side of both medians,below unemployment / below SGB II
+385,Mahndorf,2024,9.2896,12.3786,below,below,same side of both medians,below unemployment / below SGB II
+421,Regensburger Straße,2024,9.1751,11.662,below,below,same side of both medians,below unemployment / below SGB II
+422,Findorff-Bürgerweide,2024,8.4704,10.6859,below,below,same side of both medians,below unemployment / below SGB II
+423,Weidedamm,2024,7.2169,8.6612,below,below,same side of both medians,below unemployment / below SGB II
+431,Utbremen,2024,11.5039,20.1029,above,above,same side of both medians,above unemployment / above SGB II
+432,Steffensweg,2024,12.2592,16.9187,above,above,same side of both medians,above unemployment / above SGB II
+433,Westend,2024,13.6005,17.802,above,above,same side of both medians,above unemployment / above SGB II
+434,Walle,2024,14.9909,18.0283,above,above,same side of both medians,above unemployment / above SGB II
+435,Osterfeuerberg,2024,16.1126,17.8779,above,above,same side of both medians,above unemployment / above SGB II
+437,Ueberseestadt,2024,14.129,19.4222,above,above,same side of both medians,above unemployment / above SGB II
+441,Lindenhof,2024,22.2081,28.4106,above,above,same side of both medians,above unemployment / above SGB II
+442,Gröpelingen,2024,25.2641,32.2077,above,above,same side of both medians,above unemployment / above SGB II
+443,Ohlenhof,2024,27.5409,34.6216,above,above,same side of both medians,above unemployment / above SGB II
+445,Oslebshausen,2024,16.6022,22.259,above,above,same side of both medians,above unemployment / above SGB II
+511,Burg-Grambke,2024,13.6127,18.2562,above,above,same side of both medians,above unemployment / above SGB II
+513,Burgdamm,2024,17.2689,24.7451,above,above,same side of both medians,above unemployment / above SGB II
+514,Lesum,2024,11.0516,15.0567,above,above,same side of both medians,above unemployment / above SGB II
+515,St. Magnus,2024,9.2288,6.1761,below,below,same side of both medians,below unemployment / below SGB II
+521,Vegesack,2024,16.24,21.5853,above,above,same side of both medians,above unemployment / above SGB II
+522,Grohn,2024,20.4433,26.3705,above,above,same side of both medians,above unemployment / above SGB II
+523,Schönebeck,2024,10.0611,12.5184,below,below,same side of both medians,below unemployment / below SGB II
+524,Aumund-Hammersbeck,2024,15.7159,19.8662,above,above,same side of both medians,above unemployment / above SGB II
+525,Fähr-Lobbendorf,2024,17.4107,17.6689,above,above,same side of both medians,above unemployment / above SGB II
+531,Blumenthal,2024,21.9825,29.737,above,above,same side of both medians,above unemployment / above SGB II
+532,Rönnebeck,2024,13.9403,17.4355,above,above,same side of both medians,above unemployment / above SGB II
+533,Lüssum-Bockhorn,2024,19.3542,27.6394,above,above,same side of both medians,above unemployment / above SGB II
+534,Farge,2024,13.2031,17.698,above,above,same side of both medians,above unemployment / above SGB II
+535,Rekum,2024,6.5708,7.9466,below,below,same side of both medians,below unemployment / below SGB II

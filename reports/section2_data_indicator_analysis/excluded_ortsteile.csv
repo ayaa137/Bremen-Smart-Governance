@@ -1,0 +1,10 @@
+geo_code,geo_name,missing_indicator_count,missing_indicators
+122,Industriehäfen,4,unemployment_pct;sgb_ii_under65_pct;single_parent_pct;age65plus_pct
+124,Neustädter Hafen,5,unemployment_pct;sgb_ii_under65_pct;single_parent_pct;floor_area_m2_per_resident;age65plus_pct
+125,Hohentorshafen,5,unemployment_pct;sgb_ii_under65_pct;single_parent_pct;floor_area_m2_per_resident;age65plus_pct
+271,Strom,1,unemployment_pct
+411,Blockland,1,unemployment_pct
+424,In den Hufen,2,unemployment_pct;single_parent_pct
+436,Hohweg,1,unemployment_pct
+444,In den Wischen,5,unemployment_pct;sgb_ii_under65_pct;single_parent_pct;floor_area_m2_per_resident;age65plus_pct
+512,Werderland,1,unemployment_pct

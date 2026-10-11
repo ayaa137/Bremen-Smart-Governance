@@ -1,0 +1,7 @@
+context,primary,year,n,spearman_rho,kendall_tau_b,context_ties,primary_ties,interpretation
+child_benefits,unemployment,2024,79,0.94369522882181123,0.7935735150925024,0,0,Exploratory ecological association; different populations; no causal or intrinsic-disadvantage interpretation.
+child_benefits,employment,2024,79,-0.5762658227848102,-0.41447581953911072,0,0,Exploratory ecological association; different populations; no causal or intrinsic-disadvantage interpretation.
+child_benefits,benefit_receipt,2024,84,0.97369646653842268,0.85886402753872637,0,0,Exploratory ecological association; different populations; no causal or intrinsic-disadvantage interpretation.
+single_parents,unemployment,2024,79,0.80844693281402147,0.6254462836741318,0,0,Exploratory ecological association; different populations; no causal or intrinsic-disadvantage interpretation.
+single_parents,employment,2024,79,-0.44488802336903599,-0.32424537487828631,0,0,Exploratory ecological association; different populations; no causal or intrinsic-disadvantage interpretation.
+single_parents,benefit_receipt,2024,83,0.7825448133999412,0.60035263003232431,0,0,Exploratory ecological association; different populations; no causal or intrinsic-disadvantage interpretation.

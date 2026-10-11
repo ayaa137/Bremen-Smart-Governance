@@ -1,0 +1,378 @@
+{
+  "baseline_commit": "20b79ae817c5d7c7b80e1d93c79d415d47037be7",
+  "branch": "analysis/section-2-v2",
+  "source_validation": {
+    "branch": "analysis/section-2-v2",
+    "commit": "20b79ae817c5d7c7b80e1d93c79d415d47037be7",
+    "reporting_year": 2024,
+    "geographic_level": "Ortsteil",
+    "master_rows": 88,
+    "complete_rows": 79,
+    "selected_rows": 9152,
+    "workbook_cells_verified": 9152,
+    "duplicate_keys": 0,
+    "invalid_selected_values": 0,
+    "source_hashes_verified": 24,
+    "input_schemas": {
+      "master": [
+        "geo_code",
+        "geo_name",
+        "benefit_receipt",
+        "employment",
+        "unemployment",
+        "year",
+        "geo_level",
+        "unemployment_year",
+        "unemployment_unit",
+        "employment_year",
+        "employment_unit",
+        "benefit_receipt_year",
+        "benefit_receipt_unit",
+        "scoring_eligible",
+        "exclusion_reason"
+      ],
+      "selected_long": [
+        "source_file",
+        "source_sheet",
+        "indicator",
+        "indicator_slug",
+        "indicator_block",
+        "unit",
+        "year",
+        "year_start",
+        "year_end",
+        "reporting_period",
+        "geo_code",
+        "geo_name",
+        "geo_label",
+        "geo_level",
+        "raw_value",
+        "value",
+        "value_status",
+        "feature",
+        "analysis_unit"
+      ],
+      "definitions": [
+        "feature",
+        "original_german_name",
+        "english_name",
+        "source_file",
+        "source_sheet",
+        "indicator_block",
+        "unit",
+        "original_inferred_unit",
+        "geo_level",
+        "available_years",
+        "latest_year",
+        "latest_covered",
+        "total_ortsteile",
+        "latest_coverage_proportion",
+        "latest_missing_rate",
+        "role",
+        "disadvantage_direction",
+        "definition",
+        "comparability_limitations"
+      ]
+    },
+    "guide_status": "The specifically titled five-page Section 2 Guide was not located; implementation follows the user's pasted requirements and shared project documents.",
+    "exact_reference_dates_verified": false,
+    "historical_comparability_verified": false
+  },
+  "geography": {
+    "socioeconomic_records": 88,
+    "official_ortsteil_features": 87,
+    "official_feature_ids_unique": true,
+    "wfs_declared_numberReturned": "0",
+    "wfs_actual_members": 87,
+    "raw_unmatched_socioeconomic": [
+      {
+        "geo_code": "361",
+        "geo_name": "Oberneuland"
+      }
+    ],
+    "raw_unmatched_polygons": [],
+    "resolved_crosswalks": [
+      {
+        "geo_code": "361",
+        "official_code": "04011360",
+        "source_level": "Stadtteil",
+        "evidence": [
+          "https://www.transparenz.bremen.de/metainformationen/verordnung-ueber-die-neuordnung-der-stadtbremischen-verwaltungsbezirke-vom-23-februar-1951-70486?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d",
+          "https://www.rathaus.bremen.de/sixcms/media.php/13/20130312_Ortsgesetz_Stadtteil_Oberneuland.pdf"
+        ],
+        "interpretation": "Undivided Oberneuland territory; explicit statistical 361 crosswalk, not a general level conversion."
+      }
+    ],
+    "final_matched": 88,
+    "final_unmatched_socioeconomic": [],
+    "final_unmatched_polygons": [],
+    "missing_geometries": 0,
+    "name_discrepancies": [
+      {
+        "geo_code": "421",
+        "socioeconomic_name": "Regensburger Straße",
+        "boundary_name": "Regensburger Str."
+      },
+      {
+        "geo_code": "437",
+        "socioeconomic_name": "Ueberseestadt",
+        "boundary_name": "Überseestadt"
+      },
+      {
+        "geo_code": "515",
+        "socioeconomic_name": "St. Magnus",
+        "boundary_name": "St.Magnus"
+      }
+    ],
+    "dataset_revision": "2024-12-11",
+    "exact_legal_boundary_validity_date_verified": false,
+    "boundary_compatibility": "Same-year dataset revision and explicit code crosswalk; exact statistical boundary reference day remains unverified.",
+    "scope": "88 represented mainland statistical units; no Bremerhaven municipality, no separately represented code 123 overseas-port enclave. Not an all-territory Land Bremen map.",
+    "geometry_checks": "Finite, closed nondegenerate 2-D rings; CRS; original vertices; multipart/hole handling; coordinate area vs published area. No full topology/overlap certification.",
+    "extent_epsg25832": [
+      465403.02,
+      499384.85,
+      5873514.44,
+      5897849.92
+    ]
+  },
+  "primary_n": 79,
+  "primary_pairwise_n_identical": true,
+  "contextual_coverage": [
+    84,
+    83,
+    84
+  ],
+  "historical_income_year": 2020,
+  "independent_spearman_and_tau_b_checks": true,
+  "independent_skewness_check": true,
+  "correlation_leave_one_out": {
+    "n": 79,
+    "baseline_rho": 0.9738558909444986,
+    "baseline_tau_b": 0.8747160012982799,
+    "loo_n_each": 78,
+    "loo_replicates": 79,
+    "loo_rho_min": 0.9728372892929855,
+    "loo_rho_max": 0.9777690663766613,
+    "loo_tau_b_min": 0.8714618714618715,
+    "loo_tau_b_max": 0.8834498834498835,
+    "sensitivity_threshold_abs_delta_rho_p90": 0.0009781357882625798,
+    "flagged_n": 8,
+    "largest_change_name": "Fähr-Lobbendorf",
+    "largest_abs_delta_rho": 0.00391317543216263
+  },
+  "original_bivariate_classes_preserved": true,
+  "original_outputs_and_protected_hashes_unchanged": true,
+  "tracked_files_unchanged": true,
+  "map_validation": {
+    "map_extent_axis_limits": [
+      [
+        464553.47425,
+        500234.39574999997
+      ],
+      [
+        5872662.6982,
+        5898701.6618
+      ]
+    ],
+    "identical_extents_verified": true,
+    "univariate_palette": "cividis_r: higher rates darker; indicator values, not deprivation classifications",
+    "bivariate_palette": [
+      [
+        "#e8e8e8",
+        "#dfb0d6",
+        "#be64ac"
+      ],
+      [
+        "#ace4e4",
+        "#a5add3",
+        "#8c62aa"
+      ],
+      [
+        "#5ac8c8",
+        "#5698b9",
+        "#3b4994"
+      ]
+    ],
+    "bivariate_palette_accessibility": "Blue/teal–purple palette avoids red/green coding; 3×3 textual legend and CSV provided. No universal color-vision accessibility claim.",
+    "mapped_keys_each": 88,
+    "unemployment_colored": 79,
+    "sgbii_colored": 84,
+    "bivariate_colored": 79,
+    "blind_spots_records": 88
+  },
+  "figure_count_png": 13,
+  "vector_versions": 26,
+  "figure_metadata": {
+    "contextual_distributions_separate_periods.png": {
+      "pixels": [
+        4200,
+        1650
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "correlation_leave_one_out_sensitivity_2024.png": {
+      "pixels": [
+        3600,
+        1620
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "enhanced_atlas_bivariate_economic_2024.png": {
+      "pixels": [
+        3600,
+        2850
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "enhanced_atlas_data_blind_spots_2024.png": {
+      "pixels": [
+        3600,
+        2700
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "enhanced_atlas_economic_maps_side_by_side_2024.png": {
+      "pixels": [
+        5100,
+        2610
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "enhanced_atlas_neighborhood_evidence_cards_2024.png": {
+      "pixels": [
+        4500,
+        3600
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "enhanced_atlas_sgbii_2024.png": {
+      "pixels": [
+        3600,
+        2700
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "enhanced_atlas_unemployment_2024.png": {
+      "pixels": [
+        3600,
+        2700
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "fig01_economic_distributions_2024.png": {
+      "pixels": [
+        3900,
+        1500
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "fig02_selected_neighborhood_comparison_2024.png": {
+      "pixels": [
+        3900,
+        1740
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "fig03_economic_indicator_relationships_2024.png": {
+      "pixels": [
+        3900,
+        1500
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "fig04_unemployment_sgbii_median_quadrants_2024.png": {
+      "pixels": [
+        2400,
+        1920
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "fig05_missingness_all_88_ortsteile.png": {
+      "pixels": [
+        3300,
+        5400
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  "csv_roundtrip": true,
+  "qmd_relative_figure_references": true,
+  "explorer": {
+    "static_checks": "PASS",
+    "browser_status": "PASS",
+    "self_tests": {
+      "status": "PASS",
+      "tests": 16,
+      "details": [
+        "88 unique records",
+        "88 polygon paths",
+        "79 complete records",
+        "coverage unemployment",
+        "definition unemployment",
+        "legend unemployment",
+        "coverage employment",
+        "definition employment",
+        "legend employment",
+        "coverage benefit_receipt",
+        "definition benefit_receipt",
+        "legend benefit_receipt",
+        "missing click",
+        "Oberneuland selector",
+        "keyboard activation",
+        "observed display value"
+      ]
+    },
+    "browser": "Installed Microsoft Edge, isolated temporary profile, headless; no browser installation.",
+    "user_validation_limit": "Automated selectors/click/keyboard/value/coverage tests; no universal accessibility certification."
+  },
+  "quarto": {
+    "status": "PASS",
+    "version": "1.10.18",
+    "standalone_html": true,
+    "external_render_resources": 0,
+    "pdf_report_status": "Not rendered: no installed LaTeX toolchain; vector PDF figures are supplied. Bundled Typst availability is audited separately."
+  },
+  "deterministic_pipeline_builds": 2,
+  "byte_identical_artifacts": 70,
+  "preserved_non_enhancement_file_count": 253
+}
