@@ -1,0 +1,4 @@
+﻿first,second,n,year,spearman_rho,first_tied_values,second_tied_values,interpretation
+unemployment,employment,79,2024,-0.6673807205452776,0,0,"Raw indicator directions; descriptive ecological association, not causation or measurement agreement."
+unemployment,benefit_receipt,79,2024,0.9738558909444986,0,0,"Raw indicator directions; descriptive ecological association, not causation or measurement agreement."
+employment,benefit_receipt,79,2024,-0.5878529698149951,0,0,"Raw indicator directions; descriptive ecological association, not causation or measurement agreement."

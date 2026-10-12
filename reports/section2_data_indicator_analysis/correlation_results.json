@@ -1,0 +1,9 @@
+{
+  "reporting_year": 2024,
+  "geo_level": "Ortsteil",
+  "sample": "Pairwise observed unemployment and SGB II; equals five-indicator complete sample",
+  "n": 79,
+  "spearman_rho": 0.9738558909444986,
+  "p_value_asymptotic_two_sided": 2.552871622375447e-51,
+  "caveat": "Descriptive ecological association; no causality. Asymptotic p assumes independent observations and is not spatially adjusted; treat as supplementary."
+}

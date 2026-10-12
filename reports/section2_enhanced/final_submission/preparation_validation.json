@@ -1,0 +1,48 @@
+{
+  "word_count_method": "Whitespace-delimited words; Markdown heading markers excluded.",
+  "word_counts": {
+    "main_text": 265,
+    "captions": 35,
+    "headings": 14,
+    "main_plus_captions": 300,
+    "including_headings": 314
+  },
+  "historical_artifacts_preserved": true,
+  "approved_modified_scripts": [
+    "src/analyze_section2_v2.py",
+    "src/section2_enhanced/build_enhancement.py"
+  ],
+  "essential_untracked_files_tested": 121,
+  "clean_essential_checkout": {
+    "status": "PASS",
+    "rows": 88,
+    "complete": 79,
+    "independent_tables": 8,
+    "simulated_git_states": [
+      "feature descendant",
+      "detached HEAD; no origin/main query"
+    ]
+  },
+  "qmd_png_references": 7,
+  "git_mutations_performed": false,
+  "scope": "No analysis entry point or renderer run in clean simulation; source/hash/schema/geography validators and independent statistical tables checked.",
+  "full_pipeline_test": {
+    "status": "PASS",
+    "mode": "validate-only",
+    "two_byte_identical_builds": true,
+    "artifacts": 70,
+    "scientific_artifacts_identical_to_originals": 54,
+    "browser_self_tests": 16,
+    "quarto_html": "PASS",
+    "initial_sandbox_attempt": "Browser launch blocked; successful retry outside sandbox restrictions.",
+    "clean_simulation_renderer_not_run": true
+  },
+  "source_hashes": {
+    "src/analyze_section2_v2.py": "60b6cc0d543cd7c37fb92a1369e82ff36fdc9f358ffda9c4044287c9348270bc",
+    "src/section2_enhanced/build_enhancement.py": "07abc72ff2a78c31f30d0e54c1bd79b020e754686e6140c8250a3607a154bdc8"
+  },
+  "personal_path_scan": {
+    "new_draft_and_readme": "PASS",
+    "existing_diagnostic_log": "Contains original username/temp path; left unchanged, recommended local-only."
+  }
+}

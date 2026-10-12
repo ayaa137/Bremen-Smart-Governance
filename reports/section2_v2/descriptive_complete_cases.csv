@@ -1,0 +1,4 @@
+﻿feature,sample,year,unit,sample_n,valid_n,missing_n,missing_pct,represented_master_n,mean,median,minimum,minimum_names,maximum,maximum_names,sd_sample,q1,q3,iqr,p10,p90,range,range_unit
+unemployment,shared complete cases,2024,%,79,79,0,0.0,88,11.861741772151897,10.9762,2.5896,Seehausen,27.5409,Ohlenhof,5.553562829682646,7.4087499999999995,16.16985,8.7611,5.2720400000000005,19.43852,24.9513,percentage points
+employment,shared complete cases,2024,%,79,79,0,0.0,88,58.63033924050633,59.4037,44.1589,Fähr-Lobbendorf,72.7138,Seehausen,5.312910140389229,55.64405,62.208650000000006,6.564600000000006,51.6214,63.627399999999994,28.554900000000004,percentage points
+benefit_receipt,shared complete cases,2024,%,79,79,0,0.0,88,14.843829113924052,13.2323,1.7015,Borgfeld,34.6216,Ohlenhof,8.392420833309796,8.303899999999999,20.532,12.228100000000001,3.81388,26.37292,32.9201,percentage points

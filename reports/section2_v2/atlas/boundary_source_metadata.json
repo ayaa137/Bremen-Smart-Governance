@@ -1,0 +1,69 @@
+{
+  "dataset_title": "ATKIS - Verwaltungsgrenzen Land Bremen",
+  "publishing_authority": "Landesamt GeoInformation Bremen",
+  "source_url": "https://metaver.de/trefferanzeige?docuuid=D9F32B22-C647-42FD-9E95-1344AC57BC46",
+  "direct_download_urls": {
+    "wfs_capabilities.xml": "https://geodienste.bremen.de/wfs_verwaltungsgrenzen?SERVICE=WFS&REQUEST=GetCapabilities",
+    "ortsteile_bremen_epsg25832.gml": "https://geodienste.bremen.de/wfs_verwaltungsgrenzen?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=app:Ortsteile_Bremen&SRSNAME=EPSG:25832",
+    "boundary_metadata.xml": "https://metaver.de/csw/partner/hb?Service=CSW&Request=GetRecordById&Version=2.0.2&id=D9F32B22-C647-42FD-9E95-1344AC57BC46&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full",
+    "verwaltungsgrenzen_hb.zip": "https://gdi2.geo.bremen.de/inspire/download/Verwaltungsgrenzen/data/Verwaltungsgrenzen_HB.zip",
+    "stadtteile_bremen_epsg25832.gml": "https://geodienste.bremen.de/wfs_verwaltungsgrenzen?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=app:Stadtteile_Bremen&SRSNAME=EPSG:25832",
+    "administrative_divisions.html": "https://www.transparenz.bremen.de/metainformationen/verordnung-ueber-die-neuordnung-der-stadtbremischen-verwaltungsbezirke-vom-23-februar-1951-70486?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d",
+    "oberneuland_2013_proposal.pdf": "https://www.rathaus.bremen.de/sixcms/media.php/13/20130312_Ortsgesetz_Stadtteil_Oberneuland.pdf"
+  },
+  "geographic_levels": [
+    "Ortsteil",
+    "Stadtteil (one explicit exception)"
+  ],
+  "boundary_dataset_dates": [
+    {
+      "type": "revision",
+      "value": "2024-12-11T00:00:00.000+01:00"
+    }
+  ],
+  "boundary_dataset_revision": "2024-12-11",
+  "exact_legal_boundary_validity_date": null,
+  "crs": "EPSG:25832 — ETRS89 / UTM zone 32N",
+  "license": "Creative Commons Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Landesamt GeoInformation Bremen",
+  "formats": [
+    "GML 3.2 WFS response",
+    "Shapefiles ZIP",
+    "ISO XML metadata",
+    "official HTML",
+    "official PDF"
+  ],
+  "accessed_date": "2026-10-10",
+  "wfs_snapshot_timestamp": "2026-10-10T20:00:23Z",
+  "snapshots": {
+    "wfs_capabilities.xml": {
+      "url": "https://geodienste.bremen.de/wfs_verwaltungsgrenzen?SERVICE=WFS&REQUEST=GetCapabilities",
+      "sha256": "e8b410fb2833210a9b19c2471222dfebe50756e69ae9022059dc72b7527d0d9c"
+    },
+    "ortsteile_bremen_epsg25832.gml": {
+      "url": "https://geodienste.bremen.de/wfs_verwaltungsgrenzen?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=app:Ortsteile_Bremen&SRSNAME=EPSG:25832",
+      "sha256": "e0e52751c91ffe0349040def779373a97fe86c35724a3b6514464a063ee7fc26"
+    },
+    "boundary_metadata.xml": {
+      "url": "https://metaver.de/csw/partner/hb?Service=CSW&Request=GetRecordById&Version=2.0.2&id=D9F32B22-C647-42FD-9E95-1344AC57BC46&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full",
+      "sha256": "e0fafd01db84fe893eacd83cfe84898c8674d853b357af0c0ad27c34e3223b96"
+    },
+    "verwaltungsgrenzen_hb.zip": {
+      "url": "https://gdi2.geo.bremen.de/inspire/download/Verwaltungsgrenzen/data/Verwaltungsgrenzen_HB.zip",
+      "sha256": "25b6b0ec211ac4e730faae23c1c1fa11adf6c531682ed51aed9bb11616284dfa"
+    },
+    "stadtteile_bremen_epsg25832.gml": {
+      "url": "https://geodienste.bremen.de/wfs_verwaltungsgrenzen?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=app:Stadtteile_Bremen&SRSNAME=EPSG:25832",
+      "sha256": "e8eebb82bff4ab092343252ebeccc6f7c3f2ef3243ede7aa84981882686500f0"
+    },
+    "administrative_divisions.html": {
+      "url": "https://www.transparenz.bremen.de/metainformationen/verordnung-ueber-die-neuordnung-der-stadtbremischen-verwaltungsbezirke-vom-23-februar-1951-70486?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d",
+      "sha256": "030c32d38af30ed918251b0d705a64343ae459881f41439f521808b82047ebea"
+    },
+    "oberneuland_2013_proposal.pdf": {
+      "url": "https://www.rathaus.bremen.de/sixcms/media.php/13/20130312_Ortsgesetz_Stadtteil_Oberneuland.pdf",
+      "sha256": "8e6eeb81aaf4181c4044ef3888f7f929042929d1739293804d3cfe73b14f339b"
+    }
+  }
+}

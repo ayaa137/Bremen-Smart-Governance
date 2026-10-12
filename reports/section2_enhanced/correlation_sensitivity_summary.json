@@ -1,0 +1,15 @@
+{
+  "n": 79,
+  "baseline_rho": 0.9738558909444986,
+  "baseline_tau_b": 0.8747160012982799,
+  "loo_n_each": 78,
+  "loo_replicates": 79,
+  "loo_rho_min": 0.9728372892929855,
+  "loo_rho_max": 0.9777690663766613,
+  "loo_tau_b_min": 0.8714618714618715,
+  "loo_tau_b_max": 0.8834498834498835,
+  "sensitivity_threshold_abs_delta_rho_p90": 0.0009781357882625798,
+  "flagged_n": 8,
+  "largest_change_name": "Fähr-Lobbendorf",
+  "largest_abs_delta_rho": 0.00391317543216263
+}

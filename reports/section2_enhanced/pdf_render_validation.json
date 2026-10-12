@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "deterministic_builds": 2,
+  "sha256": "f80b5514bff2a18dcd73a8afd968df5fdce7189e3fcb151f99bfdd5dace7dc1e",
+  "engine": "Quarto 1.10.18 plus bundled Typst",
+  "creation_timestamp": 0,
+  "root_fix": "Compile intermediate Typst using temporary mirrored repository root; no shared configuration changed.",
+  "prior_attempt": "pdf_feasibility_check.json records initial default Typst root failure, resolved here.",
+  "no_dependencies_installed": true
+}

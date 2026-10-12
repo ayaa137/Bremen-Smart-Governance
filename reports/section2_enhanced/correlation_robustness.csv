@@ -1,0 +1,7 @@
+first,second,sample,n,year,spearman_rho,kendall_tau_b,first_ties,second_ties,same_codes_as_complete
+unemployment,employment,complete,79,2024,-0.66738072054527764,-0.49367088607594939,0,0,True
+unemployment,employment,pairwise,79,2024,-0.66738072054527764,-0.49367088607594939,0,0,True
+unemployment,benefit_receipt,complete,79,2024,0.97385589094449865,0.87471600129827987,0,0,True
+unemployment,benefit_receipt,pairwise,79,2024,0.97385589094449865,0.87471600129827987,0,0,True
+employment,benefit_receipt,complete,79,2024,-0.58785296981499513,-0.42810775722168126,0,0,True
+employment,benefit_receipt,pairwise,79,2024,-0.58785296981499513,-0.42810775722168126,0,0,True

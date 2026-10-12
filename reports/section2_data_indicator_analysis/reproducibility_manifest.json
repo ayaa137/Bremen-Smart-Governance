@@ -1,0 +1,46 @@
+{
+  "generator": "src/analyze_section2.py",
+  "inputs": {
+    "Datentabelle.xls": "79cf9b888c770071ca825a52488d96d5855afba7dd7dc3cff91329f4e46e45c4",
+    "data\\processed\\excel_ortsteilatlas_long.csv": "328185f99bb5589fa7b7a0c11de2563c449f2fdfbe31748df5d378b011c91dc6",
+    "data\\processed\\geography_lookup.csv": "b51907fa508d171b3b46e62999673f92d2adf94c86f43ee8f80d77e9cc01b251",
+    "indicator_catalog.csv": "54c4a1572a6a57674d2ffb9ddeea5b7604429376202c3dc496ab4eaafb0a131d",
+    "data_quality_report.md": "ceefd161cec8c1a0367f5b1eef13bc662b07f7448e629c58c202d5ec57ac036a",
+    "data\\processed\\validation_summary.csv": "ce291c7c874a86cea4c7d1971c2ae5fb7f8a9136923b32fd8d7600b47d1cce86",
+    "src\\prepare_data.py": "51cc75a7f83e22571c48a985aafe25ac779540f1baaee950530e8ce9fa2d7ff8"
+  },
+  "script_sha256": "b2330bcfe0f0c6296745fdba7ce55ec54d998d64709766bbafa462ea662d7cce",
+  "versions": {
+    "python": "3.11.3",
+    "pandas": "3.0.1",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "xlrd": "2.0.2"
+  },
+  "validation": {
+    "selected_rows": 440,
+    "numeric_cells_verified": 415,
+    "missing_cells_verified": 25,
+    "duplicate_keys": 0,
+    "invalid_selected_values": 0,
+    "represented_ortsteile": 88,
+    "complete_cases": 79,
+    "inputs_unchanged": true
+  },
+  "outputs": {
+    "data\\processed\\section2_2024_ortsteil_analysis.csv": "1eb24522c7b87b41a437e6618ab2e63127873c21c9cb65a191f9fa43d3d5043f",
+    "data\\processed\\section2_indicator_metadata.csv": "51a19813c8bb66227aba9347cf39eb5efffe04d8e78d71eb16bafab50b8c8ea2",
+    "data\\processed\\section2_selected_observation_provenance.csv": "50916a175961bae720306841531527d458a341a810d34d834713dd58fed5ac81",
+    "reports\\section2_data_indicator_analysis\\descriptive_statistics.csv": "8778c154748b5466a4c878f1128dc3b0f373782f148eddf0176c045b033d404d",
+    "reports\\section2_data_indicator_analysis\\complete_case_descriptive_statistics.csv": "3b44c9de10b27cff287aedaf829e6e10255c4783537c501a3b30b21e5e77cb13",
+    "reports\\section2_data_indicator_analysis\\excluded_ortsteile.csv": "c2b0629349bf9a4aa5b811623bad99b57689738137d190b18c1e8e0039907071",
+    "reports\\section2_data_indicator_analysis\\outlier_source_checks.csv": "be0e9afec5f18d431427c74177f33733c052e45e4ecb6f5c4a10ed0a856bb528",
+    "reports\\section2_data_indicator_analysis\\indicator_assessment.csv": "51a19813c8bb66227aba9347cf39eb5efffe04d8e78d71eb16bafab50b8c8ea2",
+    "reports\\section2_data_indicator_analysis\\correlation_results.json": "2bbdcfb97ebc268ad110c3ac40891059228a4afd01a11183ce738bf0d4e8a277",
+    "reports\\section2_data_indicator_analysis\\methods_results.md": "1af67a26b2fb83243274a63b7db6f2702e5bed81f971a5f33ca03344b9d02d69",
+    "figures\\section2\\figure1_neighborhood_rates.png": "2f1d607990bd5d601c1951535367ac6ff0f154f61ba7d548397fee9d99b82123",
+    "figures\\section2\\figure2_unemployment_sgbii_scatter.png": "ce15a5a632b33f8aa0793bdb838e2371a8149b44b12f1ac4307c3d5b8d619fc0",
+    "figures\\section2\\figure3_context_distributions.png": "c2bb626510768580e6162449399de71a049c7fa98cf130b52d3d40ab2c7c169f"
+  }
+}

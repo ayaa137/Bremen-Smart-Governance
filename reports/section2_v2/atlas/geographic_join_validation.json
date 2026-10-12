@@ -1,0 +1,58 @@
+{
+  "socioeconomic_records": 88,
+  "official_ortsteil_features": 87,
+  "official_feature_ids_unique": true,
+  "wfs_declared_numberReturned": "0",
+  "wfs_actual_members": 87,
+  "raw_unmatched_socioeconomic": [
+    {
+      "geo_code": "361",
+      "geo_name": "Oberneuland"
+    }
+  ],
+  "raw_unmatched_polygons": [],
+  "resolved_crosswalks": [
+    {
+      "geo_code": "361",
+      "official_code": "04011360",
+      "source_level": "Stadtteil",
+      "evidence": [
+        "https://www.transparenz.bremen.de/metainformationen/verordnung-ueber-die-neuordnung-der-stadtbremischen-verwaltungsbezirke-vom-23-februar-1951-70486?asl=bremen203_tpgesetz.c.55340.de&template=20_gp_ifg_meta_detail_d",
+        "https://www.rathaus.bremen.de/sixcms/media.php/13/20130312_Ortsgesetz_Stadtteil_Oberneuland.pdf"
+      ],
+      "interpretation": "Undivided Oberneuland territory; explicit statistical 361 crosswalk, not a general level conversion."
+    }
+  ],
+  "final_matched": 88,
+  "final_unmatched_socioeconomic": [],
+  "final_unmatched_polygons": [],
+  "missing_geometries": 0,
+  "name_discrepancies": [
+    {
+      "geo_code": "421",
+      "socioeconomic_name": "Regensburger Straße",
+      "boundary_name": "Regensburger Str."
+    },
+    {
+      "geo_code": "437",
+      "socioeconomic_name": "Ueberseestadt",
+      "boundary_name": "Überseestadt"
+    },
+    {
+      "geo_code": "515",
+      "socioeconomic_name": "St. Magnus",
+      "boundary_name": "St.Magnus"
+    }
+  ],
+  "dataset_revision": "2024-12-11",
+  "exact_legal_boundary_validity_date_verified": false,
+  "boundary_compatibility": "Same-year dataset revision and explicit code crosswalk; exact statistical boundary reference day remains unverified.",
+  "scope": "88 represented mainland statistical units; no Bremerhaven municipality, no separately represented code 123 overseas-port enclave. Not an all-territory Land Bremen map.",
+  "geometry_checks": "Finite, closed nondegenerate 2-D rings; CRS; original vertices; multipart/hole handling; coordinate area vs published area. No full topology/overlap certification.",
+  "extent_epsg25832": [
+    465403.02,
+    499384.85,
+    5873514.44,
+    5897849.92
+  ]
+}
