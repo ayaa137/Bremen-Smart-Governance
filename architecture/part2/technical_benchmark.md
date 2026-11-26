@@ -49,7 +49,7 @@ A leads when priorities are balanced or aligned with the student prototype. The 
 
 ## Local feasibility evidence
 
-Run from the repository root. The probes read saved files and leave the release intact. With `--skip-streamlit`, the checks require only Python’s standard library. The full run used Windows 11, Python 3.13.7, and the already installed Streamlit 1.67.0.
+Run from the repository root. The probes read saved files and leave the release intact. With `--skip-streamlit`, the checks require only Python’s standard library. The original benchmark reports a full run on Windows 11 with Python 3.13.7 and Streamlit 1.67.0. The independent integration audit reproduced the static and SQLite probes. Streamlit was unavailable in that audit environment, so its AppTest result remains independently unverified.
 
 ```powershell
 python -B architecture/part2/benchmark_checks.py
@@ -60,8 +60,8 @@ python -B architecture/part2/benchmark_checks.py --skip-streamlit
 | --- | --- | --- |
 | Shared inputs | Both release CSV hashes matched the manifest. Verified 88 unique neighborhood keys, 79 eligible rows with housing, nine exclusions, five unvisited candidates, and two spatial rows. Exact bytes were 21,382 for the neighborhood CSV, 2,502 for the spatial CSV, 1,318 for the manifest, and 312,017 for the housing PNG. | Saved artifact sizes on the test machine. |
 | A · HTML fragment | An escaped 88-row table matched the saved records and produced identical 5,839-byte UTF-8 output on two builds. Header structure and the PNG header (3,300 × 2,100) were checked. | Table-fragment size and determinism. Browser and assistive-technology tests remain. |
-| B · Streamlit AppTest | The selector loaded all 88 choices. Code `111` displayed its saved composite rank of 47 and excluded code `122` displayed “Missing”. | In-process widget test. Hosting and browser behavior remain untested. [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing) |
-| C · SQL and JSON probe | SQLite 3.50.4 round-tripped 88 projected rows, rejected a duplicate key, and preserved the excluded area’s reason and JSON null rank. | In-memory stand-in for the data model. PostgreSQL, live API behavior, browser integration, and authentication remain untested. |
+| B · Streamlit AppTest | The original benchmark reports 88 choices, composite rank 47 for code `111`, and “Missing” for excluded code `122`. | Reported in-process widget result. Independent AppTest, hosting, and browser verification remain open. [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing) |
+| C · SQL and JSON probe | SQLite round-tripped 88 projected rows, rejected a duplicate key, and preserved the excluded area’s reason and JSON null rank. The original benchmark used SQLite 3.50.4 and the independent audit reproduced the behavior on 3.40.1. | In-memory stand-in for the data model. PostgreSQL, live API behavior, browser integration, and authentication remain untested. |
 
 The probes exercise different capabilities. They provide no comparable end-to-end timing, concurrent-user capacity, operating cost estimate, or accessibility or security certification. The matrix uses one release and engineering judgment from one review. Hosting, staffing, source refresh, and municipal policies remain open.
 

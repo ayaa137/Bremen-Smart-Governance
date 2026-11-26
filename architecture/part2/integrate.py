@@ -16,6 +16,11 @@ ROOT = HERE.parents[1]
 YEAR = "2024"
 RELEASE = "2024-v1"
 AREAS, SCORED, VISITS = 88, 79, 5
+PERMUTATIONS, SEED = 9999, 2024
+SPATIAL_WEIGHTS = "symmetrized_knn_row_standardized"
+SPATIAL_P_DEFINITION = "absolute deviation from -1/(n-1), plus-one correction"
+SPATIAL_TOLERANCE = Decimal("1e-14")
+RANK_RANGES = "results/weight_rank_ranges.csv"
 FEATURES = ("unemployment", "employment", "benefit_receipt")
 KEY_COLUMNS = ("geo_code", "geo_name", "year")
 HOUSING_COLUMNS = (
@@ -44,6 +49,7 @@ INPUTS = {
     "spatial": "results/part2/spatial_autocorrelation.csv",
 }
 SCHEMAS = {
+    "ranges": ("method", "geo_code", "geo_name", "min", "max", "median"),
     "spine": (*KEY_COLUMNS, *FEATURES, "geo_level", "scoring_eligible", "exclusion_reason",
               *(f"{feature}_{suffix}" for feature in FEATURES for suffix in ("year", "unit"))),
     "composite": (*KEY_COLUMNS, "composite_score", "rank"),
@@ -72,7 +78,7 @@ def git(root, *args):
 
 
 def read_csv(payload, table):
-    path = INPUTS[table]
+    path = INPUTS.get(table, RANK_RANGES)
     reader = csv.DictReader(io.StringIO(payload.decode("utf-8-sig"), newline=""), strict=True)
     fields = reader.fieldnames or []
     require(len(fields) == len(SCHEMAS[table]) and set(fields) == set(SCHEMAS[table]),
@@ -90,13 +96,15 @@ def load_inputs(root):
     source_commit = git(root, "log", "-1", "--format=%H", "HEAD", "--", *INPUTS.values()).decode().strip()
     require(source_commit, "No Git commit found for the integration inputs")
     tables, hashes = {}, {}
-    for table, path in INPUTS.items():
+    for table, path in dict(INPUTS, ranges=RANK_RANGES).items():
         saved = git(root, "show", f"{source_commit}:{path}")
         working = (root / path).read_bytes()
         require(working.replace(b"\r\n", b"\n") == saved.replace(b"\r\n", b"\n"),
                 f"{path}: working copy differs from source Git commit {source_commit}")
         tables[table] = read_csv(saved, table)
-        hashes[path] = sha256(saved).hexdigest()
+        # The auxiliary rank ranges validate the shortlist without changing the v1 manifest.
+        if table in INPUTS:
+            hashes[path] = sha256(saved).hexdigest()
     return tables, source_commit, hashes
 
 
@@ -109,6 +117,12 @@ def number(row, field, context, minimum=None, maximum=None):
     require((minimum is None or value >= minimum) and (maximum is None or value <= maximum),
             f"{context}: {field} is outside its valid range")
     return value
+
+
+def integer(row, field, context, minimum, maximum):
+    value = number(row, field, context, minimum, maximum)
+    require(value == value.to_integral_value(), f"{context}: {field} must be an integer")
+    return int(value)
 
 
 def matches_number(row, field, saved, source_field, context):
@@ -173,7 +187,25 @@ def validate_ranking(rows, method):
                 number(row, field, f"{method} {key}", 0)
 
 
-def validate_neighborhood_evidence(eligible, composite, topsis, clusters, housing, visits):
+def index_rank_ranges(rows, eligible):
+    ranges = {}
+    for row in rows:
+        key = (row["geo_code"], YEAR)
+        method = row["method"]
+        context = f"weight rank ranges {method} {key}"
+        require(method in {"composite", "topsis"} and key in eligible
+                and row["geo_name"] == eligible[key]["geo_name"],
+                f"{context}: unexpected method or neighborhood")
+        require((method, key) not in ranges, f"{context}: duplicate rank range")
+        low = integer(row, "min", context, 1, SCORED)
+        high = integer(row, "max", context, low, SCORED)
+        number(row, "median", context, low, high)
+        ranges[method, key] = (low, high)
+    require(len(ranges) == 2 * len(eligible), "weight rank ranges: incomplete coverage")
+    return ranges
+
+
+def validate_neighborhood_evidence(eligible, composite, topsis, clusters, housing, visits, ranges):
     require({row["cluster"] for row in clusters.values()} == {"Profile A", "Profile B"},
             "K-means: expected both saved nominal profiles")
     housing_rho = set()
@@ -195,12 +227,24 @@ def validate_neighborhood_evidence(eligible, composite, topsis, clusters, housin
         context = f"fieldwork {key}"
         for field in FEATURES:
             matches_number(row, field, eligible[key], field, context)
+        ranks, spans = [], []
         for method, ranking in (("composite", composite), ("topsis", topsis)):
             matches_number(row, f"{method}_score", ranking[key], f"{method}_score", context)
             require(row[f"{method}_rank"] == ranking[key]["rank"], f"{context}: {method} rank mismatch")
+            rank = int(ranking[key]["rank"])
+            low = integer(row, f"{method}_weight_rank_min", context, 1, rank)
+            high = integer(row, f"{method}_weight_rank_max", context, rank, SCORED)
+            require((low, high) == ranges[method, key],
+                    f"{context}: {method} rank bounds disagree with saved weight rank ranges")
+            span = integer(row, f"{method}_weight_rank_span", context, 0, SCORED - 1)
+            require(span == high - low, f"{context}: inconsistent {method} rank span")
+            ranks.append(rank)
+            spans.append(span)
         require(row["cluster"] == clusters[key]["cluster"], f"{context}: cluster label mismatch")
-        for field in VISIT_COLUMNS[:8]:
-            number(row, field, context, 0, SCORED)
+        gap = integer(row, "absolute_rank_gap", context, 0, SCORED - 1)
+        require(gap == abs(ranks[0] - ranks[1]), f"{context}: inconsistent absolute_rank_gap")
+        max_span = integer(row, "max_weight_rank_span", context, 0, SCORED - 1)
+        require(max_span == max(spans), f"{context}: inconsistent max_weight_rank_span")
         priority = row["visit_priority"]
         require(priority in {"1", "2", "3", "4", "5"} and priority not in priorities,
                 f"{context}: invalid or duplicate visit priority")
@@ -220,9 +264,55 @@ def validate_spatial(rows, composite):
         require(all(value.strip() for value in row.values()), f"{context}: missing summary field")
         require(row["year"] == YEAR and row["n"] == str(SCORED),
                 f"{context}: unexpected year or sample size")
-        for field in SPATIAL_NUMBERS:
-            number(row, field, context)
-        require(0 < number(row, "p_two_sided", context) <= 1, f"{context}: invalid p-value")
+        require(row["weights"] == SPATIAL_WEIGHTS and row["crs"] == "EPSG:25832",
+                f"{context}: unexpected spatial weights or CRS")
+        require(row["p_definition"] == SPATIAL_P_DEFINITION, f"{context}: unexpected p-value definition")
+        permutations = integer(row, "permutations", context, PERMUTATIONS, PERMUTATIONS)
+        integer(row, "seed", context, SEED, SEED)
+        extreme = integer(row, "extreme_permutations", context, 0, permutations)
+        p_minimum = Decimal(1) / (permutations + 1)
+        require(number(row, "p_minimum", context) == p_minimum, f"{context}: inconsistent p_minimum")
+        require(number(row, "p_two_sided", context, p_minimum, 1) == (extreme + 1) * p_minimum,
+                f"{context}: inconsistent plus-one p-value")
+        expected_null = -Decimal(1) / (SCORED - 1)
+        theoretical = number(row, "theoretical_null_expectation", context, -1, 0)
+        require(abs(theoretical - expected_null) <= SPATIAL_TOLERANCE,
+                f"{context}: inconsistent theoretical null expectation")
+
+        k = int(row["k"])
+        degree_min = integer(row, "degree_min", context, k, SCORED - 1)
+        degree_max = integer(row, "degree_max", context, degree_min, SCORED - 1)
+        # An undirected edge accounts for one or two of the n*k directed choices.
+        choices = SCORED * k
+        edges = integer(row, "undirected_edges", context, (choices + 1) // 2, choices)
+        total_degree = 2 * edges
+        # Both reported extrema must occur, even when the mean is in range.
+        other_vertices = SCORED - 1
+        require(other_vertices * degree_min + degree_max <= total_degree
+                <= degree_min + other_vertices * degree_max,
+                f"{context}: total degree disagrees with the reported degree extrema")
+        degree_mean = number(row, "degree_mean", context, degree_min, degree_max)
+        require(abs(degree_mean - Decimal(total_degree) / SCORED) <= SPATIAL_TOLERANCE,
+                f"{context}: degree_mean disagrees with the edge count")
+        integer(row, "isolates", context, 0, 0)
+        components = integer(row, "components", context, 1, SCORED)
+        sizes = row["component_sizes"].split(";")
+        require(len(sizes) == components and all(re.fullmatch(r"[1-9][0-9]?", size) for size in sizes)
+                and sum(map(int, sizes)) == SCORED and min(map(int, sizes)) > degree_min,
+                f"{context}: inconsistent component sizes")
+
+        # With W = D^-1 A, rows sum to 1 and column sums are at most d_max/d_min.
+        # Applying 2|z_i z_j| <= z_i^2 + z_j^2 bounds the normalized quadratic form.
+        bound = (1 + Decimal(degree_max) / degree_min) / 2 + SPATIAL_TOLERANCE
+        for field in ("morans_i", "permutation_null_mean"):
+            value = number(row, field, context)
+            require(value.copy_abs() <= bound, f"{context}: {field} exceeds the row-standardized weights bound")
+        distance_min = number(row, "link_distance_min_m", context)
+        distance_max = number(row, "link_distance_max_m", context, distance_min)
+        require(distance_min > 0, f"{context}: link distances must be positive")
+        for field in ("link_distance_median_m", "link_distance_mean_m"):
+            number(row, field, context, distance_min, distance_max)
+        number(row, "max_area_error_km2", context, 0)
         for field in ("sample_scores_sha256", "centroids_sha256", "weights_sha256"):
             require(re.fullmatch(r"[0-9a-f]{64}", row[field]), f"{context}: malformed {field}")
     scores = csv_bytes([{"geo_code": key[0], "composite_score": composite[key]["composite_score"]}
@@ -245,7 +335,8 @@ def integrate(tables):
     visits = neighborhood_index(tables["fieldwork"], "fieldwork", VISITS, eligible)
     validate_ranking(composite, "composite")
     validate_ranking(topsis, "topsis")
-    validate_neighborhood_evidence(eligible, composite, topsis, clusters, housing, visits)
+    ranges = index_rank_ranges(tables["ranges"], eligible)
+    validate_neighborhood_evidence(eligible, composite, topsis, clusters, housing, visits, ranges)
     spatial = validate_spatial(tables["spatial"], composite)
 
     neighborhoods = []

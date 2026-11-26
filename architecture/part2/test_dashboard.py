@@ -89,15 +89,41 @@ class DashboardTests(unittest.TestCase):
 
     def test_spatial_results_appear_only_at_release_level(self):
         with (dashboard.RELEASE / "spatial_summary.csv").open(encoding="utf-8", newline="") as stream:
-            expected = {row["k"]: (row["n"], row["morans_i"], row["p_two_sided"])
-                        for row in csv.DictReader(stream)}
+            source = list(csv.DictReader(stream))
+        self.assertEqual([row["seed"] for row in source], ["2024", "2024"])
+        self.assertIn("Permutation seed 2024.", self.page)
         spatial = re.search(r'<tbody id="spatial-results">(.*?)</tbody>', self.page, re.S).group(1)
         actual = re.findall(r'<th scope="row">(\d+)</th><td>(\d+)</td>'
-                            r'<td><span data-saved="([^"]+)">[^<]+</span></td>'
-                            r'<td><span data-saved="([^"]+)">', spatial)
-        self.assertEqual({k: (n, value, p) for k, n, value, p in actual}, expected)
-        self.assertEqual(len(actual), 2)
+                            r'<td><span data-saved="([^"]+)">([^<]+)</span></td>'
+                            r'<td><span data-saved="([^"]+)">([^<]+)</span></td>'
+                            r'<td>(\d+)</td>', spatial)
+        self.assertEqual(actual, [
+            ("4", "79", "0.29918123088903403", "0.299181", "0.0001", "0.0001", "9999"),
+            ("6", "79", "0.20072149377376158", "0.200721", "0.0011", "0.0011", "9999"),
+        ])
+        self.assertEqual([(k, n, value, p, permutations)
+                          for k, n, value, _, p, _, permutations in actual],
+                         [(row["k"], row["n"], row["morans_i"], row["p_two_sided"], row["permutations"])
+                          for row in source])
         self.assertTrue(all("Moran" not in panel for panel in self.panels.values()))
+
+    def test_spatial_table_has_monte_carlo_caveat(self):
+        card = re.search(r'<article class="card content-card">\s*<h3>Global Moran.*?</article>',
+                         self.page, re.S).group(0)
+        self.assertIn('aria-describedby="spatial-monte-carlo"', card)
+        note = re.search(r'<p class="muted" id="spatial-monte-carlo">([^<]+)</p>', card).group(1)
+        for phrase in ("9,999 permutations", "plus-one correction", "0.0001 is the smallest attainable p-value",
+                       "Zero extreme permutations still give an estimate of 0.0001",
+                       "simulation uncertainty", "underlying p-value may be smaller or larger"):
+            self.assertIn(phrase, note)
+        self.assertTrue(all("spatial-monte-carlo" not in panel for panel in self.panels.values()))
+
+    def test_displayed_coverage_distinguishes_housing_from_neighborhoods(self):
+        for label, count in (("represented", 88), ("scored", 79), ("excluded", 9)):
+            self.assertIn(f'<dd id="{label}-count">{count}</dd>', self.page)
+        housing = re.findall(r'data-field="floor_area_m2_per_resident"><span data-saved=', self.page)
+        self.assertEqual(len(housing), 79)
+        self.assertIn('alt="Scatterplot of 79 scored Bremen neighborhoods', self.page)
 
     def test_html_is_deterministic_and_self_contained(self):
         rebuilt = dashboard.build_page()

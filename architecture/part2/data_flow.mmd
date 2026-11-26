@@ -7,7 +7,7 @@ flowchart TB
         direction LR
         STATS["EXISTING<br/>Official Bremen statistics<br/>Local workbook and CSVs"]
         GEO["EXISTING<br/>Official boundary snapshots<br/>Validated Ortsteil crosswalk"]
-        BASE["EXISTING<br/>Python preparation and validation<br/>Annual panel, saved ranks and profiles"]
+        BASE["EXISTING<br/>Python preparation and validation<br/>2024 spine, saved ranks and profiles"]
         PART2["EXISTING<br/>Meriam’s verified Part 2 outputs<br/>Housing, shortlist, and global Moran’s I"]
         STATS --> BASE --> PART2
         GEO --> PART2
@@ -15,7 +15,7 @@ flowchart TB
 
     subgraph INTEGRATION["Local delivery"]
         direction LR
-        JOIN["IMPLEMENTED<br/>Read-only integration gate<br/>Annual panel and saved Part 1 and 2 results<br/>Validate keys, year, coverage, and consistency"]
+        JOIN["IMPLEMENTED<br/>Read-only integration gate<br/>2024 spine and saved Part 1 and 2 results<br/>Validate keys, year, coverage, and consistency"]
         RELEASE["IMPLEMENTED · 2024-v1<br/>88 neighborhoods · 79 scored · 9 excluded<br/>Separate spatial summary · 2 settings<br/>Manifest · source commit and hashes"]
         PROTOTYPE["IMPLEMENTED<br/>Offline student dashboard<br/>Verified release and saved figure"]
         JOIN -->|Checks pass| RELEASE --> PROTOTYPE

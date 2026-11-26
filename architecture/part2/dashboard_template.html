@@ -241,12 +241,13 @@
           <h3>Global Moran’s I</h3>
           <p>A release-level spatial finding for the saved Composite Index. Positive values indicate spatial clustering under the tested weights. The table gives no individual-neighborhood statistic.</p>
           <div class="scroll" tabindex="0" role="region" aria-label="Scrollable release-level Moran’s I results">
-            <table class="spatial-table" aria-label="Global Moran’s I by neighbor setting">
+            <table class="spatial-table" aria-label="Global Moran’s I by neighbor setting" aria-describedby="spatial-monte-carlo">
               <thead><tr><th scope="col">Neighbors (k)</th><th scope="col">Sample</th><th scope="col">Moran’s I</th>
                 <th scope="col">Two-sided p</th><th scope="col">Permutations</th></tr></thead>
               <tbody id="spatial-results">$spatial_rows</tbody>
             </table>
           </div>
+          <p class="muted" id="spatial-monte-carlo">With 9,999 permutations and the plus-one correction, 0.0001 is the smallest attainable p-value. Zero extreme permutations still give an estimate of 0.0001, with simulation uncertainty. The underlying p-value may be smaller or larger.</p>
           <p class="muted">Symmetrized, row-standardized nearest-neighbor weights use centroid distances in EPSG:25832. Permutation seed $spatial_seed. Results depend on the complete-case sample and the weights. They support no local hotspot, accessibility, or causal inference. <a href="#source-spatial">Spatial source</a></p>
         </article>
       </div>
