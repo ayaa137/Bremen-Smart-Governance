@@ -1,7 +1,11 @@
 import json
+import os
+import sys
+from pathlib import Path
+import tempfile
 import nbformat as nbf
 from nbclient import NotebookClient
-from analysis_common import ROOT, write_doc
+from analysis_common import ROOT
 
 SETUP = '''from pathlib import Path
 import sys
@@ -53,33 +57,95 @@ SPECIFICATIONS = [
      "summary = run()\ndisplay(summary[~summary.scenario.str.startswith('plausible_random')])\ndisplay(read('results/weight_rank_ranges.csv').head(15))\ndisplay(read('results/cluster_stability_summary.csv'))",
      "show_figure('weight_sensitivity.png')\ndisplay(Markdown((ROOT / 'results/robustness_findings.md').read_text(encoding='utf-8')))")]
 
+def stage_text(destination, text, staged):
+    # Keep the temporary file on the destination filesystem for os.replace.
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', newline='\n',
+                                     dir=destination.parent, prefix='.' + destination.name + '.',
+                                     suffix='.tmp', delete=False) as handle:
+        staged.append((Path(handle.name), destination))
+        handle.write(text)
+
+
+def report_failure(message, error):
+    # Preserve diagnostics in the traceback where supported, even if stderr fails.
+    try:
+        if hasattr(error, 'add_note'):
+            error.add_note(message)
+    except BaseException:
+        pass
+    try:
+        print(message, file=sys.stderr, flush=True)
+    except BaseException:
+        pass  # Reporting must not replace the original failure/interruption.
+
+
 def run():
     folder = ROOT / 'notebooks'
     folder.mkdir(exist_ok=True)
-    status = []
-    for name, purpose, loading, calculation, presentation in SPECIFICATIONS:
-        notebook = nbf.v4.new_notebook()
-        notebook.metadata.kernelspec = {'display_name':'Python 3','language':'python','name':'python3'}
-        notebook.cells = [
-            nbf.v4.new_markdown_cell('# ' + name.replace('_',' ') + '\n\n' + purpose + '\n\nTechnical evidence for the confirmed Bremen project. Primary comparison: 2024 Ortsteile. No historical change claim; original data preserved.'),
-            nbf.v4.new_markdown_cell('## Setup and relative paths'), nbf.v4.new_code_cell(SETUP),
-            nbf.v4.new_markdown_cell('## Data loading and preparation'), nbf.v4.new_code_cell(loading),
-            nbf.v4.new_markdown_cell('## Calculation and validation'), nbf.v4.new_code_cell(calculation),
-            nbf.v4.new_markdown_cell('## Results, visualization and interpretation'), nbf.v4.new_code_cell(presentation),
-            nbf.v4.new_markdown_cell('## Assumptions and limits\n\nComplete-case scoring; no imputation. Different indicator denominators, correlated labour-market measures, unavailable 2024 income, unknown exact reference dates and incomplete historical boundary/definition metadata limit interpretation. Rankings apply only to the covered sample. Clusters are nominal. See analysis/dataset_validation.md and docs/methods.md. Tables are exported by reusable scripts; important figures appear in results/figures/.')]
-        path = folder / (name + '.ipynb')
-        print('Executing ' + path.name, flush=True)
-        try:
+    status, staged, published = [], [], []
+    primary_error = None
+    try:
+        for name, purpose, loading, calculation, presentation in SPECIFICATIONS:
+            notebook = nbf.v4.new_notebook()
+            notebook.metadata.kernelspec = {'display_name':'Python 3','language':'python','name':'python3'}
+            notebook.cells = [
+                nbf.v4.new_markdown_cell('# ' + name.replace('_',' ') + '\n\n' + purpose + '\n\nTechnical evidence for the confirmed Bremen project. Primary comparison: 2024 Ortsteile. No historical change claim; original data preserved.'),
+                nbf.v4.new_markdown_cell('## Setup and relative paths'), nbf.v4.new_code_cell(SETUP),
+                nbf.v4.new_markdown_cell('## Data loading and preparation'), nbf.v4.new_code_cell(loading),
+                nbf.v4.new_markdown_cell('## Calculation and validation'), nbf.v4.new_code_cell(calculation),
+                nbf.v4.new_markdown_cell('## Results, visualization and interpretation'), nbf.v4.new_code_cell(presentation),
+                nbf.v4.new_markdown_cell('## Assumptions and limits\n\nComplete-case scoring; no imputation. Different indicator denominators, correlated labour-market measures, unavailable 2024 income, unknown exact reference dates and incomplete historical boundary/definition metadata limit interpretation. Rankings apply only to the covered sample. Clusters are nominal. See analysis/dataset_validation.md and docs/methods.md. Tables are exported by reusable scripts; important figures appear in results/figures/.')]
+            path = folder / (name + '.ipynb')
+            print('Executing ' + path.name, flush=True)
             NotebookClient(notebook, timeout=900, kernel_name='python3', resources={'metadata':{'path':str(folder)}}).execute()
-        except Exception as exc:
-            nbf.write(notebook,path)
-            status.append({'notebook':path.name,'passed':False,'error':str(exc)})
-            write_doc('analysis/notebook_execution.json',json.dumps(status,indent=2))
+            nbf.validate(notebook)
+            code_cells = [cell for cell in notebook.cells if cell.cell_type == 'code']
+            if any(cell.execution_count is None or any(output.output_type == 'error' for output in cell.outputs)
+                   for cell in code_cells):
+                raise ValueError('Notebook execution is incomplete: ' + path.name)
+            stage_text(path, nbf.writes(notebook), staged)
+            status.append({'notebook':path.name,'passed':True,'code_cells':len(code_cells)})
+        stage_text(ROOT / 'analysis/notebook_execution.json', json.dumps(status, indent=2) + '\n', staged)
+        # All execution and staging succeeded. Each replacement is atomic, not the batch.
+        temporary = None
+        try:
+            for temporary, destination in staged:
+                os.replace(temporary, destination)
+                published.append(destination)
+        except BaseException as exc:
+            replaced = bool(published)
+            if not replaced and temporary is not None:
+                try:
+                    # A rename may finish just before an interruption reaches Python.
+                    replaced = not temporary.exists()
+                except BaseException:
+                    pass
+            if replaced:
+                status_note = ('The previous execution-status file remains unchanged.'
+                               if destination != staged[-1][1]
+                               else 'Execution-status replacement was not confirmed; inspect the status file.')
+                report_failure('Notebook publication failed or was interrupted after completed replacements; '
+                               'partial publication may have occurred. ' + status_note, exc)
             raise
-        nbf.write(notebook,path)
-        status.append({'notebook':path.name,'passed':True,'code_cells':sum(c.cell_type=='code' for c in notebook.cells)})
-        write_doc('analysis/notebook_execution.json',json.dumps(status,indent=2))
+    except BaseException as exc:
+        primary_error = exc
+        raise
+    finally:
+        cleanup_errors = []
+        for temporary, _ in staged:
+            try:
+                temporary.unlink(missing_ok=True)
+            except BaseException as exc:
+                cleanup_errors.append((temporary, exc))
+        if cleanup_errors:
+            message = ('Temporary-file cleanup failed for the following paths; files may remain:\n' +
+                       '\n'.join(f'  {path}: {type(error).__name__}: {error}'
+                                 for path, error in cleanup_errors))
+            report_failure(message, primary_error if primary_error is not None else cleanup_errors[0][1])
+            if primary_error is None:
+                raise cleanup_errors[0][1]
     return status
+
 
 if __name__ == '__main__':
     run()

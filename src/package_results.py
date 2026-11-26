@@ -1,3 +1,4 @@
+import argparse
 import importlib.metadata
 import json
 import shutil
@@ -147,7 +148,10 @@ def pdf_summary(path, heading, facts, tables, figures):
             pdf.savefig(fig,bbox_inches='tight')
             plt.close(fig)
 
-def run():
+def run(*, regenerate_architecture=False):
+    if not regenerate_architecture and not (ROOT / 'architecture/architecture_diagram.png').is_file():
+        raise FileNotFoundError('Existing architecture/architecture_diagram.png is required. '
+                                'Use --regenerate-architecture only when regeneration is explicitly intended.')
     frame = load_analysis()
     composite,topsis,clusters = read('results/composite_index_results.csv'),read('results/topsis_results.csv'),read('results/kmeans_results.csv')
     agreement = read('results/ranking_agreement_summary.csv').iloc[0]
@@ -220,7 +224,8 @@ Triple-bottom-line evaluation framework (proposed evaluation, not measured impac
 
 Correlations and rankings cannot establish any of these causal impacts. Teammates must add literature, contextual evidence and appropriately designed evaluation before drawing such conclusions.
 ''')
-    architecture_figure()
+    if regenerate_architecture:
+        architecture_figure()
     result_figures(frame,composite,topsis,clusters)
     captions = [
         ('indicator_distributions.png','Distribution of the three 2024 percentages across 79 complete-case Ortsteile; different denominators; not population-weighted.'),
@@ -294,4 +299,7 @@ def Path_name(relative):
     return relative.rsplit('/',1)[-1]
 
 if __name__ == '__main__':
-    print(run().to_string(index=False))
+    parser = argparse.ArgumentParser(description='Package analysis evidence; reuse existing architecture by default.')
+    parser.add_argument('--regenerate-architecture', action='store_true',
+                        help='Explicitly regenerate architecture/architecture_diagram.png.')
+    print(run(regenerate_architecture=parser.parse_args().regenerate_architecture).to_string(index=False))
