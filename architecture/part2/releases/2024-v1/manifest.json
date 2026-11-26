@@ -1,0 +1,27 @@
+{
+  "inputs_sha256": {
+    "data/processed/ortsteil_analysis_ready.csv": "6f65ce7e9d0a3d9a92c183696944f21dfb74ab3ddc0e83bfa02520048be659c1",
+    "results/composite_index_results.csv": "17a2eff4aa00b74adb109d0a306ccd7faf2a035654ff120e690f9628a368d62e",
+    "results/kmeans_results.csv": "22c362587e622a04b43593a614c08aa0a385e01a78614cb2131201a5c4113f90",
+    "results/part2/fieldwork_shortlist.csv": "8e53a138fa285ebcd783f922b059117d25d2f976a8d38d037ff10a0657e76c18",
+    "results/part2/housing_benchmark.csv": "ed8f54b61f94af64d41979a7389bd04159de21688cbc2c79d06052a29917ac07",
+    "results/part2/spatial_autocorrelation.csv": "660f0663b9073b5daa52b13318214b482fb5079cf1571ae5ea2a2f3c0890d7fe",
+    "results/topsis_results.csv": "0adf57b21ae8f41969de6f1ac44a554f91314e59c4477e8306836e2be69855fb"
+  },
+  "outputs_sha256": {
+    "neighborhoods.csv": "46e68d1ff5e93bc156ee8a4e065a4485739ee0eef5b794fc73b4aa94031caa97",
+    "spatial_summary.csv": "660f0663b9073b5daa52b13318214b482fb5079cf1571ae5ea2a2f3c0890d7fe"
+  },
+  "release": "2024-v1",
+  "row_counts": {
+    "eligible": 79,
+    "excluded": 9,
+    "fieldwork_candidates": 5,
+    "housing_benchmark": 79,
+    "neighborhoods": 88,
+    "spatial_summary": 2
+  },
+  "schema_version": 1,
+  "source_git_commit": "fa2c6e277545391af3f6c92590f1447eb018f562",
+  "year": 2024
+}

@@ -1,0 +1,43 @@
+%%{init: {"theme":"base","htmlLabels":false,"flowchart":{"htmlLabels":false,"curve":"linear","nodeSpacing":24,"rankSpacing":25,"padding":12,"wrappingWidth":300},"themeVariables":{"fontFamily":"Arial, sans-serif","fontSize":"16px","lineColor":"#64748b","clusterBkg":"#f8fafc","clusterBorder":"#cbd5e1","edgeLabelBackground":"#ffffff"},"themeCSS":"text { font-family: Arial, sans-serif; } .cluster-label text { font-weight: 700; }"}}%%
+flowchart TB
+    accTitle: Bremen Smart Governance Part 2 data flow
+    accDescr: Official statistics and boundaries support the saved Part 1 and Part 2 analyses. Implemented integration feeds the offline student dashboard with the 2024-v1 release, keeping global spatial context separate. Dashed handoffs lead to proposed municipal review and fieldwork if approved.
+
+    subgraph EVIDENCE["Repository evidence"]
+        direction LR
+        STATS["EXISTING<br/>Official Bremen statistics<br/>Local workbook and CSVs"]
+        GEO["EXISTING<br/>Official boundary snapshots<br/>Validated Ortsteil crosswalk"]
+        BASE["EXISTING<br/>Python preparation and validation<br/>Annual panel, saved ranks and profiles"]
+        PART2["EXISTING<br/>Meriam’s verified Part 2 outputs<br/>Housing, shortlist, and global Moran’s I"]
+        STATS --> BASE --> PART2
+        GEO --> PART2
+    end
+
+    subgraph INTEGRATION["Local delivery"]
+        direction LR
+        JOIN["IMPLEMENTED<br/>Read-only integration gate<br/>Annual panel and saved Part 1 and 2 results<br/>Validate keys, year, coverage, and consistency"]
+        RELEASE["IMPLEMENTED · 2024-v1<br/>88 neighborhoods · 79 scored · 9 excluded<br/>Separate spatial summary · 2 settings<br/>Manifest · source commit and hashes"]
+        PROTOTYPE["IMPLEMENTED<br/>Offline student dashboard<br/>Verified release and saved figure"]
+        JOIN -->|Checks pass| RELEASE --> PROTOTYPE
+    end
+
+    subgraph MUNICIPAL["Possible municipal use"]
+        direction LR
+        COMPARE["PROPOSED<br/>Municipal dashboard<br/>Show Moran’s I at release level"]
+        FIELD["FUTURE<br/>Fieldwork if approved<br/>Shortlist guides site selection<br/>Review and summarize observations"]
+        REVIEW["PROPOSED<br/>Human review of intervention options<br/>Set pilot outcomes, then evaluate evidence"]
+        COMPARE -.-> REVIEW
+        FIELD -.-> REVIEW
+    end
+
+    EVIDENCE --> INTEGRATION
+    INTEGRATION -.-> MUNICIPAL
+
+    classDef existing fill:#eaf1f8,stroke:#648099,color:#162f49,stroke-width:1.4px
+    classDef implemented fill:#dcf5eb,stroke:#168368,color:#103b33,stroke-width:2.3px
+    classDef proposed fill:#f3edfa,stroke:#79599b,color:#382653,stroke-width:1.5px,stroke-dasharray:6 3
+    classDef future fill:#fff3db,stroke:#987025,color:#513a12,stroke-width:1.5px,stroke-dasharray:2 3
+    class STATS,GEO,BASE,PART2 existing
+    class JOIN,RELEASE,PROTOTYPE implemented
+    class COMPARE,REVIEW proposed
+    class FIELD future
