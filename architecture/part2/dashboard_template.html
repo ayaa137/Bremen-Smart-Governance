@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Bremen Smart Governance · Neighborhood evidence</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #152d35; --muted: #475e65; --teal: #075f53; --line: #d7e1e3;
+      --paper: #f2f6f6; --white: #fff; --tint: #eaf5f1; --warn: #774711;
+      --warn-bg: #fbefd9; --radius: 17px;
+      font: 100% / 1.55 system-ui, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 18px; }
+    body { margin: 0; color: var(--ink); background: var(--paper); }
+    h1, h2, h3, h4, p, dl, figure { margin: 0; }
+    h1, h2, h3 { line-height: 1.12; letter-spacing: -.035em; }
+    h2 { font-size: clamp(1.65rem, 3vw, 2.25rem); }
+    h3 { font-size: 1.3rem; }
+    h4 { font-size: .94rem; }
+    a { color: var(--teal); text-underline-offset: .2em; }
+    a:hover { color: #063f37; }
+    :focus-visible { outline: 3px solid #95500c; outline-offset: 3px; }
+    [hidden] { display: none !important; }
+    .shell { width: min(1180px, calc(100% - 48px)); margin-inline: auto; }
+    .skip { position: absolute; top: 10px; left: 10px; z-index: 4; background: white; padding: 10px; transform: translateY(-180%); }
+    .skip:focus { transform: translateY(0); }
+    .bar { background: var(--white); border-bottom: 1px solid var(--line); }
+    .bar-inner { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px 28px; }
+    .brand { font-weight: 750; letter-spacing: -.025em; color: var(--ink); text-decoration: none; }
+    .brand span { display: inline-block; margin-right: 8px; padding: 1px 7px; border-radius: 5px; background: var(--teal); color: white; font-size: .8rem; letter-spacing: .02em; vertical-align: .1em; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: .9rem; }
+    nav a { color: var(--muted); font-weight: 650; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      background:
+        repeating-radial-gradient(ellipse at 100% 100%, transparent 0 28px, #80b9aa25 29px 30px, transparent 31px 49px),
+        linear-gradient(115deg, #102f36 21%, #124b46 100%);
+      color: white; padding-block: clamp(29px, 5vw, 54px);
+    }
+    .hero-body { display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+    .hero h1 { font-size: clamp(2.15rem, 5.2vw, 4rem); max-width: 21ch; margin-block: 8px 14px; }
+    .hero p { color: #e0eeeb; max-width: 54ch; }
+    .eyebrow { font-size: .875rem; text-transform: uppercase; font-weight: 750; letter-spacing: .11em; }
+    .hero .eyebrow { color: #b6e7d4; }
+    .prototype-note { border-left: 2px solid #8bd1b7; padding: 4px 0 4px 15px; max-width: 28ch; color: #effffd; font-size: .92rem; }
+    main { padding-block: 24px 52px; }
+    section + section { margin-top: 34px; }
+    #explore { margin-top: 28px; }
+    .coverage { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .coverage div, .card {
+      border: 1px solid var(--line); border-radius: var(--radius); background: white;
+      box-shadow: 0 3px 9px #17323808;
+    }
+    .coverage div { position: relative; padding: 15px 18px 14px; overflow: hidden; }
+    .coverage div::after { position: absolute; inset: 0 0 auto; height: 3px; background: #789199; content: ""; }
+    .coverage div:nth-child(2)::after { background: #238372; }
+    .coverage div:nth-child(3)::after { background: #bb8545; }
+    .coverage dt, .muted { color: var(--muted); }
+    .coverage dt { font-weight: 650; }
+    .coverage dd { margin: 0; font-size: clamp(1.8rem, 3.5vw, 2.55rem); font-weight: 750; line-height: 1.12; font-variant-numeric: tabular-nums; }
+    .section-head { display: grid; gap: 5px; margin-bottom: 14px; }
+    .section-head p, .intro { color: var(--muted); max-width: 82ch; }
+    .explorer { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.23fr); align-items: start; gap: 16px; }
+    .directory, .detail, .content-card { padding: clamp(14px, 2.1vw, 23px); }
+    .controls { display: grid; grid-template-columns: minmax(0, 1fr) max-content; align-items: end; gap: 9px; margin-bottom: 12px; }
+    label { display: grid; min-width: 0; gap: 4px; font-size: .88rem; font-weight: 720; }
+    input, select {
+      min-height: 43px; min-width: 0; width: 100%; padding: 8px 10px; border-radius: 9px;
+      background: white; color: var(--ink); border: 1px solid #98adb0; font: inherit; font-weight: 500;
+    }
+    select { appearance: none; padding-right: 32px; }
+    .select-wrap { position: relative; display: block; }
+    .select-wrap::after { content: ""; position: absolute; right: 13px; top: 16px; width: 7px; height: 7px; transform: rotate(45deg); border: solid var(--ink); border-width: 0 2px 2px 0; pointer-events: none; }
+    .filter-summary { color: var(--muted); font-size: .875rem; margin-bottom: 7px; }
+    .scroll { border: 1px solid var(--line); border-radius: 10px; overflow: auto; max-width: 100%; }
+    .directory-table { max-height: 354px; }
+    table { border-collapse: separate; border-spacing: 0; width: 100%; font-size: .94rem; }
+    th, td { border-bottom: 1px solid var(--line); padding: 9px 11px; text-align: left; vertical-align: top; }
+    thead th { background: #eaf0f1; color: #355159; font-size: .875rem; }
+    .directory-table thead th { position: sticky; z-index: 1; top: 0; }
+    tbody tr:last-child > * { border-bottom: 0; }
+    tbody th { font-weight: 680; }
+    .directory-table tbody th a { display: inline-block; padding: 2px; }
+    .directory-table tbody tr:has([aria-current="true"]) { background: var(--tint); }
+    .directory-table tbody tr:has([aria-current="true"]) th { box-shadow: inset 3px 0 var(--teal); }
+    .directory-table a[aria-current="true"] { font-weight: 780; }
+    .code { font-variant-numeric: tabular-nums; color: var(--muted); }
+    .status { display: inline-block; border-radius: 6px; padding: 2px 7px; font-size: .875rem; font-weight: 700; white-space: nowrap; }
+    .scored { background: var(--tint); color: #075348; }
+    .excluded, .notice { background: var(--warn-bg); color: var(--warn); }
+    .empty { padding: 14px; color: var(--muted); }
+    .detail { scroll-margin-top: 14px; }
+    .detail:not([hidden]) + .detail { border-top: 1px solid var(--line); }
+    .detail-title { display: flex; justify-content: space-between; gap: 10px; align-items: start; margin-bottom: 15px; }
+    .detail-title h3 { font-size: clamp(1.55rem, 3vw, 2.1rem); overflow-wrap: anywhere; }
+    .detail-meta { color: var(--muted); font-size: .9rem; margin-top: 3px; }
+    .notice { font-size: .92rem; padding: 9px 12px; border-radius: 8px; margin-bottom: 12px; }
+    .measures, .rank-grid, .context { display: grid; gap: 8px; margin-block: 6px 14px; }
+    .measures { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .rank-grid, .context { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .measures > div, .readout { padding: 8px 9px; min-width: 0; border-radius: 9px; background: #f1f5f5; }
+    .readout { background: var(--tint); }
+    dt { font-size: .875rem; font-weight: 620; }
+    dd { margin: 0; }
+    .measures dd, .readout dd:first-of-type, .context dd {
+      font-weight: 750; font-size: 1.09rem; font-variant-numeric: tabular-nums;
+    }
+    .rank { color: #284d47; font-size: .875rem; }
+    .rank > span:last-child { font-weight: 750; }
+    .missing { color: #653e18; font-size: .875rem; font-weight: 700; }
+    .context { border-top: 1px solid var(--line); padding-top: 10px; margin-bottom: 8px; }
+    .detail-foot { font-size: .875rem; color: var(--muted); }
+    .exclusion-list { margin-top: 12px; }
+    summary { cursor: pointer; color: var(--teal); font-weight: 700; }
+    .exclusion-list ul { padding: 0; list-style: none; margin: 9px 0 0; }
+    .exclusion-list li { display: grid; grid-template-columns: minmax(9ch, .7fr) minmax(0, 1fr); gap: 8px; font-size: .88rem; padding: 6px 0; border-top: 1px solid var(--line); }
+    .definitions { margin-top: 14px; padding: 15px 18px; }
+    .definitions dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 8px; }
+    .definitions dt { color: var(--teal); }
+    .definitions dd { font-size: .91rem; color: var(--muted); }
+    .evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 16px; }
+    .content-card h3, .content-card p + p { margin-bottom: 8px; }
+    .content-card figure, .content-card .scroll { margin-block: 12px; }
+    figure img { width: 100%; height: auto; display: block; border: 1px solid var(--line); border-radius: 8px; }
+    figcaption { color: var(--muted); font-size: .89rem; margin-top: 7px; }
+    .fieldwork-table { min-width: 650px; }
+    .fieldwork-row td:last-child code { background: var(--warn-bg); color: var(--warn); padding: 3px 5px; border-radius: 4px; white-space: nowrap; }
+    .spatial-table { min-width: 360px; }
+    .workflow { padding-left: 24px; margin: 0; }
+    .workflow li { padding: 6px 0 6px 3px; }
+    .workflow li::marker { color: var(--teal); font-weight: 750; }
+    .workflow strong { display: inline-block; margin-right: .3em; }
+    .source-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+    .source-grid ul { padding-left: 20px; margin: 8px 0; }
+    .source-grid li + li { margin-top: 6px; }
+    .source-grid code { overflow-wrap: anywhere; font-size: .875rem; }
+    .hashes dt { margin-top: 7px; }
+    .hashes dd { color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding-block: 17px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 810px) {
+      .hero-body, .bar-inner { align-items: start; flex-direction: column; }
+      .bar-inner { padding-block: 11px; gap: 6px; }
+      .hero .prototype-note { max-width: none; }
+      .explorer, .evidence-grid { grid-template-columns: minmax(0, 1fr); }
+      .directory-table { max-height: 255px; }
+    }
+    @media (max-width: 520px) {
+      .shell { width: calc(100% - 28px); }
+      nav { column-gap: 12px; }
+      .coverage { gap: 5px; }
+      .coverage div { padding: 9px 7px; }
+      .coverage dt { font-size: .875rem; }
+      .definitions dl, .source-grid { grid-template-columns: minmax(0, 1fr); }
+      .controls { grid-template-columns: 1fr; }
+      .measures { grid-template-columns: 1fr; }
+      .measures > div { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to neighborhood evidence</a>
+  <header class="bar" id="top">
+    <div class="shell bar-inner">
+      <a class="brand" href="#top"><span aria-hidden="true">HB</span>Bremen Smart Governance</a>
+      <nav aria-label="Dashboard sections">
+        <a href="#explore">Explore</a><a href="#evidence">Evidence</a>
+        <a href="#fieldwork">Fieldwork</a><a href="#decisions">Decisions</a><a href="#sources">Sources</a>
+      </nav>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="shell hero-body">
+      <div>
+        <p class="eyebrow">$year reporting year · Release $release</p>
+        <h1>Neighborhood evidence for Bremen</h1>
+        <p>Compare socioeconomic indicators, saved analytical results, and the gaps in coverage across Bremen’s Ortsteile.</p>
+      </div>
+      <p class="prototype-note"><strong>Student prototype, not an official Bremen municipal system.</strong></p>
+    </div>
+  </div>
+
+  <main id="main" class="shell">
+    <dl class="coverage" aria-label="$year neighborhood coverage">
+      <div><dt>Represented neighborhoods</dt><dd id="represented-count">$represented</dd></div>
+      <div><dt>Eligible and scored</dt><dd id="scored-count">$scored</dd></div>
+      <div><dt>Excluded from scoring</dt><dd id="excluded-count">$excluded</dd></div>
+    </dl>
+
+    <section id="explore" aria-labelledby="explore-title">
+      <header class="section-head"><h2 id="explore-title">Explore neighborhoods</h2>
+        <p>Select a neighborhood to see its $year values. Scoring requires all three source indicators. Unavailable results reflect missing inputs or exclusion from the scored sample.</p></header>
+      <div class="explorer">
+        <div class="card directory">
+          <div id="controls" class="controls" hidden>
+            <label for="search">Neighborhood name or code<input type="search" id="search" placeholder="e.g. Altstadt or 111" autocomplete="off"></label>
+            <label for="coverage">Coverage<span class="select-wrap"><select id="coverage">
+              <option value="all">All neighborhoods</option><option value="True">Scored</option><option value="False">Excluded</option>
+            </select></span></label>
+          </div>
+          <p id="filter-summary" class="filter-summary" role="status" aria-live="polite">$represented neighborhoods</p>
+          <div class="scroll directory-table" tabindex="0" role="region" aria-label="Scrollable neighborhood directory">
+            <table aria-label="Neighborhood directory">
+              <thead><tr><th scope="col">Neighborhood</th><th scope="col">Code</th><th scope="col">Coverage</th></tr></thead>
+              <tbody id="neighborhoods">$table_rows</tbody>
+            </table>
+            <p class="empty" id="no-results" hidden>No neighborhoods match the current search and coverage filter.</p>
+          </div>
+          <details class="exclusion-list">
+            <summary>View $excluded exclusion reasons</summary>
+            <ul id="exclusions">$exclusion_rows</ul>
+          </details>
+        </div>
+        <div class="card" id="neighborhood-detail" role="region" aria-label="Neighborhood results">
+          $panels
+        </div>
+      </div>
+      <div class="card definitions" id="definitions">
+        <h3>Indicator definitions · $year</h3>
+        <dl>$definitions</dl>
+      </div>
+    </section>
+
+    <section id="evidence" aria-labelledby="evidence-title">
+      <header class="section-head"><h2 id="evidence-title">Housing and spatial context</h2>
+        <p>These findings describe the $scored scored areas in the $year release.</p></header>
+      <div class="evidence-grid">
+        <article class="card content-card">
+          <h3>Housing context</h3>
+          <p>Higher measured disadvantage was associated with less Atlas-reported residential floor area per resident. The saved Spearman correlation was <strong>$housing_rho</strong>.</p>
+          <figure>
+            <img src="data:image/png;base64,$housing_png" width="3300" height="2100" loading="lazy"
+                 alt="Scatterplot of 79 scored Bremen neighborhoods showing an inverse association between composite disadvantage and residential floor area per resident.">
+            <figcaption>Saved housing benchmark, $year. Floor area per resident alone cannot establish overcrowding. Individual area values appear in the neighborhood panel. <a href="#source-housing">Housing source</a></figcaption>
+          </figure>
+        </article>
+        <article class="card content-card">
+          <h3>Global Moran’s I</h3>
+          <p>A release-level spatial finding for the saved Composite Index. Positive values indicate spatial clustering under the tested weights. The table gives no individual-neighborhood statistic.</p>
+          <div class="scroll" tabindex="0" role="region" aria-label="Scrollable release-level Moran’s I results">
+            <table class="spatial-table" aria-label="Global Moran’s I by neighbor setting" aria-describedby="spatial-monte-carlo">
+              <thead><tr><th scope="col">Neighbors (k)</th><th scope="col">Sample</th><th scope="col">Moran’s I</th>
+                <th scope="col">Two-sided p</th><th scope="col">Permutations</th></tr></thead>
+              <tbody id="spatial-results">$spatial_rows</tbody>
+            </table>
+          </div>
+          <p class="muted" id="spatial-monte-carlo">With 9,999 permutations and the plus-one correction, 0.0001 is the smallest attainable p-value. Zero extreme permutations still give an estimate of 0.0001, with simulation uncertainty. The underlying p-value may be smaller or larger.</p>
+          <p class="muted">Symmetrized, row-standardized nearest-neighbor weights use centroid distances in EPSG:25832. Permutation seed $spatial_seed. Results depend on the complete-case sample and the weights. They support no local hotspot, accessibility, or causal inference. <a href="#source-spatial">Spatial source</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="fieldwork" aria-labelledby="fieldwork-title">
+      <header class="section-head"><h2 id="fieldwork-title">Proposed fieldwork</h2>
+        <p>Three recommended candidates and two reserves form a purposive shortlist. No visits or field observations are recorded.</p></header>
+      <div class="card content-card">
+        <div class="scroll" tabindex="0" role="region" aria-label="Scrollable fieldwork shortlist">
+          <table class="fieldwork-table" aria-label="Proposed fieldwork candidates">
+            <thead><tr><th scope="col">Priority</th><th scope="col">Neighborhood</th><th scope="col">Role</th>
+              <th scope="col">Selection reason</th><th scope="col">Status</th></tr></thead>
+            <tbody id="fieldwork-results">$fieldwork_rows</tbody>
+          </table>
+        </div>
+        <p class="muted">The shortlist is for planning possible site visits, subject to approval. <a href="#source-fieldwork">Shortlist source</a></p>
+      </div>
+    </section>
+
+    <section id="decisions" aria-labelledby="decisions-title">
+      <header class="section-head"><h2 id="decisions-title">From evidence to a decision</h2>
+        <p>A proposed human review sequence for evaluating options.</p></header>
+      <div class="card content-card">
+        <ol class="workflow">
+          <li><strong>Inspect indicators.</strong> Check coverage, definitions, and saved results.</li>
+          <li><strong>Review local context.</strong> Consider coverage gaps, local knowledge, and any future approved observations.</li>
+          <li><strong>Investigate service needs.</strong> Use relevant service data and feedback to examine specific needs.</li>
+          <li><strong>Compare interventions.</strong> Record the alternatives and the evidence behind each.</li>
+          <li><strong>Assess cost and feasibility.</strong> Establish resources, constraints, and practical delivery conditions.</li>
+          <li><strong>Make a human-reviewed decision.</strong> Document rationale and any pilot baseline, outcome measure, and review date.</li>
+          <li><strong>Monitor outcomes.</strong> Review evidence and decide whether to adapt, stop, or extend any approved pilot.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="sources" aria-labelledby="sources-title">
+      <header class="section-head"><h2 id="sources-title">Sources and limitations</h2>
+        <p>Repository references for the $year reporting year.</p></header>
+      <div class="card content-card source-grid">
+        <div>
+          <h3>Source citations</h3>
+          <ul>
+            <li id="source-indicators">Bremen Ortsteilatlas workbook, <code>Datentabelle.xls</code>. Project definitions and scoring methods in <code>analysis/data_dictionary.csv</code> and <code>docs/methods.md</code>.</li>
+            <li>Integrated neighborhood data and provenance in <code>architecture/part2/releases/$release/neighborhoods.csv</code> and <code>manifest.json</code>.</li>
+            <li id="source-housing">Housing context from the Ortsteilatlas sheet <cite>Wohnungswesen I</cite>; saved evidence in <code>results/part2/housing_benchmark.csv</code> and <code>figures/part2/housing_benchmark.png</code>.</li>
+            <li id="source-spatial">Meriam’s spatial evidence, <code>architecture/part2/releases/$release/spatial_summary.csv</code>, with archived official boundary data.</li>
+            <li id="source-fieldwork">Meriam’s shortlisted candidates, <code>results/part2/fieldwork_shortlist.csv</code>, carried through in the release.</li>
+          </ul>
+          <h3>Methodological limitations</h3>
+          <p>Scores use three selected indicators for complete cases. Rankings depend on method and coverage. Exact within-year source dates and denominator counts remain unverified. Missing inputs are not imputed. Results describe areas in a single reporting year and support no individual-level, longitudinal, or causal conclusions.</p>
+        </div>
+        <div>
+          <h3>Build provenance</h3>
+          <p>Both release CSVs were checked against the manifest before the dashboard was generated. The housing figure was checked separately. Display rounding affects presentation only.</p>
+          <dl class="hashes">
+            <dt>Release</dt><dd>$release</dd>
+            <dt>Source Git commit</dt><dd><code>$source_commit</code></dd>
+            <dt>Neighborhoods · SHA-256</dt><dd><code>$neighborhoods_hash</code></dd>
+            <dt>Spatial summary · SHA-256</dt><dd><code>$spatial_hash</code></dd>
+            <dt>Housing figure · SHA-256</dt><dd><code>$housing_hash</code></dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="shell">Bremen Smart Governance · Student research · Release $release</div></footer>
+
+  <script>
+    (() => {
+      const directory = document.getElementById("neighborhoods");
+      const rows = [...directory.rows];
+      const panels = [...document.querySelectorAll(".detail")];
+      const search = document.getElementById("search");
+      const coverage = document.getElementById("coverage");
+      const summary = document.getElementById("filter-summary");
+      const noResults = document.getElementById("no-results");
+
+      function normalized(text) {
+        return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ß/g, "ss");
+      }
+
+      function filterRows() {
+        const term = normalized(search.value.trim());
+        let shown = 0;
+        for (const row of rows) {
+          const label = normalized(row.dataset.name);
+          const german = normalized(row.dataset.name.toLowerCase().replace(/[äöü]/g, char => ({ä: "ae", ö: "oe", ü: "ue"})[char]));
+          const matching = label.includes(term) || german.includes(term) || row.dataset.code.includes(term);
+          row.hidden = !(matching && (coverage.value === "all" || coverage.value === row.dataset.eligible));
+          if (!row.hidden) shown++;
+        }
+        summary.textContent = shown + " of " + rows.length + " neighborhoods";
+        noResults.hidden = shown !== 0;
+      }
+
+      function showNeighborhood(id) {
+        if (!panels.some(panel => panel.id === id)) return false;
+        for (const panel of panels) panel.hidden = panel.id !== id;
+        for (const row of rows) {
+          const link = row.querySelector("a");
+          if (link.hash === "#" + id) link.setAttribute("aria-current", "true");
+          else link.removeAttribute("aria-current");
+        }
+        return true;
+      }
+
+      document.addEventListener("click", event => {
+        const link = event.target.closest("[data-neighborhood]");
+        if (!link || event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        const id = link.hash.slice(1);
+        if (showNeighborhood(id)) {
+          const row = rows.find(candidate => candidate.dataset.code === link.dataset.neighborhood);
+          if (row && row.hidden) {
+            search.value = "";
+            coverage.value = "all";
+            filterRows();
+          }
+          requestAnimationFrame(() => document.getElementById(id).querySelector("h3").focus({preventScroll: true}));
+        }
+      });
+      window.addEventListener("hashchange", () => showNeighborhood(location.hash.slice(1)));
+      search.addEventListener("input", filterRows);
+      coverage.addEventListener("change", filterRows);
+      if (!showNeighborhood(location.hash.slice(1))) showNeighborhood(panels[0].id);
+      document.getElementById("controls").hidden = false;
+      filterRows();
+    })();
+  </script>
+</body>
+</html>
