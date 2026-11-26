@@ -215,7 +215,7 @@ def main():
     pd.testing.assert_frame_equal(output, pd.read_csv(StringIO(content), dtype={"component_sizes": str}, float_precision="round_trip"), check_dtype=False)
     path = ROOT / "results/part2/spatial_autocorrelation.csv"
     payload = content.encode("utf-8")
-    require(not path.exists() or path.read_bytes() == payload,
+    require(not path.exists() or path.read_bytes().replace(b"\r\n", b"\n") == payload,
             "Existing results differ; review required before replacement")
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
